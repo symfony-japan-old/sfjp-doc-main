@@ -2,30 +2,30 @@ sfjpmeta:
   author: hidenorigoto
   gravatar: f4b233e620c4ef0c51fbd9bf9c76b74b
 
-“ú–{‚ÌSymfonyƒRƒ~ƒ…ƒjƒeƒB
+æ—¥æœ¬ã®Symfonyã‚³ãƒŸãƒ¥ãƒ‹ãƒ†ã‚£
 =========================
 
-Symfony‚ÉŠÖ˜A‚·‚éŠˆ“®‚ğs‚Á‚Ä‚¢‚é—lX‚ÈƒRƒ~ƒ…ƒjƒeƒB‚ğĞ‰î‚µ‚Ü‚·B
+Symfonyã«é–¢é€£ã™ã‚‹æ´»å‹•ã‚’è¡Œã£ã¦ã„ã‚‹æ§˜ã€…ãªã‚³ãƒŸãƒ¥ãƒ‹ãƒ†ã‚£ã‚’ç´¹ä»‹ã—ã¾ã™ã€‚
 
 
-ƒ†[ƒU[‰ïŒö®
+ãƒ¦ãƒ¼ã‚¶ãƒ¼ä¼šå…¬å¼
 --------------
 
-- [ƒ†[ƒU[‰ïƒ[ƒŠƒ“ƒOƒŠƒXƒgiGoogle Groupsj](http://groups.google.com/group/symfony-users-ja)
+- [ãƒ¦ãƒ¼ã‚¶ãƒ¼ä¼šãƒ¡ãƒ¼ãƒªãƒ³ã‚°ãƒªã‚¹ãƒˆï¼ˆGoogle Groupsï¼‰](http://groups.google.com/group/symfony-users-ja)
 
 
-‚»‚Ì‘¼‚ÌƒRƒ~ƒ…ƒjƒeƒB
+ãã®ä»–ã®ã‚³ãƒŸãƒ¥ãƒ‹ãƒ†ã‚£
 --------------------
 
 - [symfony.jp](http://symfony.jp/)
-  Š”®‰ïĞƒfƒBƒm‚Ì‰^‰c‚·‚ésymfonyî•ñƒTƒCƒg
-- [symfony_jpƒ†[ƒU[ƒtƒH[ƒ‰ƒ€](http://symfony-jp.com/f/index.php)
-  ’†‘º‚³‚ñiŠ”®‰ïĞƒtƒ@[ƒXƒgƒƒWƒbƒNj‚ªŒÂl‚Å‰^‰c‚·‚éƒtƒH[ƒ‰ƒ€
+  æ ªå¼ä¼šç¤¾ãƒ‡ã‚£ãƒã®é‹å–¶ã™ã‚‹symfonyæƒ…å ±ã‚µã‚¤ãƒˆ
+- [symfony_jpãƒ¦ãƒ¼ã‚¶ãƒ¼ãƒ•ã‚©ãƒ¼ãƒ©ãƒ ](http://symfony-jp.com/f/index.php)
+  ä¸­æ‘ã•ã‚“ï¼ˆæ ªå¼ä¼šç¤¾ãƒ•ã‚¡ãƒ¼ã‚¹ãƒˆãƒ­ã‚¸ãƒƒã‚¯ï¼‰ãŒå€‹äººã§é‹å–¶ã™ã‚‹ãƒ•ã‚©ãƒ¼ãƒ©ãƒ 
 - [symfony_fan@twicco](http://twitter.com/symfony_fan)
-  twitter‚Ìsymfonyƒtƒ@ƒ“ƒOƒ‹[ƒvƒAƒJƒEƒ“ƒg
+  twitterã®symfonyãƒ•ã‚¡ãƒ³ã‚°ãƒ«ãƒ¼ãƒ—ã‚¢ã‚«ã‚¦ãƒ³ãƒˆ
 
 
-SymfonyŠÖ˜Aî•ñƒTƒCƒgEƒuƒƒO
+Symfonyé–¢é€£æƒ…å ±ã‚µã‚¤ãƒˆãƒ»ãƒ–ãƒ­ã‚°
 -----------------------------
 
 

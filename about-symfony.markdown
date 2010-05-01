@@ -2,18 +2,18 @@ sfjpmeta:
   author: hidenorigoto
   gravatar: f4b233e620c4ef0c51fbd9bf9c76b74b
 
-Symfony�ɂ���
+Symfonyについて
 ===============
 
-Symfony�́A�t�����XSensio Labs�Ђ��J������I�[�v���\�[�X��PHP�E�F�u�A�v���P�[�V�����t���[�����[�N�\�t�g�E�F�A�ł��B
-2007�N�Ƀo�[�W����1.0�����J����Ĉȍ~�A��K�͂ȃT�C�g���܂ޑ����̃E�F�u�T�C�g�AE-�R�}�[�X�T�C�g�ŗ��p����Ă��܂����B
+Symfonyは、フランスSensio Labs社が開発するオープンソースのPHPウェブアプリケーションフレームワークソフトウェアです。
+2007年にバージョン1.0が公開されて以降、大規模なサイトを含む多数のウェブサイト、E-コマースサイトで利用されてきました。
 
 
-Symfony�̓���
+Symfonyの特徴
 -------------
 
-- Ruby on Rails���C�N��MVC�\��
-- �I�u�W�F�N�g�w��
-- �g�ݍ��݂�OR�}�b�p�[�iDoctrine/Propel�j
-- �g�ݍ��݂̃e�X�g�t���[�����[�N�ilime�j
+- Ruby on RailsライクなMVC構成
+- オブジェクト指向
+- 組み込みのORマッパー（Doctrine/Propel）
+- 組み込みのテストフレームワーク（lime）
 
