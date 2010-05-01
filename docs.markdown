@@ -12,7 +12,7 @@ Symfonyドキュメント
 入門者向け
 --------
 
-- [Symfonyのインストール方法（入門者・評価向け）](/docs/for-beginner/installation)
+- [Symfonyのインストール方法（入門者・評価向け）](docs/for-beginners/installation)
 
 
 
