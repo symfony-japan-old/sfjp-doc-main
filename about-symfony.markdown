@@ -1,7 +1,3 @@
-sfjpmeta:
-  author: hidenorigoto
-  gravatar: f4b233e620c4ef0c51fbd9bf9c76b74b
-
 Symfonyについて
 ===============
 
