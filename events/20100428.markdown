@@ -1,11 +1,11 @@
-‘æ2‰ñ Symfony 1.4•×‹­‰ï‚ªŠJÃ‚³‚ê‚Ü‚µ‚½
+ç¬¬2å›ž Symfony 1.4å‹‰å¼·ä¼šãŒé–‹å‚¬ã•ã‚Œã¾ã—ãŸ
 =======================================
 
 
-4ŒŽ28“úi…j19:00`20:30 ‘æ2‰ñ symfony 1.4•×‹­‰ï‚ªŠJÃ‚³‚ê‚Ü‚µ‚½B
+4æœˆ28æ—¥ï¼ˆæ°´ï¼‰19:00ï½ž20:30 ç¬¬2å›ž symfony 1.4å‹‰å¼·ä¼šãŒé–‹å‚¬ã•ã‚Œã¾ã—ãŸã€‚
 
--[‘æ2‰ñ symfony1.4•×‹­‰ï](http://events.php.gr.jp/events/show/94)
+-[ç¬¬2å›ž symfony1.4å‹‰å¼·ä¼š](http://events.php.gr.jp/events/show/94)
 
-‰ïê‚Í‘æ1‰ñ‚Æ“¯‚¶‚­iŠ”jƒtƒ@[ƒXƒgƒƒWƒbƒN—l‚Å‚µ‚½B
+ä¼šå ´ã¯ç¬¬1å›žã¨åŒã˜ãï¼ˆæ ªï¼‰ãƒ•ã‚¡ãƒ¼ã‚¹ãƒˆãƒ­ã‚¸ãƒƒã‚¯æ§˜ã§ã—ãŸã€‚
 
 
