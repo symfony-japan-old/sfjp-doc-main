@@ -8,7 +8,9 @@ Symfonyドキュメント
 --------
 
 - [Symfonyのインストール方法（入門者・評価向け）](docs/for-beginners/installation)
-
+- [Blogチュートリアル](docs/for-beginners/blog-tutorial/)<br />
+  データベースの単一のテーブルに対する一覧、追加、削除、編集の機能をシンプルに実装するチュートリアルで、Symfonyの基本を学ぶことができます。
+  [CakePHPのブログチュートリアル](http://book.cakephp.org/ja/view/219/Blog)と同等のものを開発しますので、CakePHPとの機能比較の参考にしてください。
 
 
 公式ドキュメント日本語訳
@@ -44,7 +46,8 @@ Symfonyドキュメント
 
 
 
-
+ドキュメントやブログ記事などへのリンク
+--------------------------------------
 
 
 
