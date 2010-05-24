@@ -84,6 +84,36 @@ Pull Requestを送信するには、単に自分のリポジトリにWebブラ�
 
 
 
+Pull Requestを受け取った場合のマージの仕方
+------------------------------------------
+
+自分のリポジトリに対して他の人が修正などを行いPull Requestを受信した場合、以下の手順でマージします。
+
+1. 修正した人のリポジトリを自分の作業リポジトリのリモートに追加する。
+2. 修正した人のブランチに切り替え、pullする。
+3. 自分の元のブランチに戻り、マージする。
+
+コマンドは、例えば以下のようになります。
+
+<pre class="command-line">
+# リモートに追加
+git remote add -f hidenorigoto git://github.com/hidenorigoto/sfjp-doc-main.git
+
+# ブランチの切り替え
+git checkout -b hidenorigoto/master
+
+# 最新をpull
+git pull hidenorigoto master
+
+# 元のブランチに戻る
+git checkout master
+
+# マージする
+git merge hidenorigoto/master
+</pre>
+
+
+
 参考リンク（その他）
 --------------------
 
