@@ -14,11 +14,13 @@ Symfonyに関連する活動を行っている様々なコミュニティを紹�
 --------------------
 
 - [symfony.jp](http://symfony.jp/)
-  株式会社ディノの運営するsymfony情報サイト
+  株式会社ディノの運営するSymfony情報サイト
 - [symfony_jpユーザーフォーラム](http://symfony-jp.com/f/index.php)
   中村さん（株式会社ファーストロジック）が個人で運営するフォーラム
 - [symfony_fan@twicco](http://twitter.com/symfony_fan)
-  twitterのsymfonyファングループアカウント
+  twitterのSymfonyファングループアカウント
+- [twitterの#symfony_jaハッシュタグ](http://twitter.com/#search?q=%23symfony_ja)
+  twitterのSymfony関連のつぶやきに利用されているハッシュタグ
 
 
 Symfony関連情報サイト・ブログ
