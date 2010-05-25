@@ -47,7 +47,7 @@ githubを使ったことがない方、アカウントをまだ作成されて�
 ドキュメントの修正・追加、リポジトリの追加について、不明点やその他のご連絡は、以下へお願いします。
 
 - [日本Symfonyユーザー会準備会メーリングリスト](http://groups.google.com/group/symfony-users-pre)
-- 日本Symfonyユーザー会事務局
+- 日本Symfonyユーザー会事務局 info@symfony.gr.jp
 
 
 
