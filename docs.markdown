@@ -63,6 +63,8 @@ Symfonyドキュメント
 - [ユーザー会ドキュメントへの参加方法](joining-userdocs)
 - [日本語表記ガイドライン](japanese-style)
 - [markdown早見表](markdown-sample)
+- [markdown簡易チェック](http://www.symfony-project.org/plugins/markdown_dingus)<br />
+  markdownがどのようにレンダリングされるのかを、Webブラウザからテストできます。
 
 
 
