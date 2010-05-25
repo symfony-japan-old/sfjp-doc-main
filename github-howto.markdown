@@ -121,5 +121,5 @@ gitを使う上での参考となるページなどを紹介します。
 
 - [Pro Git](http://progit.org/book/ja/)<br />
   すべてオンラインでフリーで読めるGitの解説書。内容も新しくgitを使う上では必読。
-
+- [知らないと損をするgit - Absolute Playing!](http://d.hatena.ne.jp/Kiske/20081003/1223008270)
 
