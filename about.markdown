@@ -39,6 +39,23 @@ Symfonyユーザー会へのお問い合わせは、以下宛にお願いしま�
 メンバーリスト
 --------------
 
+twitterアカウントの昇順
+
+- Akky Akimoto<br />
+  [twitter](http://twitter.com/akky)、[ブログ](http://akimoto.jp/)
+- 前田　雅央<br />
+  [twitter](http://twitter.com/brtriver)、[ブログ](http://d.hatena.ne.jp/brtRiver)
+- 小川　雄大<br />
+  [twitter](http://twitter.com/fivestr)、[ブログ](http://d.hatena.ne.jp/Fivestar)
+- 大野　晋<br />
+  [twitter](http://twitter.com/ganchiku)、[ブログ](http://ganchiku.com/)
+- 後藤　秀宣<br />
+  [twitter](http://twitter.com/hidenorigoto)、[ブログ](http://d.hatena.ne.jp/innx_hidenori/)
+- 光宗　朋宏<br />
+  [twitter](http://twitter.com/Kiske)、[ブログ](http://d.hatena.ne.jp/Kiske/)
+- 加賀谷　昌樹<br />
+  [twitter](http://twitter.com/masakielastic)、[ブログ](http://blog.sarabande.jp/)
 
 
+メンバーリストに掲載ご希望の方は、githubで直接このページを編集して追加するか、[ユーザー会準備会メーリングリスト](http://groups.google.com/group/symfony-users-pre)へご連絡ください。
 
