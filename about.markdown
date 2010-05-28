@@ -55,6 +55,8 @@ twitterアカウントの昇順
   [twitter](http://twitter.com/Kiske)、[ブログ](http://d.hatena.ne.jp/Kiske/)
 - 加賀谷　昌樹<br />
   [twitter](http://twitter.com/masakielastic)、[ブログ](http://blog.sarabande.jp/)
+- 中村　慎吾<br />
+  [twitter](http://twitter.com/n416)、[フォーラム](http://symfony-jp.com/f/)
 
 
 メンバーリストに掲載ご希望の方は、githubで直接このページを編集して追加するか、[ユーザー会準備会メーリングリスト](http://groups.google.com/group/symfony-users-pre)へご連絡ください。
