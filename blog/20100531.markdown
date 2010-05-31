@@ -1,0 +1,81 @@
+A week of symfony #178 (24->30 May 2010)
+========================================
+
+Symfony公式ブログで毎週公開される、Symfony関連の活動まとめ記事の翻訳です。
+この翻訳では、Symfony本体に関連したアップデートなどのみを取り上げます。
+プラグインの更新等も含む全文は、以下のリンクからご確認ください。
+
+（[原文リンク](http://www.symfony-project.org/blog/2010/05/30/a-week-of-symfony-178-24-30-may-2010)）
+
+<br />
+<br />
+<hr />
+
+先週は、新しい[Symfony 1.4の書籍](http://www.symfony-project.org/blog/2010/05/24/new-symfony-book-a-gentle-introduction-to-symfony-1-4)が出版されました。また。次のphpBBカンファレンスでのSymfonyチームの登壇についてもアナウンスされました。
+
+
+開発メーリングリスト
+--------------------
+
+- [follow-on development possible?](http://groups.google.com/group/symfony-devs/browse_thread/thread/d96ddef68738f32b)<br />
+  Symfonyのバージョンアップに追従していく方法について
+- [(error|exception).php.html in dev mode](http://groups.google.com/group/symfony-devs/browse_thread/thread/a4458131b2d49987)<br />
+  devモード時のexception.php.htmlテンプレートのファイル名について
+- [doctrine.dbal configuration not allowing customizable username](http://groups.google.com/group/symfony-devs/browse_thread/thread/2bb6fe5c64d2bd1f)<br />
+  doctrine.dbalの設定でusenameをカスタマイズできない
+
+
+開発ハイライト
+--------------
+
+### Symfony 1.Xブランチ：
+
+- [r29608](http://trac.symfony-project.org/changeset/29608): [1.3, 1.4] sfFinderのディレクトリパーミッションの問題の修正
+- <s>[r29640](http://trac.symfony-project.org/changeset/29640): [1.3, 1.4] Adminジェネレーターでウィジェットをunsetしてもエラーがwidget not foundエラーが発生する問題の修正</s>(リバート)
+- [r29674](http://trac.symfony-project.org/changeset/29674): [1.3, 1.4] id_formatが考慮されるように日付と日時のウィジェットを更新
+- [r29678](http://trac.symfony-project.org/changeset/29678): [1.3, 1.4] sfForm::getName()をより厳密に
+
+### Symfony 2.Xブランチ：
+
+- [632ef95](http://github.com/symfony/symfony/commit/632ef95e060e45a85abc95c43c0850b05ee41f37): [HttpKernel] Request::overrideGlobals()の追加
+- [abe86d2](http://github.com/symfony/symfony/commit/abe86d2608640d0b0e0e8891b1829d5afeb40366): [Foundation] 同一のPHPスクリプトで複数のコンテナを扱う際の根本的な矛盾を避けるために、プロジェクトコンテナクラス名へのenvとdebug情報を追加
+- [e282820](http://github.com/symfony/symfony/commit/e282820835f606c0d3a2c9a2b876c73963030871): [WebBundle] Controller::generateUrl()が$absoluteパラメーターを渡していなかった
+- [0512d13](http://github.com/symfony/symfony/commit/0512d13c07196b676e01ecad704572025e5a5608): DoctrineMigrationsBundleにDoctrineCommandのimportがなかったのを追加
+- [5a09375](http://github.com/symfony/symfony/commit/5a09375dc4bbcc0c2ee06f6a6c587c6626f51d79): 移行関連メソッドをDoctrineBundle\Command\DoctrineCommandの外部へ移動し、migrationsバンドルへ
+- [28c0329](http://github.com/symfony/symfony/commit/28c0329debdd4d687ab2b0e076f809506ac786b6): [TwigBundle] javascript/javascriptsタグを追加
+- [85d4a0d](http://github.com/symfony/symfony/commit/85d4a0d55f2dae0a94e4a524857026589767e456): splitTemplateNameにデフォルトオプションを渡す方法を追加
+- [cb23828](http://github.com/symfony/symfony/commit/cb23828a0a16bca10d3bb7b32c1595dcbb4deb76), [79d4a29](http://github.com/symfony/symfony/commit/79d4a299b679855ba9027617e386d49b44a90b42), [6f87c93](http://github.com/symfony/symfony/commit/6f87c9389d4b8498d130c59f702ad15e0b1df88c): [PropelBundle] initial commit
+- [448d1a3](http://github.com/symfony/symfony/commit/448d1a31dff6c0ac2eab37a2b1270c447f84c0d2): [PropelBundle] モデルクラスのオートロードを追加
+- [c9e8934](http://github.com/symfony/symfony/commit/c9e8934ee01b668011e8523181fff3308da5eac8): [PropelBundle] PropelとPhingのオートロードを修正
+- [a7e2068](http://github.com/symfony/symfony/commit/a7e20687f6bdf04d93394d239325b6d798013018): [PropelBundle] ロギングの追加
+- [75cc89b](http://github.com/symfony/symfony/commit/75cc89b4ee26595afd806cf72f98aff751004842): [DoctrineBundle] doctrine:generate:entityコマンドに出力を追加、doctrine:generate:entitiesへの間違った呼び出しを削除
+- [8b82e73](http://github.com/symfony/symfony/commit/8b82e73ab97111105f03e2616bd1d06cfd89e62c): [DoctrineBundle] doctrine:generate:entitiesコマンドの処理スコープを制限するバンドルおよびエンティティパラメーターを追加
+
+### sfDoctrinePlugin
+
+- [r29643](http://trac.symfony-project.org/changeset/29643): [1.3, 1.4] プライマリーキーとi18nフィールドがデフォルトではない場合のi18nフォームでの問題を修正
+- <s>[r29644](http://trac.symfony-project.org/changeset/29644): [1.3, 1.4] sfDoctrineRecord::__call()がテンプレートメソッドを使わない問題の修正</s>(リバート)
+- [r29660](http://trac.symfony-project.org/changeset/29660): [1.3, 1.4] テストスイートで生成されるいくつかのファイルを削除
+- [r29661](http://trac.symfony-project.org/changeset/29661): [1.3, 1.4] 外部キーではないプライマリーキーのフォームフィールドの生成を変更。プライマリーキーが変更された場合はバリデーションに失敗するように
+- [r29675](http://trac.symfony-project.org/changeset/29675): [1.3, 1.4] DoctrineとPropelのchoiceウィジェットで、add_emptyの文字列をtranslateするように修正
+- [r29677](http://trac.symfony-project.org/changeset/29677): [1.3, 1.4] フォームの生成が無効担った場合にdoctrine:cleanタスクでフォームクラスを削除するように修正
+
+### sfPropelPlugin
+
+- [r29641](http://trac.symfony-project.org/changeset/29641): [1.3, 1.4] Adminジェネレーターで使うCSSをより限定的に
+- [r29661](http://trac.symfony-project.org/changeset/29661): [1.3, 1.4] 外部キーではないプライマリーキーのフォームフィールドの生成を変更。プライマリーキーが変更された場合はバリデーションに失敗するように
+- [r29675](http://trac.symfony-project.org/changeset/29675): [1.3, 1.4] DoctrineとPropelのchoiceウィジェットで、add_emptyの文字列をtranslateするように修正
+
+
+[その他多数](http://trac.symfony-project.com/trac/timeline?from=05%2F30%2F2010&daysback=6&milestone=on&ticket=on&changeset=on&update=Update)
+
+
+<hr />
+
+> **NOTE**
+> 翻訳者コメント<br />
+> 新しく出版された「[Gentle introduction to symfony](http://www.symfony-project.org/gentle-introduction/1_4/en/)」は、Symfonyの概念や機能を体系的に解説したドキュメントで、これまでは「The Definitive Guide to symfony」というタイトルだった書籍が、1.3/1.4に合わせて大幅に書き換えられたものです。
+> 日本のSymfonyユーザーがSymfonyを学びやすくなるよう、なるべく早いタイミングでこのGentle introduction to symfonyの日本語訳を行いたいと考えています。
+
+
+
