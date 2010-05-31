@@ -1,0 +1,54 @@
+日本Symfonyユーザー会のサイトが正式オープンしました
+===================================================
+
+2010年3月より設立の準備を進めてまいりました日本Symfonyユーザー会ですが、本日2010年6月1日にユーザー会Webサイトを正式に公開し、同時に日本Symfonyユーザー会を設立したことをご報告いたします。
+
+以下がプレスリリースの内容となっております。
+
+<br />
+<br />
+
+報道機関各位
+プレスリリース
+<div align="right">2010年6月1日</div>
+<div align="right">日本Symfonyユーザー会準備会</div>
+
+<br /><div align="center" style="font-size: 1.5em;">日本Symfonyユーザー会設立のお知らせ</div><br />
+
+
+日本Symfonyユーザー会（以下ユーザー会と呼ぶ）は、フランスSensio Labs社 (\*1)
+が開発するオープンソースのPHPウェブアプリケーションフレームワークである
+「Symfony (\*2)」の普及を目的として、本日2010年6月1日に有志によって設立されました。
+<br />
+
+ユーザー会ではウェブサイト [http://www.symfony.gr.jp/](http://www.symfony.gr.jp/) を開設し、
+Symfonyに関する情報の提供や集約を有志により行います。
+<br />
+
+また今後、ユーザー会主催のSymfony勉強会などのイベントも予定しており、メーリングリスト
+[http://groups.google.com/group/symfony-users-ja](http://groups.google.com/group/symfony-users-ja)
+も活用して日本のSymfonyユーザーコミュニティを活性化していきます。
+<br />
+<br />
+ユーザー会では、活動の第1弾といたしまして、「Symfonyユーザー会IRC集会」を定期開催いたします。
+IRC集会の詳細につきましては、次の案内ページをご参照ください。
+<br />
+[http://www.symfony.gr.jp/events/20100528](http://www.symfony.gr.jp/events/20100528)
+<br />
+<br />
+
+本件についてのお問い合わせは下記までお願いいたします。
+
+日本Symfonyユーザー会運営事務局<br />
+  アシアル株式会社　小川　雄大<br />
+  info@symfony.gr.jp
+<br />
+<br />
+
+(*1) Sensio Labs社サイト<br />
+[http://www.sensiolabs.com/](http://www.sensiolabs.com/)
+
+(*2) symfony公式サイト<br />
+[http://www.symfony-project.org/](http://www.symfony-project.org/)
+
+
