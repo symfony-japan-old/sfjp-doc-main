@@ -34,7 +34,7 @@ Symfonyドキュメント
   フレームワークを使った開発やMVCについての知識はあって、Symfonyでの実践的な開発手法をすぐに学びたいという方におすすめです。
   Doctrine版とPropel版に分かれている点に注意してください。Symfony 1.3以降では、デフォルトではDoctrineです。
 
-- Symfony 1.3 & 1.4 リファレンスガイド (The symfony Reference Book)<br />
+- **Symfony 1.3 & 1.4 リファレンスガイド (The symfony Reference Book)**<br />
   [HTML(公式)](http://www.symfony-project.org/reference/1_4/ja/)<br />
   Symfonyで使われている各種設定ファイルやイベントについてのリファレンスです。
   実際に開発する段階で参照することの多いドキュメントです。
