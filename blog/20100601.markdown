@@ -1,0 +1,74 @@
+symfony 1.3.5 と 1.4.5
+========================
+
+symfony 1.3.5および1.4.5をリリースいたしました。詳細については以下をご覧ください。
+
+
+（[原文リンク](http://www.symfony-project.org/blog/2010/05/31/symfony-1-3-5-and-1-4-5)）
+
+
+セキュリティーフィックス
+--------------------------
+
+DoctrineとPropelのフォームクラスにおいて、フォーム送信時にフォームクラスの内部に持つレコードが別のレコードに置き換えられてしまう脆弱性が発見されました。現在はフォームクラスを自動生
+成する際にプライマリーキーのバリデーションが修正されているため問題は発生しません。修正に関するパッチはTracよりsymfony [1.3](http://trac.symfony-project.org/changeset/29661/branches/1.3) ([raw](http://trac.symfony-project.org/changeset/29661/branches/1.3?format=diff))および[1.4](http://trac.symfony-project.org/changeset/29661/branches/1.4) ([raw](http://trac.symfony-project.org/changeset/29661/branches/1.4?format=diff))にて閲覧できます。
+
+
+ライブラリーの更新
+-------------------
+
+Propelが1.4.2、limeが1.0.9に更新されました。
+
+
+その他の変更
+-------------
+
+* **クリーンアップ**: 新たにdoctrine:cleanタスクが追加されました。過去にschema.ymlに定義されていて現在は利用していないモデルやフォーム、および無効に設定してあるフォームを削除できます。
+* **中国語繁体字**: 中国語繁体字(Traditional Chinese)をアドミンジェネレータから利用できます。
+* **503 Service Temporarily Unavailable**: アプリケーションがロックされている場合、503ステータスコードを返すようになりました。
+* **Doctrineの言語設定**: Doctrineのモデルクラス内の言語設定のタイミングがプラグイン初期化時に行われるようになりました。
+* **DateとTimeウィジェット**: DateとTimeのウィジェットにid_formatオプションが指定できます。
+
+アップグレード手順
+--------------------
+
+Subversionでチェックアウトしている方は`switch`で最新バージョンにします:
+
+
+    // symfony 1.3
+    $ svn switch http://svn.symfony-project.com/tags/RELEASE_1_3_5
+
+    // symfony 1.4
+    $ svn switch http://svn.symfony-project.com/tags/RELEASE_1_4_5
+
+PEARをご利用の方はpearコマンドからアップグレードします:
+
+    // symfony 1.3
+    $ pear upgrade symfony/symfony-1.3.5
+
+    // symfony 1.4
+    $ pear upgrade symfony/symfony-1.4.5
+
+アップグレード後、モデルクラスやフォームクラスを再構築し、キャッシュを削除します:
+
+    // Doctrine
+    $ php symfony doctrine:build --all-classes
+    $ php symfony cache:clear
+
+    // Propel
+    $ php symfony propel:build --all-classes
+    $ php symfony cache:clear
+
+あなたのアプリケーションは1.4にアップグレードしていますか？
+-------------------------------------------------------------
+
+symfony 1.3のメンテナンスは今年の11月までとなっています。残すところ`time_ago_in_words(strtotime('November 2010'))`日しかありません。`project:validate`タスクを実行してみて、わからないところがあれば[symfony-users](http://groups.google.com/group/symfony-users)メーリングリストかIRCの#symfonyチャネルにてなんでも質問してください。
+
+
+<hr />
+
+> **NOTE**
+> 翻訳者コメント<br />
+> 今回はセキュリティーフィックスとなっております。古いバージョンを利用している方はお早めにアップグレードをお願いします。
+> また最後にも書かれていますが、今年の11月でsymfony 1.3のメンテナンスが終了します。1.4は2012年の11月までメンテナンスされますので、お早めに1.4に切り替えましょう。
+> わからないことがありましたら、日本Symfonyユーザー会の[メーリングリスト](http://groups.google.com/group/symfony-users-ja)にてお気軽にご相談ください。
