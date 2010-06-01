@@ -59,5 +59,5 @@ twitterアカウントの昇順
   [twitter](http://twitter.com/n416)、[フォーラム](http://symfony-jp.com/f/)
 
 
-メンバーリストに掲載ご希望の方は、githubで直接このページを編集して追加するか、[ユーザー会準備会メーリングリスト](http://groups.google.com/group/symfony-users-pre)へご連絡ください。
+メンバーリストに掲載ご希望の方は、githubで直接このページを編集して追加するか、[日本Symfonyユーザー会メーリングリスト](http://groups.google.com/group/symfony-users-ja)へご連絡ください。
 
