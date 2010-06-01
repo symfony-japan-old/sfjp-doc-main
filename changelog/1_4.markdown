@@ -13,7 +13,7 @@ Changelong for 1.4.X
 - [29674](http://trac.symfony-project.org/changeset/29674) id_formatが考慮されるように日付と日時のウィジェットを更新 ([#8446](http://trac.symfony-project.org/ticket/8446)をクローズ)
 - [29661](http://trac.symfony-project.org/changeset/29661) 外部キーではないプライマリーキーのフォームフィールドの生成を変更。プライマリーキーが変更された場合はバリデーションに失敗するように ([#8639](http://trac.symfony-project.org/ticket/8639)をクローズ、[#8704](http://trac.symfony-project.org/ticket/8704)を参照)
 - [29643](http://trac.symfony-project.org/changeset/29643) プライマリーキーとi18nフィールドがデフォルトではない場合のi18nフォームでの問題を修正 ([#8650](http://trac.symfony-project.org/ticket/8650)を修正)
-- [29641](http://trac.symfony-project.org/changeset/29641)Adminジェネレーターで使うCSSをより限定的に ([#7750](http://trac.symfony-project.org/ticket/7750)を修正)
+- [29641](http://trac.symfony-project.org/changeset/29641) Adminジェネレーターで使うCSSをより限定的に ([#7750](http://trac.symfony-project.org/ticket/7750)を修正)
 - [29608](http://trac.symfony-project.org/changeset/29608) sfFinderのディレクトリパーミッションの問題の修正 ([#8684](http://trac.symfony-project.org/ticket/8684)をクローズ)
 - [29570](http://trac.symfony-project.org/changeset/29570) Doctrineフォームフィルターのmany to manyクエリーのロジックを修正
 - [29553](http://trac.symfony-project.org/changeset/29553) Doctrineフォームの不正なEOLを修正 ([#8075](http://trac.symfony-project.org/ticket/8075)をクローズ)
