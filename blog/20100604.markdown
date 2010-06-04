@@ -6,7 +6,6 @@ Symfony 2を取り扱ったオンラインカンファレンスが公式に開�
 （[原文リンク](http://www.symfony-project.org/blog/2010/05/31/the-state-of-symfony-2-online-conference)）
 
 <br />
-<br />
 <hr />
 
 
