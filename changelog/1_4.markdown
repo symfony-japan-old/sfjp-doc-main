@@ -1,0 +1,37 @@
+Changelong for 1.4.X
+====================
+
+公式サイトの[Changelog for 1.4.X](http://www.symfony-project.org/installation/1_4/changelog)の翻訳です。
+
+
+05/31/10: Version 1.4.5
+-----------------------
+
+- [29678](http://trac.symfony-project.org/changeset/29678) sfForm::getName()をより厳密に ([#8318](http://trac.symfony-project.org/ticket/8318)をクローズ)
+- [29677](http://trac.symfony-project.org/changeset/29677) フォームの生成が無効になった場合にdoctrine:cleanタスクでフォームクラスを削除するように修正 ([#7777](http://trac.symfony-project.org/ticket/7777)をクローズ)
+- [29675](http://trac.symfony-project.org/changeset/29675) DoctrineとPropelのchoiceウィジェットで、add_emptyの文字列をtranslateするように修正 ([#8571](http://trac.symfony-project.org/ticket/8571)をクローズ)
+- [29674](http://trac.symfony-project.org/changeset/29674) id_formatが考慮されるように日付と日時のウィジェットを更新 ([#8446](http://trac.symfony-project.org/ticket/8446)をクローズ)
+- [29661](http://trac.symfony-project.org/changeset/29661) 外部キーではないプライマリーキーのフォームフィールドの生成を変更。プライマリーキーが変更された場合はバリデーションに失敗するように ([#8639](http://trac.symfony-project.org/ticket/8639)をクローズ、[#8704](http://trac.symfony-project.org/ticket/8704)を参照)
+- [29643](http://trac.symfony-project.org/changeset/29643) プライマリーキーとi18nフィールドがデフォルトではない場合のi18nフォームでの問題を修正 ([#8650](http://trac.symfony-project.org/ticket/8650)を修正)
+- [29641](http://trac.symfony-project.org/changeset/29641) Adminジェネレーターで使うCSSをより限定的に ([#7750](http://trac.symfony-project.org/ticket/7750)を修正)
+- [29608](http://trac.symfony-project.org/changeset/29608) sfFinderのディレクトリパーミッションの問題の修正 ([#8684](http://trac.symfony-project.org/ticket/8684)をクローズ)
+- [29570](http://trac.symfony-project.org/changeset/29570) Doctrineフォームフィルターのmany to manyクエリーのロジックを修正
+- [29553](http://trac.symfony-project.org/changeset/29553) Doctrineフォームの不正なEOLを修正 ([#8075](http://trac.symfony-project.org/ticket/8075)をクローズ)
+- [29531](http://trac.symfony-project.org/changeset/29531) limeを1.0.9にアップデート
+- [29528](http://trac.symfony-project.org/changeset/29528) sfBasicSecurityUserでcredentialの設定前にhasCredentialsが呼び出された場合の警告を修正 ([#8512](http://trac.symfony-project.org/ticket/8512)をクローズ)
+- [29527](http://trac.symfony-project.org/changeset/29527) sfViewCacheManager::isCacheable()でのNoticeを修正 ([#8527](http://trac.symfony-project.org/ticket/8527)をクローズ)
+- [29526](http://trac.symfony-project.org/changeset/29526) ロックファイルがある場合の不正なHTTPステータスコードを修正 ([#8536](http://trac.symfony-project.org/ticket/8536)をクローズ)
+- [29524](http://trac.symfony-project.org/changeset/29524) sfController::getPresentationFor()におけるsfController::forward()からのsfWebResponse::sendHttpHeaders()の呼び出しにより、メインコントローラー内の後続のsendHttpHeaders()が呼び出されなくなるのを修正 ([#8568](http://trac.symfony-project.org/ticket/8568)をクローズ)
+- [29520](http://trac.symfony-project.org/changeset/29520) sfI18N内の不正なarray_flip()の使用による警告を修正 ([#8522](http://trac.symfony-project.org/ticket/8522)を参照)
+- [29519](http://trac.symfony-project.org/changeset/29519) sfCacheSessionStorageクラスを使用している場合のレスポンスをprivateに設定 ([#8535](http://trac.symfony-project.org/ticket/8535)をクローズ)
+- [29490](http://trac.symfony-project.org/changeset/29490) sfMemcacheCache内の非推奨なdeleteを修正 ([#8663](http://trac.symfony-project.org/ticket/8663)をクローズ)
+- [29417](http://trac.symfony-project.org/changeset/29417) TextHelperのstrip_links_text()の不正と複数リンクが処理されなかったのを修正 ([#8589](http://trac.symfony-project.org/ticket/8589)をクローズ)
+- [29416](http://trac.symfony-project.org/changeset/29416) Adminジェネレーターのi18Nに繁体字中国語サポートを追加 ([#8633](http://trac.symfony-project.org/ticket/8633)をクローズ)
+- [29415](http://trac.symfony-project.org/changeset/29415) WindowsでのsfProjectOptimizeTaskを修正 ([#8640](http://trac.symfony-project.org/ticket/8640)をクローズ)
+- [29390](http://trac.symfony-project.org/changeset/29390) ルートコレクションのdefault_params: { sf_format: xml }の修正
+- [29309](http://trac.symfony-project.org/changeset/29309) 選択肢が自動翻訳の実行を選択できるように修正。デフォルトでtrueの"translate_choices"オプションを追加 ([#7714](http://trac.symfony-project.org/ticket/7714)をクローズ)
+- [29285](http://trac.symfony-project.org/changeset/29285) Accept-* ヘッダーの不正な分割を修正 ([#8591](http://trac.symfony-project.org/ticket/8591)をクローズ)
+- [29218](http://trac.symfony-project.org/changeset/29218) Propelを1.4.2にアップデート
+- [29158](http://trac.symfony-project.org/changeset/29158) falseと評価される属性を元に選択する場合のsfDomCssSelectorの動作を修正 ([#8120](http://trac.symfony-project.org/ticket/8120)をクローズ)
+- [29156](http://trac.symfony-project.org/changeset/29156) Doctrineでレコードが初期化される前のデフォルトカルチャーの設定を修正
+
