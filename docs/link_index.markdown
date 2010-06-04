@@ -6,6 +6,7 @@ Symfony How-To リンク集
 Symfony 1.X
 -----------
 
+- [環境構築関連](environment)
 - [Doctrine関連](doctrine)
 - [イベント関連](event)
 - [フォーム関連](form)
