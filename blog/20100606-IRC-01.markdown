@@ -1,0 +1,87 @@
+第1回 Symfonyユーザー会IRC集会を開催しました
+============================================
+
+Symfonyに関するアレコレを話し合うIRC集会の第1回を、6/6（日）の21時～23時に開催しました。
+以下、IRC集会の内容のまとめです。
+
+まとめ
+------
+
+
+### バージョン1.4のサポート期間などについての話
+- symfony 1.4は長期サポート（LTS）だが、それでも2012年11月まで、について
+  - 社内利用なので特に気にしていない。
+  - 何か不具合を見つけても、オープンソースなので自分たちで修正できる。
+- 1.4と2.0は大きくことなるので、1.4を今から勉強しても意味がない？
+  - 確かに大きく異なるが、symfony的MVCの考え方などは共通しており、2.0を学ぶための前提知識として1.4の知識は役立つ（はず）。
+  - 1.4は完成度の高いフレームワークなので、サポート期間以降も使い続けられる、という意見もあり。
+- 他のフレームワークは、このようなサポート期間を明示しているか？
+
+
+### Symfony 2は実運用で使えるか
+- まだ早い。
+  - 現時点では、頻繁に大きな変更が加えられている。
+
+
+### symfonyでCI（継続的インテグレーション）
+- symfonyのlimeでCIを使っている人はいるか？
+  - アシアルブログ [symfony/lime + phpUnderControl を使ってみる](http://blog.asial.co.jp/587) 2009年7月の記事
+  - Prendre un Cafe [Simple Continuous Integration of a Symfony Project using Hudson](http://prendreuncafe.com/blog/post/2009/10/06/Simple-Continuous-Integration-of-a-Symfony-Project-using-Hudson) 2009年10月の記事
+- symfony本体のCI
+  - SiSMO [ci.symfony-project.org](http://ci.symfony-project.org/)
+    - SiSMO自体は公開されていないっぽい。
+
+
+### パフォーマンステストについて
+- 一通りの処理を1000件で実行する時間と100万件で実行する時間を見ておく。
+  - limeでテストを組んでおいて、開発時点で問題発見を可能にする。
+
+
+### モバイル向け開発について
+- [sfMobileJPlugin](http://www.symfony-project.org/plugins/sfMobileJPlugin) ([@kopugさん](http://twitter.com/kopug))
+- SJISでの出力などはどうしている？
+  - filterで実装
+  - OpenPNEの場合 [lib/filter/sfMobileIOFilter.class.php](http://github.com/openpne/OpenPNE3/blob/master/lib/filter/sfMobileIOFilter.class.php)
+
+
+### 日経ソフトウェア7月号のSymfony 1.4特集のコードについて
+- このような書き方もsymfonyではできる。（書き方に制約が多いというのは勘違い）
+- symfonyとしてどうか？
+  - 公式サイトのチュートリアルにあるようなsymfony的な書き方とは大きく違っている。
+- 自分ならどうやって書く？
+  - もっとsfFormにやらせるように書く
+  - app.ymlに設定を書く
+  - Twitterの情報を取得する部分をモデルにまとめる
+
+
+### 現在のMVC?
+- ビューでモデルのメソッドを呼び出すのはMVCとして良いのか？
+  - ※ここでいうモデルのメソッドとは、モデルクラスに定義されたメソッドを指しています。Doctrine_Core::～といったコードをビュー内に記述することではありません（←これはNG）。
+  - レガシーなMVCでは禁止されていたこともあった。
+    - アクションがfatになる（fat controller）。ビューにおけるデータハンドリングが、モデルだけでなくアクション内の処理にも依存する。
+  - [Jobeetのコード](http://www.symfony-project.org/jobeet/1_4/Doctrine/ja/04#chapter_04_sub_a4929e97f71a23e68be7705fe809b80d1c087b76)でsymfonyの開発者fabien氏が書かれたコードは、現在のMVCに則っている。
+    - 参考記事：[Ruby on Railsの「えせMVC」の弊害](http://satoshi.blogs.com/life/2009/10/rails_mvc.html)
+      - ビジネスロジックをモデルに閉じ込めず、コントローラー等に記述してしまうことの弊害について書かれています。
+
+
+### DBアクセスを伴わないモデル
+- サービスレイヤー的なモデルとして結構作る、という意見。
+
+
+### クラスなどの命名規則
+- myHoge～のようなクラス名を使うか？
+  - プロジェクトローカルなクラスなどなら、プロジェクト名、またはプロジェクト名を短縮したものをプレフィックスとして使う
+  - pluginにするなら、sf～としているという意見もあり。
+
+
+### Symfonyドキュメント翻訳温泉ツアー
+- [A Gentle Introduction to symfony](http://www.symfony-project.org/gentle-introduction/1_4/en/)が公開されたが、これの日本語訳をみんなで一気にやる温泉ツアーはどうか？
+  - 査読のみ、温泉のみ興味があるという方も参加できる方向で、開催プランを検討。
+
+
+
+次回
+----
+
+次回は、6/20（日）の21時～23時で開催予定です。
+
