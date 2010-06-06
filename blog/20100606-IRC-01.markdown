@@ -60,6 +60,7 @@ Symfonyに関するアレコレを話し合うIRC集会の第1回を、6/6（日
   - レガシーなMVCでは禁止されていたこともあった。
     - アクションがfatになる（fat controller）。ビューにおけるデータハンドリングが、モデルだけでなくアクション内の処理にも依存する。
   - [Jobeetのコード](http://www.symfony-project.org/jobeet/1_4/Doctrine/ja/04#chapter_04_sub_a4929e97f71a23e68be7705fe809b80d1c087b76)でsymfonyの開発者fabien氏が書かれたコードは、現在のMVCに則っている。
+    - 参考記事：アシアルブログ [symfonyで学ぶMVCにのっとったリファクタリング入門](http://blog.asial.co.jp/456)
     - 参考記事：[Ruby on Railsの「えせMVC」の弊害](http://satoshi.blogs.com/life/2009/10/rails_mvc.html)
       - ビジネスロジックをモデルに閉じ込めず、コントローラー等に記述してしまうことの弊害について書かれています。
 
