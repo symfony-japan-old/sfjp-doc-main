@@ -27,6 +27,7 @@ Symfonyに関するアレコレを話し合うIRC集会の第1回を、6/6（日
 - symfonyのlimeでCIを使っている人はいるか？
   - アシアルブログ [symfony/lime + phpUnderControl を使ってみる](http://blog.asial.co.jp/587) 2009年7月の記事
   - Prendre un Cafe [Simple Continuous Integration of a Symfony Project using Hudson](http://prendreuncafe.com/blog/post/2009/10/06/Simple-Continuous-Integration-of-a-Symfony-Project-using-Hudson) 2009年10月の記事
+  - IRC参加者[@HIROCASTさん](http://twitter.com/HIROCAST)が書かれた記事 [Hudsonでsymfony自動テスト環境をつくる](http://hiroki.jp/2010/06/08/814/)
 - symfony本体のCI
   - SiSMO [ci.symfony-project.org](http://ci.symfony-project.org/)
     - SiSMO自体は公開されていないっぽい。
