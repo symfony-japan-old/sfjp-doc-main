@@ -1,0 +1,13 @@
+日本Symfonyユーザー会発足のニュースが公式ブログに掲載されました
+===============================================================
+
+昨日、[Symfony公式ブログ](http://www.symfony-project.org/blog/)に日本Symfonyユーザー会発足についてのニュース記事が掲載されました。
+
+- [Japanese Symfony user group "日本Symfonyユーザー会" has been established! / 日本のSymfonyユーザー向けグループが発足](http://www.symfony-project.org/blog/2010/06/07/japanese-symfony-user-group-symfony-has-been-established-symfony)
+
+
+SymfonyプロジェクトのリードデベロッパーであるFabien氏からも、ユーザー会発足について歓迎の意をメールにて頂戴いたしました。
+
+
+
+
