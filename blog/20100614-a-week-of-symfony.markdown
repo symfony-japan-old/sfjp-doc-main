@@ -37,7 +37,7 @@ Symfony公式ブログで毎週公開される、Symfony関連の活動まとめ
 - [50610bc](http://github.com/symfony/symfony/commit/50610bc92b526499a49ae3c6539c89c28ceda4e8): [SwiftmailerBundle] swiftmailerのパスをインクルードパスに追加しなくても良いように
 - [a78f886](http://github.com/symfony/symfony/commit/a78f88687c0a008518c8a6c471df3ecf6523de98): [WebBundle] デフォルトスケルトンの修正
 - [e3c2e40](http://github.com/symfony/symfony/commit/e3c2e40c06303eb33b43a77cff019cde0df3051d): [Foundation] Kernel::__clone()を追加
-- [defa307](http://github.com/symfony/symfony/commit/defa307d40b9f350f29c8c82f1acc2b182b727cd): [WebBundle] added some black magic to remove the boiler plate code needed in end user functional tests
+- [defa307](http://github.com/symfony/symfony/commit/defa307d40b9f350f29c8c82f1acc2b182b727cd): [WebBundle] 機能テストを記述する際に定型的なコードを書かなくてすむよう特殊な処理を追加
 - [77d3f92](http://github.com/symfony/symfony/commit/77d3f924df2f27972922d2b27c008d91c747b7e3): 機能テストで環境とデバッグフラグを簡単に変更する方法の追加
 - [075edbc](http://github.com/symfony/symfony/commit/075edbc3b79230c69cac86292f88cd4480056ab3): [TwigBundle] 最新バージョンのTwigを利用するようにバンドルを更新
 - [ca00e20](http://github.com/symfony/symfony/commit/ca00e2074838ec08eb84e12a10f97be6f47bc8e7): [PropelBundle] Propelで名前空間がサポートされたため、カスタムオートローダーの利用を削除
