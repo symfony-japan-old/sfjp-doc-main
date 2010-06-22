@@ -187,7 +187,7 @@ symfony 1.xに組み込まれているsfFormが、Symfony 2では新しいフォ
 スライドの最初の方ででてきた簡単なベンチマーク
 - 「Symfony 2は、symfony 1.xの5倍高速」
 
-さらにその後のベンチマークでより複雑で同時接続数の多いケースの場合、<span style="font-size: 1.5em; font-weight: bold;">「Symfony 2は、symfony 1.xの80倍高速!!!」</span>
+さらにその後のベンチマークでより複雑で同時接続数の多いケースの場合、<span style="font-size: 1.5em; font-weight: bold;">「Symfony 2は、symfony 1.xの約80倍高速!!!」</span>
 
 
 この高速化を担当しているのが、Symfony2 HTTP Proxy（HTTPアクセラレーターと呼ばれていました）で、
