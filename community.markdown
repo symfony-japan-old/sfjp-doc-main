@@ -27,9 +27,9 @@ Symfonyに関連する活動を行っている様々なコミュニティを紹�
 ### Symfonyを採用しているソフトウェア関連
 
 - [OpenPNE](http://www.openpne.jp/)
-  PHPで作られたオープンソースのSNSソフトウェア。バージョン3よりSymfonyを採用。
+  PHPで作られたオープンソースのSNSソフトウェア。バージョン3よりsymfonyを採用。
 - [Kaltura Community Japan](http://groups.google.com/group/kaltura-community-japan/)
-  SymfonyベースのオープンソースビデオプラットフォームKalturaの日本語コミュニティ。
+  symfonyベースのオープンソースビデオプラットフォームKalturaの日本語コミュニティ。
 
 
 
