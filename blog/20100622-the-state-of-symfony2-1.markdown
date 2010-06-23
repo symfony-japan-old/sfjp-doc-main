@@ -3,10 +3,14 @@ The State of Symfony 2参加レポート - Symfony 2が大変なことになっ�
 
 本日、[The State of Symfony 2オンラインカンファレンス](http://www.symfony-live.com/)が開催されました。
 カンファレンスで使われたスライド資料や、Symfony 2の新しいリリースは、後日公開されるのではないかと思いますが、
-まずはカンファレンスのセッションの概要をレポートいたします。
+まずはカンファレンスのセッションの概要を[@hidenorigoto](http://twitter.com/hidenorigoto)がレポートいたします。
 
 なぜ大変なことになっているのかは、最後のセッションの内容を参照ください。
 
+
+※[@fivestr](http://twitter.com/fivestr)さんによるレポートも合わせてご参照ください。
+
+- [The State of Symfony 2参加レポート - Symfony 2はすごい！](20100623-the-state-of-symfony2-2)
 
 
 セッションリスト

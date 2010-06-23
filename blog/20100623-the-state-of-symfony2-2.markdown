@@ -2,7 +2,7 @@ The State of Symfony 2参加レポート - Symfony 2はすごい！
 ==========================================================================
 
 6月22日に、[The State of Symfony 2オンラインカンファレンス](http://www.symfony-live.com/)が開催されました。
-このブログエントリーはセッションの概要のレポートになります。
+このブログエントリーはセッションの概要の[@fivestr](http://twitter.com/fivestr)によるレポートになります。
 [The State of Symfony 2参加レポート - Symfony 2が大変なことになっています！](http://www.symfony.gr.jp/blog/20100622-the-state-of-symfony2-1)もあわせてご覧ください。
 
 
