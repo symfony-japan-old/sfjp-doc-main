@@ -1,7 +1,7 @@
-The State of Symfony 2 オンラインカンファレンス
+The State of Symfony2 オンラインカンファレンス
 ==========================================
 
-Symfony 2を取り扱ったオンラインカンファレンスが公式に開催されるようです。詳細は以下をご覧ください。
+Symfony2を取り扱ったオンラインカンファレンスが公式に開催されるようです。詳細は以下をご覧ください。
 
 （[原文リンク](http://www.symfony-project.org/blog/2010/05/31/the-state-of-symfony-2-online-conference)）
 
@@ -9,17 +9,17 @@ Symfony 2を取り扱ったオンラインカンファレンスが公式に開�
 <hr />
 
 
-*The State of Symfony 2では*、本年末にリリースを予定しており、まったく新しいSymfonyのバージョンとなるSymfony 2の現状について、さまざまな情報をご紹介します。Symfony 2の中でも重要な点に照準を合わせ、著名なスピーカーによる発表をいくつも用意しています。また、このカンファレンスの終了時、Symfony 2のセカンドプレビューリリースを、ドキュメントと合わせて公開します。
+*The State of Symfony2では*、本年末にリリースを予定しており、まったく新しいSymfonyのバージョンとなるSymfony2の現状について、さまざまな情報をご紹介します。Symfony2の中でも重要な点に照準を合わせ、著名なスピーカーによる発表をいくつも用意しています。また、このカンファレンスの終了時、Symfony2のセカンドプレビューリリースを、ドキュメントと合わせて公開します。
 
 スケジュール
 --------------
 
 * Fabien Potencier: ユニット&amp;機能テスト
-* Francois Zaninotto: Symfony 2とPropel 1.5
+* Francois Zaninotto: Symfony2とPropel 1.5
 * Bernhard Schussek: 新しくなったフォームフレームワーク
 * Fabien Potencier: さまざまな改良点
 * Jonathan Wage: Doctrine 2とSymfonyの統合
-* Fabien Potencier: Symfony 2の超重要機能 - 絶対に見逃さないでください...
+* Fabien Potencier: Symfony2の超重要機能 - 絶対に見逃さないでください...
 
 それぞれのセッションは30分を予定しています。
 
@@ -48,6 +48,6 @@ Symfony 2を取り扱ったオンラインカンファレンスが公式に開�
 > **NOTE**
 > 翻訳者コメント<br />
 > 今回のカンファレンスはなんとオンライン。僕も早速登録してしまいました。
-> Symfony 2は現在開発中ですが、そろそろ機能が固まってきたように思えます。
+> Symfony2は現在開発中ですが、そろそろ機能が固まってきたように思えます。
 > 今回の内容はどれも大変面白そうな内容です。Symfonyに興味がある方、ぜひ登録してみましょう！
 > [fivestar]

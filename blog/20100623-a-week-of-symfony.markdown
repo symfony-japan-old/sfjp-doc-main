@@ -11,8 +11,8 @@ Symfony公式ブログで毎週公開される、Symfony関連の活動まとめ
 <br />
 <hr />
 
-先週は、Symfony 2のコンポーネントのうちProfilerバンドルが活発に更新されました。
-一方で、[State of Symfony 2 online conference](http://www.symfony-live.com/)で発表される予定のSymfony 2の魅力的な機能について、多くの開発者が関心を寄せています。
+先週は、Symfony2のコンポーネントのうちProfilerバンドルが活発に更新されました。
+一方で、[State of Symfony2 online conference](http://www.symfony-live.com/)で発表される予定のSymfony2の魅力的な機能について、多くの開発者が関心を寄せています。
 [カンファレンスへの登録](http://www.symfony-live.com/registration/choice)や、[カンファレンスハブの開催](http://www.symfony-project.org/blog/2010/06/09/state-of-symfony-2-conference-hubs)についてもお忘れ無く。
 
 
@@ -23,9 +23,9 @@ Symfony公式ブログで毎週公開される、Symfony関連の活動まとめ
 - [symfony 1 git repo mirror](http://groups.google.com/group/symfony-devs/browse_thread/thread/0184e59e051c4bc6)<br />
   symfony 1.4のgitリポジトリについて
 - [add support for HTTP OPTIONS](http://groups.google.com/group/symfony-devs/browse_thread/thread/4fb298db8bd6024d)<br />
-  Symfony 2でHTTP OPTIONSリクエストを処理したい
+  Symfony2でHTTP OPTIONSリクエストを処理したい
 - [service method calls dereference](http://groups.google.com/group/symfony-devs/browse_thread/thread/0923d7e0d7939649)<br />
-  Symfony 2のDIで、サービスメソッド呼び出しの参照解決
+  Symfony2のDIで、サービスメソッド呼び出しの参照解決
 
 
 開発ハイライト
@@ -57,9 +57,9 @@ Symfony公式ブログで毎週公開される、Symfony関連の活動まとめ
 
 > **NOTE**
 > 翻訳者コメント<br />
-> Symfony 2のオンラインカンファレンスが[開催されました](20100622-the-state-of-symfony2-1)。
-> Symfony 2の機能がどれも魅力的すぎて、私の心は一気にSymfony 2に奪われてしまいました。
-> 今週中に公開される予定のSymfony 2のプレビューリリース 2が待ち遠しいですね！
+> Symfony2のオンラインカンファレンスが[開催されました](20100622-the-state-of-symfony2-1)。
+> Symfony2の機能がどれも魅力的すぎて、私の心は一気にSymfony2に奪われてしまいました。
+> 今週中に公開される予定のSymfony2のプレビューリリース 2が待ち遠しいですね！
 > [hidenorigoto]
 
 

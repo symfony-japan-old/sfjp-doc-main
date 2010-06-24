@@ -28,7 +28,7 @@ Symfony公式ブログで毎週公開される、Symfony関連の活動まとめ
 開発ハイライト
 --------------
 
-### Symfony 1.Xブランチ：
+### symfony 1.Xブランチ：
 
 - [r29608](http://trac.symfony-project.org/changeset/29608): [1.3, 1.4] sfFinderのディレクトリパーミッションの問題の修正
 - <s>[r29640](http://trac.symfony-project.org/changeset/29640): [1.3, 1.4] Adminジェネレーターでウィジェットをunsetしてもエラーがwidget not foundエラーが発生する問題の修正</s>(リバート)
@@ -75,8 +75,8 @@ Symfony公式ブログで毎週公開される、Symfony関連の活動まとめ
 
 > **NOTE**
 > 翻訳者コメント<br />
-> 新しく出版された「[Gentle introduction to symfony](http://www.symfony-project.org/gentle-introduction/1_4/en/)」は、Symfonyの概念や機能を体系的に解説したドキュメントで、これまでは「The Definitive Guide to symfony」というタイトルだった書籍が、1.3/1.4に合わせて大幅に書き換えられたものです。
-> 日本のSymfonyユーザーがSymfonyを学びやすくなるよう、なるべく早いタイミングでこのGentle introduction to symfonyの日本語訳を行いたいと考えています。
+> 新しく出版された「[Gentle introduction to symfony](http://www.symfony-project.org/gentle-introduction/1_4/en/)」は、symfonyの概念や機能を体系的に解説したドキュメントで、これまでは「The Definitive Guide to symfony」というタイトルだった書籍が、1.3/1.4に合わせて大幅に書き換えられたものです。
+> 日本のSymfonyユーザーがsymfonyを学びやすくなるよう、なるべく早いタイミングでこのGentle introduction to symfonyの日本語訳を行いたいと考えています。
 
 
 

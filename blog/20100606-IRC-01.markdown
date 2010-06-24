@@ -18,7 +18,7 @@ Symfonyに関するアレコレを話し合うIRC集会の第1回を、6/6（日
 - 他のフレームワークは、このようなサポート期間を明示しているか？
 
 
-### Symfony 2は実運用で使えるか
+### Symfony2は実運用で使えるか
 - まだ早い。
   - 現時点では、頻繁に大きな変更が加えられている。
 
@@ -45,7 +45,7 @@ Symfonyに関するアレコレを話し合うIRC集会の第1回を、6/6（日
   - OpenPNEの場合 [lib/filter/sfMobileIOFilter.class.php](http://github.com/openpne/OpenPNE3/blob/master/lib/filter/sfMobileIOFilter.class.php)
 
 
-### 日経ソフトウェア7月号のSymfony 1.4特集のコードについて
+### 日経ソフトウェア7月号のsymfony 1.4特集のコードについて
 - このような書き方もsymfonyではできる。（書き方に制約が多いというのは勘違い）
 - symfonyとしてどうか？
   - 公式サイトのチュートリアルにあるようなsymfony的な書き方とは大きく違っている。
@@ -76,7 +76,7 @@ Symfonyに関するアレコレを話し合うIRC集会の第1回を、6/6（日
   - pluginにするなら、sf～としているという意見もあり。
 
 
-### Symfonyドキュメント翻訳温泉ツアー
+### symfonyドキュメント翻訳温泉ツアー
 - [A Gentle Introduction to symfony](http://www.symfony-project.org/gentle-introduction/1_4/en/)が公開されたが、これの日本語訳をみんなで一気にやる温泉ツアーはどうか？
   - 査読のみ、温泉のみ興味があるという方も参加できる方向で、開催プランを検討。
 

@@ -11,15 +11,15 @@ Symfony公式ブログで毎週公開される、Symfony関連の活動まとめ
 <br />
 <hr />
 
-先週は、Symfony 2のWebBundle（init:applicationコマンドの追加）、TwigBundle（Twigの最新版との同期）、PropelBundleなどのバンドル開発が集中的に行われました。
-また、symfonyコミュニティでは[Symfony 2オンラインカンファレンス](http://www.symfony-live.com/)用の[カンファレンスハブ](http://www.symfony-project.org/blog/2010/06/09/state-of-symfony-2-conference-hubs)の準備が進められました。
+先週は、Symfony2のWebBundle（init:applicationコマンドの追加）、TwigBundle（Twigの最新版との同期）、PropelBundleなどのバンドル開発が集中的に行われました。
+また、symfonyコミュニティでは[Symfony2オンラインカンファレンス](http://www.symfony-live.com/)用の[カンファレンスハブ](http://www.symfony-project.org/blog/2010/06/09/state-of-symfony-2-conference-hubs)の準備が進められました。
 
 
 開発メーリングリスト
 --------------------
 
-- [Symfony 2 - helpers and project container](http://groups.google.com/group/symfony-devs/browse_thread/thread/2f95e5c1513eb2d1)<br />
-  Symfony 2のヘルパーとプロジェクトコンテナについて
+- [Symfony2 - helpers and project container](http://groups.google.com/group/symfony-devs/browse_thread/thread/2f95e5c1513eb2d1)<br />
+  Symfony2のヘルパーとプロジェクトコンテナについて
 
 
 開発ハイライト
@@ -54,7 +54,7 @@ Symfony公式ブログで毎週公開される、Symfony関連の活動まとめ
 
 > **NOTE**
 > 翻訳者コメント<br />
-> Symfony 2のオンラインカンファレンスがいよいよ来週にせまりました。
+> Symfony2のオンラインカンファレンスがいよいよ来週にせまりました。
 > チケットを5枚買えば、6人以上集まってカンファレンスを視聴できる「カンファレンスハブ」制度について案内がありました。
 > 日本国内でカンファレンスハブの設置について名乗りを挙げているところはまだ無いようですが、興味のある方（個人もしくは企業）は一度ユーザー会までご相談ください。（告知等協力いたします）
 > [hidenorigoto]
