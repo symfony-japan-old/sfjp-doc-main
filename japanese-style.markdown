@@ -16,17 +16,15 @@
 Symfonyとsymfonyについての表記ガイドライン
 ------------------------------------------
 
-Symfonyでは、これまで先頭が小文字である「symfony」という表記が採用されていましたが、Symfony 2からは先頭が大文字の「Symfony」という表記が採用されています。
+Symfonyでは、これまで先頭が小文字である「symfony」という表記が採用されていましたが、Symfony2からは先頭が大文字の「Symfony」という表記が採用されています。
 ドキュメント中でのこれらの使い分けについて、以下にガイドラインを示します。
 
 - **Symfony**
-  - Symfony 2
-  - Symfony 2を対象とするドキュメント中で使われる「Symfony」
+  - Symfony2
+  - Symfony2を対象とするドキュメント中で使われる「Symfony」
   - Symfonyのバージョンに関係なく、フレームワーク全体を指す場合
 - **symfony**
   - symfony 1 / symfony 1.x
   - symfony 1.xを対象とするドキュメント中で使われる「symfony」
 
-なお、公式サイトでは「Symfony2」とバージョン番号との間にスペースがない表記の箇所もありますが、ユーザー会ドキュメントでは、「Symfony 2」とバージョン番号との間にスペースを挿入することを基準とします。
-
-
+なお、Symfony2に関してはSymfonyとバージョン番号の間にスペースを入れてはいけません。(参考: [Talk about Symfony2, not Symfony 2](http://www.symfony-project.org/blog/2010/06/24/talk-about-symfony2-not-symfony-2))
