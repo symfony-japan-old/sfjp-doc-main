@@ -5,6 +5,7 @@ The State of Symfony 2参加レポート - Symfony 2はすごい！
 このブログエントリーはセッションの概要の[@fivestr](http://twitter.com/fivestr)によるレポートになります。
 [The State of Symfony 2参加レポート - Symfony 2が大変なことになっています！](http://www.symfony.gr.jp/blog/20100622-the-state-of-symfony2-1)もあわせてご覧ください。
 
+各セッションのスライドは、こちらの[スライド一覧](20100624-the-state-of-symfony2-slides)をご参照ください。
 
 セッションリスト
 ----------------
