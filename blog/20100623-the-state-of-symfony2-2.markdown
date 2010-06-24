@@ -1,9 +1,9 @@
-The State of Symfony 2参加レポート - Symfony 2はすごい！
+The State of Symfony2参加レポート - Symfony2はすごい！
 ==========================================================================
 
-6月22日に、[The State of Symfony 2オンラインカンファレンス](http://www.symfony-live.com/)が開催されました。
+6月22日に、[The State of Symfony2オンラインカンファレンス](http://www.symfony-live.com/)が開催されました。
 このブログエントリーはセッションの概要の[@fivestr](http://twitter.com/fivestr)によるレポートになります。
-[The State of Symfony 2参加レポート - Symfony 2が大変なことになっています！](http://www.symfony.gr.jp/blog/20100622-the-state-of-symfony2-1)もあわせてご覧ください。
+[The State of Symfony 2参加レポート - Symfony2が大変なことになっています！](http://www.symfony.gr.jp/blog/20100622-the-state-of-symfony2-1)もあわせてご覧ください。
 
 各セッションのスライドは、こちらの[スライド一覧](20100624-the-state-of-symfony2-slides)をご参照ください。
 
@@ -26,7 +26,7 @@ The State of Symfony 2参加レポート - Symfony 2はすごい！
 4. Unit & Functional Tests (Fabien Potencier)
 ---------------------------------------------
 
-Symfony 2のUnitテスト、Functionalテストについて。
+Symfony2のUnitテスト、Functionalテストについて。
 
 Unitテスト:<br />
 
@@ -58,7 +58,7 @@ Functionalテスト:<br />
 5. The new form framework (Bernhard Schussek)
 ---------------------------------------------
 
-Symfony 2で採用される新しいフォームフレームワークについて。
+Symfony2で採用される新しいフォームフレームワークについて。
 
 ### Form Component
 
@@ -92,16 +92,16 @@ Symfony 2で採用される新しいフォームフレームワークについ�
 6. Caching on the Edge (Fabien Potencier)
 -----------------------------------------
 
-このセッションが、事前に「Killer Feature of Symfony 2」と言われていたものの紹介です。
+このセッションが、事前に「Killer Feature of Symfony2」と言われていたものの紹介です。
 
-まずSymfony 2とsymfony 1.xのパフォーマンス比較ですが、
+まずSymfony2とsymfony 1.xのパフォーマンス比較ですが、
 
-- Symfony 2は、symfony 1.xの5倍高速
+- Symfony2は、symfony 1.xの5倍高速
 - 同時接続数が多い状況ではsymfony 1.xの<span style="color: red; font-weight: bold;">85倍高速</span> ....!?
 
 と、驚愕な数値がでています。なぜそれほどまでにパフォーマンスの改善が行われているかというと
 
-- Symfony 2にはHTTPアクセラレータと呼ばれるものを搭載する
+- Symfony2にはHTTPアクセラレータと呼ばれるものを搭載する
   - HTTPのキャッシュヘッダーの制御
   - HTTP Proxy
   - Proxyパターンを利用してKernelをラッピングする？
@@ -111,8 +111,8 @@ Symfony 2で採用される新しいフォームフレームワークについ�
 
 > **NOTE**
 > (感想)
-> この日最後のセッションとなったCaching on the Edgeでは、Symfony 2に搭載されるキャッシュの機構についての紹介です。
-> こうした仕組みを扱う裏側には、RequestをHttpKernelに渡してResponseが返ってくるというSymfony 2のシンプルなアーキテクチャの存在があります。
-> 高機能ながらシンプルで柔軟、そして高速に。大幅に進化したSymfony 2に期待が膨らむばかりです！
+> この日最後のセッションとなったCaching on the Edgeでは、Symfony2に搭載されるキャッシュの機構についての紹介です。
+> こうした仕組みを扱う裏側には、RequestをHttpKernelに渡してResponseが返ってくるというSymfony2のシンプルなアーキテクチャの存在があります。
+> 高機能ながらシンプルで柔軟、そして高速に。大幅に進化したSymfony2に期待が膨らむばかりです！
 > [fivestar]
 
