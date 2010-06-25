@@ -20,5 +20,5 @@ symfony 1.4勉強会の第3回が、6/30（水）に開催されます。
 
 なお、LTでの発表者も募集していますので、お気軽にご連絡ください。
 
-参加申込は、[events.php.gr.jp](http://events.php.gr.jp/events/show/98)からお願いします。
+参加申込は、[events.php.gr.jp](http://events.php.gr.jp/events/show/98)、または[ATND](http://atnd.org/events/5994)からお願いします。
 
