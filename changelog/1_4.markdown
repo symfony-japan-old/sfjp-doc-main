@@ -4,6 +4,16 @@ Changelong for 1.4.X
 公式サイトの[Changelog for 1.4.X](http://www.symfony-project.org/installation/1_4/changelog)の翻訳です。
 
 
+06/29/10: Version 1.4.6
+-----------------------
+
+- [30031](http://trac.symfony-project.org/changeset/30031) ビューキャッシュにおけるディレクトリトラバーサルの注入脆弱性を回避 ([#8805](http://trac.symfony-project.org/ticket/8805)をクローズ)
+- [30008](http://trac.symfony-project.org/changeset/30008) shell_execが無効な場合の使用方法を修正 ([#8758](http://trac.symfony-project.org/ticket/8758)をクローズ)
+- [29990](http://trac.symfony-project.org/changeset/29990) sfOutputEscaperObjectDecorator::__isset()の追加 ([#8793](http://trac.symfony-project.org/ticket/8793)をクローズ)
+- [29818](http://trac.symfony-project.org/changeset/29818) PHP 5.2におけるsimple xmlのエスケープを修正 ([#8756](http://trac.symfony-project.org/ticket/8756)をクローズ)
+- [29716](http://trac.symfony-project.org/changeset/29716) default.cssのスタイルを修正 ([#7750](http://trac.symfony-project.org/ticket/7750)を修正)
+
+
 05/31/10: Version 1.4.5
 -----------------------
 
