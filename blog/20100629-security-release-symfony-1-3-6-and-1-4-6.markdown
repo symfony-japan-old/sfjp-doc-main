@@ -1,4 +1,4 @@
-セキュリティー リリース: symfony 1.3.6 と 1.4.7
+セキュリティー リリース: symfony 1.3.6 と 1.4.6
 ====================================
 
 ([原文リンク](http://www.symfony-project.org/blog/2010/06/29/security-release-symfony-1-3-6-and-1-4-6))
