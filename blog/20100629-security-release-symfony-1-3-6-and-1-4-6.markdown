@@ -3,7 +3,7 @@
 
 ([原文リンク](http://www.symfony-project.org/blog/2010/06/29/security-release-symfony-1-3-6-and-1-4-6))
 
-symfony 1.3と1.4　の新しいリリースが予定より早く用意されました。これは昨日(訳者追記: 6/28)に報告されたセキュリティーの脆弱性を対応するためです。symfony 1.3と1.4 で稼働している全てのアプリケーションは早急に最新版へアップグレードすることを強く推奨します。
+symfony 1.3と1.4 の新しいリリースが予定より早く用意されました。これは昨日(訳者追記: 6/28)に報告されたセキュリティーの脆弱性を対応するためです。symfony 1.3と1.4 で稼働している全てのアプリケーションは早急に最新版へアップグレードすることを強く推奨します。
 
 セキュリティー フィックス
 --------------
@@ -21,7 +21,7 @@ Subversionでチェックアウトしている方は`switch`で最新バージ�
 
     // symfony 1.3
     $ svn switch http://svn.symfony-project.com/tags/RELEASE_1_3_6
-    
+
     // symfony 1.4
     $ svn switch http://svn.symfony-project.com/tags/RELEASE_1_4_6
 
@@ -29,10 +29,11 @@ PEARをご利用の方は`pear`コマンドからアップグレードします:
 
     // symfony 1.3
     $ pear upgrade symfony/symfony-1.3.6
-    
+
     // symfony 1.4
     $ pear upgrade symfony/symfony-1.4.6
 
 セキュリティー上の問題を連絡する方法
 -------------------
+
 既に記載していますが、セキュリティーに関連する問題点は直接Tracに書き込むよりは **security [at] symfony-project [dot] com** 宛連絡してください。そうすることで噂が広まる前にコアチームがレビューし対応することができるからです。
