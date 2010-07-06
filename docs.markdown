@@ -16,6 +16,8 @@ Symfonyドキュメント
 公式ドキュメント日本語訳
 ------------------------
 
+### symfony 1.x関連
+
 - **symfony完全ガイド 1.2(The Definitive Guide to symfony 1.2)**<br />
   [HTML](http://symfony.sarabande.jp/book/1.2/)<br />
   [PDF](http://cloud.github.com/downloads/masakielastic/masakielastic.github.com/sf-book-1.2-ja.pdf)<br />
@@ -60,6 +62,11 @@ Symfonyドキュメント
   symfonyにバンドルされているORMのDoctrineのマニュアルです。
 
 
+### Symfony2関連
+
+- [Symfony2のコーディング規約](/docs/symfony-docs/contributing/ja/code/standards)
+
+
 
 ドキュメントやブログ記事などへのリンク
 --------------------------------------
@@ -71,7 +78,12 @@ Symfonyドキュメント
 公式ドキュメント翻訳への参加方法
 --------------------------------
 
-準備中
+現在、公式ドキュメントの翻訳はGitHubを使って行われています。
+[GitHubの使い方](github-howto)などを参考に、ご自分で翻訳したものを公式リポジトリへPull Requestする流れです。
+（ユーザー会ドキュメント整備の流れと同じです）
+
+- [symfony 1.xドキュメントのリポジトリ](http://github.com/symfony/symfony1-docs)
+- [Symfony2 ドキュメントのリポジトリ](http://github.com/symfony/symfony-docs)
 
 
 
