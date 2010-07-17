@@ -64,6 +64,12 @@ Symfonyドキュメント
 
 ### Symfony2関連
 
+- [Symfony 2.0クイックツアー: 全体構成を学ぶ](/docs/symfony-docs/quick_tour/ja/01-the-big-picture)
+- [Symfony 2.0クイックツアー：ビューを学ぶ](/docs/symfony-docs/quick_tour/ja/02-the-view)
+- [Symfony 2.0クイックツアー：コントローラーを学ぶ](/docs/symfony-docs/quick_tour/ja/03-the-controller)
+- [Symfony 2.0クイックツアー：バンドルを学ぶ](/docs/symfony-docs/quick_tour/ja/04-the-bundles)
+- [Symfony 2.0クイックツアー：アーキテクチャを学ぶ](/docs/symfony-docs/quick_tour/ja/05-the-architecture)
+
 - [Symfony2のコーディング規約](/docs/symfony-docs/contributing/ja/code/standards)
 
 
