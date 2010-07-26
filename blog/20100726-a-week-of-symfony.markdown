@@ -36,8 +36,8 @@ Symfony公式ブログで毎週公開される、Symfony関連の活動まとめ
 - [e6cbfd7](http://github.com/symfony/symfony/commit/e6cbfd7292f9d94750d00b7f36d0ec4bee685892): [Console] CommandTesterにアプリケーションの必要なしにコマンドクラスのテストを許可
 - [14cecd5](http://github.com/symfony/symfony/commit/14cecd5231f69b62e544eb7f20f12ecb68de5e92): [Routing] ローダをリファクタリング: supports() を追加、setResolver() メソッドをLoaderInterfaceに追加、LoaderResolverインターフェイスを追加、ローダベースクラスを追加、DelegatingLoader、ClosureLoader、PhpFileLoaderを追加及びさらなる柔軟性のためにインポート構造をリファクタリング
 - [4e3e86c](http://github.com/symfony/symfony/commit/4e3e86c4a70130cbe1e292005eddf49a4fb8d9a0): ルーティング管理をリファクタリング: デフォルトルーティングの無効化が現在は可能に、Kernel::registerRoutes() メソッドを消去、routerエントリーを追加(registerRoutes() を置換)、ルーティング設定自身のrouting.xmlをリファクタリング
-- [60c6827](http://github.com/symfony/symfony/commit/60c6827f233a40a9cad618fc56ce5c2c3e2d6e53)[dcaf436](http://github.com/symfony/symfony/commit/dcaf436d9af025161f9cbd6fc423ed397803edbb): [DependencyInjection] ローダをリファクタリング: supports() を追加、setResolver() メソッドをLoaderInterfaceに追加、LoaderResolverインターフェイスを追加、ローダベースクラスを追加、DelegatingLoader、ClosureLoader、PhpFileLoaderを追加及びさらなる柔軟性のためにインポート構造をリファクタリング
-- [3f270f5](http://github.com/symfony/symfony/commit/3f270f5faabb309e8fc268cac28937ae68dcdd7b)[ef40118](http://github.com/symfony/symfony/commit/ef401180a73c35c826493f670d8db671ac2ba618): [FrameworkBundle] プレーンPHP内設定のためのスケルトンを追加
+- [60c6827](http://github.com/symfony/symfony/commit/60c6827f233a40a9cad618fc56ce5c2c3e2d6e53)、[dcaf436](http://github.com/symfony/symfony/commit/dcaf436d9af025161f9cbd6fc423ed397803edbb): [DependencyInjection] ローダをリファクタリング: supports() を追加、setResolver() メソッドをLoaderInterfaceに追加、LoaderResolverインターフェイスを追加、ローダベースクラスを追加、DelegatingLoader、ClosureLoader、PhpFileLoaderを追加及びさらなる柔軟性のためにインポート構造をリファクタリング
+- [3f270f5](http://github.com/symfony/symfony/commit/3f270f5faabb309e8fc268cac28937ae68dcdd7b)、[ef40118](http://github.com/symfony/symfony/commit/ef401180a73c35c826493f670d8db671ac2ba618): [FrameworkBundle] プレーンPHP内設定のためのスケルトンを追加
 - [bfb081f](http://github.com/symfony/symfony/commit/bfb081fd9698822b7a47925860735db44a281ea0): [ZendBundle] Zend\\Translatorコンポーネントを追加
 
 
