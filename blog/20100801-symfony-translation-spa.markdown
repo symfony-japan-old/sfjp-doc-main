@@ -73,6 +73,7 @@ PHP全般の話、いろいろなフレームワークの話、PHP関連のイ�
 参加された方のブログ記事を紹介します。
 
 - @sasezakiさん 「[symfonyドキュメント翻訳温泉ツアーに参加してきました。](http://d.hatena.ne.jp/sasezaki/20100801/p1)」
+- @brtriverさん 「[ドキュメント翻訳温泉ツアーに参加](http://d.hatena.ne.jp/brtRiver/20100801/1280707316)」
 
 
 次回
