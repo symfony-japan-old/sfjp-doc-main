@@ -18,7 +18,7 @@ Symfonyのドキュメント翻訳をみんなで一気にやろう！という�
 
 信州・湯田中温泉 [清風荘](http://www.yudanaka-seifuso.com/)
 
-![清風荘](./images/symfony-spa-01.jpg)
+![清風荘](./blog/images/symfony-spa-01.jpg)
 
 
 以下、ツアーの内容を簡単にですが振り返ってみます。
@@ -35,8 +35,8 @@ Symfonyのドキュメント翻訳をみんなで一気にやろう！という�
 - 夕食の時間までそれぞれ翻訳作業
 - 18時 夕食（豪華！）
 
-![夕食](./images/symfony-spa-02.jpg)
-![信州牛](./images/symfony-spa-04.jpg)
+![夕食](./blog/images/symfony-spa-02.jpg)
+![信州牛](./blog/images/symfony-spa-04.jpg)
 
 - 作業第二部
 - 夜の温泉（PHPやSymfonyについて語りまくる）
@@ -51,7 +51,7 @@ Symfonyのドキュメント翻訳をみんなで一気にやろう！という�
 - 9時チェックアウトして、中野市の勤労青少年ホームへ移動
 - 10時 翻訳作業
 
-![会議室で作業](./images/symfony-spa-03.jpg)
+![会議室で作業](./blog/images/symfony-spa-03.jpg)
 
 - この日はコンビニ等でお昼
 - 16時 作業終了して片付け、長野駅へ移動
