@@ -32,7 +32,7 @@ Symfony2の紹介（Symfony2のESIについて）
 
 スライドの途中に出てくる、Symfony2の処理の流れの図は、スライド中では小さくて各部がつぶれてしまっています（スミマセン）ので、大きな画像へリンクしておきます。
 
-- [Symfony2の処理の流れ](/blog/images/Symfony2-flow.png)
+- [Symfony2の処理の流れ](./blog/images/Symfony2-flow.png)
 
 
 
