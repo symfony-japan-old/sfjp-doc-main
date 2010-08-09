@@ -1,0 +1,50 @@
+第5回 Symfonyユーザー会IRC集会を開催しました
+============================================
+
+Symfonyに関するアレコレを話し合うIRC集会の第5回を、8/8（日）の21時～23時に開催しました。
+以下、IRC集会の内容のまとめです。
+
+
+まとめ
+------
+
+### Symfonyユーザー会MLへポストされた質問について
+
+- [Jobeet チュートリアル 6日目と9日目について](http://groups.google.com/group/symfony-users-ja/browse_thread/thread/c5a66514e1c6785d)
+  - 公式ドキュメント側に問題があるだろうという結論
+
+
+### OSC 2010 Tokyo/Fall後のSymfonyユーザーmeet upについて
+
+- 9/11（土）のOSC 2010 Tokyo/Fall の日の夜に、Symfonyユーザーで集まってお酒でも飲みませんか？という会を開催予定
+  - 詳細未定。希望者少数でも開催します。
+
+
+### 公式MLのIDE関連トピックにて
+
+- [a good IDE for Symfony](http://groups.google.com/group/symfony-users/browse_thread/thread/e7c29d94af516f93)
+  - Eclipse / NetBeans / vim / emacs / PHPEdit あたり
+  - [komodo-edit](http://www.activestate.com/komodo-edit)
+  - [PHPStorm](http://www.jetbrains.com/phpstorm/)
+
+
+### 逆引き集サイトについて
+
+- フレームワーク横断で逆引き集サイトを作ろうというプロジェクトが立ち上がっている
+  - 興味のある人は参加して欲しい
+- [PHP Matsuri](http://2010.phpmatsuri.net/)のコンテストに向けて開発予定
+
+
+
+### Symfony2でCMF(CMS)システムを作るプロジェクト
+
+- [Symfony2 CMF](http://cmf.symfony-project.org/)
+  - [Wiki (GitHub)](http://wiki.github.com/symfony-cmf/symfony-cmf/)
+- Wikiの記述によると、JCR（Content Repository API for Java）というコンテンツ管理APIをベースにしており、バックエンド（リポジトリサーバー）は[Jackalope](https://fosswiki.liip.ch/display/jackalope/Home)を使い、これのフロントエンド部分をSymfony2 CMFとして実装する、というようなアーキテクチャのようです。
+
+
+次回
+----
+
+次回は2週間後、8/22（日）の21時～23時で開催予定です。
+
