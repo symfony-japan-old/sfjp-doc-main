@@ -1,0 +1,43 @@
+OSC Nagoya 2010にてブース出展＆セミナーを行いました（8/7）
+==========================================================
+
+8/7（土）に、愛知県名古屋市の名古屋市立大学で開催されたオープンソースカンファレンス2010 Nagoyaへ、Symfonyユーザー会としてブースの出展と、セミナーを行ってきました。
+
+
+セミナーで使った資料をこちらに掲載しておきます。
+
+
+20分で覚えるSymfony
+-------------------
+
+- 担当：中村
+
+（掲載準備中）
+
+
+symfonyでPHPでもTDD
+-------------------
+
+- 担当：後藤
+
+<div style="width:425px" id="__ss_4925730"><strong style="display:block;margin:12px 0 4px"><a href="http://www.slideshare.net/hidenorigoto/symfony-tdd" title="Symfony tdd">Symfony tdd</a></strong><object id="__sse4925730" width="425" height="355"><param name="movie" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=symfony-tdd-100808202736-phpapp01&stripped_title=symfony-tdd" /><param name="allowFullScreen" value="true"/><param name="allowScriptAccess" value="always"/><embed name="__sse4925730" src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=symfony-tdd-100808202736-phpapp01&stripped_title=symfony-tdd" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="355"></embed></object><div style="padding:5px 0 12px">View more <a href="http://www.slideshare.net/">presentations</a> from <a href="http://www.slideshare.net/hidenorigoto">Hidenori Goto</a>.</div></div>
+
+
+Symfony2の紹介（Symfony2のESIについて）
+---------------------------------------
+
+- 担当：後藤
+
+<div style="width:425px" id="__ss_4925729"><strong style="display:block;margin:12px 0 4px"><a href="http://www.slideshare.net/hidenorigoto/symfony2-caching" title="Symfony2 caching">Symfony2 caching</a></strong><object id="__sse4925729" width="425" height="355"><param name="movie" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=symfony2-caching-100808202734-phpapp02&stripped_title=symfony2-caching" /><param name="allowFullScreen" value="true"/><param name="allowScriptAccess" value="always"/><embed name="__sse4925729" src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=symfony2-caching-100808202734-phpapp02&stripped_title=symfony2-caching" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="355"></embed></object><div style="padding:5px 0 12px">View more <a href="http://www.slideshare.net/">presentations</a> from <a href="http://www.slideshare.net/hidenorigoto">Hidenori Goto</a>.</div></div>
+
+スライドの途中に出てくる、Symfony2の処理の流れの図は、スライド中では小さくて各部がつぶれてしまっています（スミマセン）ので、大きな画像へリンクしておきます。
+
+- [Symfony2の処理の流れ](/blog/images/Symfony2-flow.png)
+
+
+
+Symfony2のスライドは特に、説明がないと意味不明かもしれませんね。
+[OSC Tokyo/Fall 2010](http://www.ospn.jp/osc2010-fall/)でもSymfony2の紹介セミナーをやる予定です。
+その時までに、もう少し分かりやすい説明ができるようにスライドの内容を改良しておきますので、Symfony2について興味のある方や、その他symfonyについて話を聞いてみたい方は、是非OSC Tokyo/Fallへいらして下さい。
+
+
