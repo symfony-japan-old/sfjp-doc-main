@@ -12,7 +12,7 @@ OSC Nagoya 2010にてブース出展＆セミナーを行いました（8/7）
 
 - 担当：中村
 
-（掲載準備中）
+<div style="width:425px" id="__ss_4932991"><strong style="display:block;margin:12px 0 4px"><a href="http://www.slideshare.net/n416/20symfonyosc" title="20分でSymfony@OSC名古屋">20分でSymfony@OSC名古屋</a></strong><object id="__sse4932991" width="425" height="355"><param name="movie" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=random-100810011358-phpapp02&stripped_title=20symfonyosc" /><param name="allowFullScreen" value="true"/><param name="allowScriptAccess" value="always"/><embed name="__sse4932991" src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=random-100810011358-phpapp02&stripped_title=20symfonyosc" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="355"></embed></object><div style="padding:5px 0 12px">View more <a href="http://www.slideshare.net/">presentations</a> from <a href="http://www.slideshare.net/n416">n416</a>.</div></div>
 
 
 symfonyでPHPでもTDD
