@@ -15,6 +15,120 @@ OSC Nagoya 2010にてブース出展＆セミナーを行いました（8/7）
 <div style="width:425px" id="__ss_4932991"><strong style="display:block;margin:12px 0 4px"><a href="http://www.slideshare.net/n416/20symfonyosc" title="20分でSymfony@OSC名古屋">20分でSymfony@OSC名古屋</a></strong><object id="__sse4932991" width="425" height="355"><param name="movie" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=random-100810011358-phpapp02&stripped_title=20symfonyosc" /><param name="allowFullScreen" value="true"/><param name="allowScriptAccess" value="always"/><embed name="__sse4932991" src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=random-100810011358-phpapp02&stripped_title=20symfonyosc" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="355"></embed></object><div style="padding:5px 0 12px">View more <a href="http://www.slideshare.net/">presentations</a> from <a href="http://www.slideshare.net/n416">n416</a>.</div></div>
 
 
+以下、スライドの補足です。
+
+### httpd.conf
+
+    Listen 127.0.0.1:8080
+    
+    <VirtualHost 127.0.0.1:8080>
+        DocumentRoot 'C:\sftest2/web'
+        DirectoryIndex index.php
+        <Directory 'C:/sftest2/web'>
+            AllowOverride All
+            Allow from All
+        </Directory>
+        
+        Alias /sf C:\xampp/php/PEAR/data/symfony/web/sf
+        <Directory 'C:\xampp/php/PEAR/data/symfony/web/sf'>
+            AllowOverride All
+            Allow from All
+        </Directory>
+    </VirtualHost>
+
+### 実演内容(1)
+
+my.iniをutf8にして日本語対応に。
+
+    default-character-set = utf8
+    skip-character-set-client-handshake
+
+DBを生成
+
+    mysqladmin -uroot -p create sftest
+
+Symfonyディレクトリに移動
+
+    cd c:\sftest
+
+プロジェクトを生成
+
+    symfony generate:project sftest
+
+アプリケーションを生成
+
+    symfony generate:app frontend
+
+DB設定をSymfonyに行う
+
+    symfony configure:database 'mysql:host=localhost;dbname=sftest' root
+
+スキーマをSymfonyに設定する
+
+    [yml]
+    SftestData:
+      connection: doctrine
+      tableName: sftest_data
+      columns:
+        id:
+          type: integer(8)
+          primary: true
+          autoincrement: true
+      sftest_key:
+        type: integer(8)
+      sftest_value:
+        type: string(255)
+
+モデルを生成
+
+    symfony doctrine:build --model
+    symfony doctrine:build-sql
+
+テーブルを生成
+
+    symfony doctrine:insert-sql
+
+フォームを生成
+
+    symfony doctrine:build-form
+
+データーモデルに紐付いたモジュールを生成
+
+    symfony doctrine:generate-module --with-show --non-verbose-templates frontend sftest sftestData
+
+確認
+
+  http://localhost:8080/frontend_dev.php/sftest
+
+（Apacheの設定はすでにしてあるという設定です。）
+
+テンプレートを変えてみる
+indexSuccess.phpのタイトルを変更
+
+
+### 実演内容(2)ホームページを変えてみる
+
+http://localhost:8080/frontend_dev.php/sftest を http://localhost:8080/ にする。
+
+routing.yml
+
+    [yml]
+    homepage:
+      url: /
+      param: { module: sftest, action: index }
+
+階層を作り出す
+
+  http://localhost:8080/frontend_dev.php/sftest を http://localhost:8080/category にする。
+
+routing.yml
+
+    [yml]
+    default:
+      url: /category/:module/:action/*
+
+
+
 symfonyでPHPでもTDD
 -------------------
 
