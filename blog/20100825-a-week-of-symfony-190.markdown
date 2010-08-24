@@ -26,14 +26,14 @@ Symfony公式ブログで毎週公開される、Symfony関連の活動まとめ
 ### Symfony 2.Xブランチ：
 - [714fa6f](http://github.com/symfony/symfony/commit/714fa6f652340620fce8c0f10d1109b32b574fe5): [FrameworkBundle] コントローラを修正
 - [0da7295](http://github.com/symfony/symfony/commit/0da7295a9c26e90267f7ee0ec699e020a9f9d024): [FrameworkBundle] フォワードの前にリクエストをクリーンアップするように変更
-- [917da00](http://github.com/symfony/symfony/commit/917da00763b31e290cc18ae61068d17d731844a8)[cbdde58](http://github.com/symfony/symfony/commit/cbdde58ddd9101cdbe0b49624709c9dbcfa15784): [FrameworkBundle] error_log()呼び出しをloggerの呼び出しに変更
+- [917da00](http://github.com/symfony/symfony/commit/917da00763b31e290cc18ae61068d17d731844a8)、[cbdde58](http://github.com/symfony/symfony/commit/cbdde58ddd9101cdbe0b49624709c9dbcfa15784): [FrameworkBundle] error_log()呼び出しをloggerの呼び出しに変更
 - [509bfb8](http://github.com/symfony/symfony/commit/509bfb8940adfd67c4617174ec8bc990c57d0e42): [FrameworkBundle] ExceptionFormatterのContainerへの依存性をなくすよう修正
 - [42c2aff](http://github.com/symfony/symfony/commit/42c2affbb151c728e9579dd606da3358797c6e87): [FrameworkBundle] RequestListenerのContainerへの依存性をなくすよう修正
 - [4ed65d0](http://github.com/symfony/symfony/commit/4ed65d026ed5960ae3d41e58af5f35a0aeba8352): Controller::redirectが必ずレスポンスを返すよう変更
 - [f48aeb1](http://github.com/symfony/symfony/commit/f48aeb1021587e6beff1cf47d7cfe3cf543061ee): [FrameworkBundle] 現在とは異なるフォーマットのテンプレートを指定できるように修正
 - [5ea4b34](http://github.com/symfony/symfony/commit/5ea4b348c033cfa1c24e15c29a20a444be10f005): [ZendBundle] DebugLoggerInterfaceを追加
 - [955fd40](http://github.com/symfony/symfony/commit/955fd40dd87264731f2175f95a8ad814d8ba6b55): 名前空間LoggerInterfaceをHttpKernel\Logの下に移動
-- [d5069fc](http://github.com/symfony/symfony/commit/d5069fc594598916ffdabe7329f81367278c3423)[42cad4e](http://github.com/symfony/symfony/commit/42cad4e57e78a9e8285399b80291b25882bbb81a): [FrameworkBundle] 例外管理を修正
+- [d5069fc](http://github.com/symfony/symfony/commit/d5069fc594598916ffdabe7329f81367278c3423)、[42cad4e](http://github.com/symfony/symfony/commit/42cad4e57e78a9e8285399b80291b25882bbb81a): [FrameworkBundle] 例外管理を修正
 - [e03642d](http://github.com/symfony/symfony/commit/e03642dfa6370f8f52429a7873bb1d88b6ecea20): ClassCollectionLoaderをよりスマートに修正
 - [54c3603](http://github.com/symfony/symfony/commit/54c36030e8612803a0da393ceaae5b5fbef3cf48): [Framework] Kernel::getBundleForClass()を追加
 - [7514177](http://github.com/symfony/symfony/commit/7514177b51a51e05c1dc7a6d170debd121c48636): [Templating] Engineヘルパのプロパティを配列アクセス形式で取得するよう変更。例えば、現在$view['slots']->output(…)と呼び出している部分は$view->slots->output(…)となる
