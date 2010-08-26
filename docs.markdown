@@ -98,7 +98,7 @@ Symfonyドキュメント
 
   - [ユーザー会ドキュメントへの参加方法](joining-userdocs)
     - [GitHub の使い方](./git/github-howto)
-    - [Windows 上に Git 環境を構築する方法(TortoiseGit と msysGit)](./git/etup-git-windows)
+    - [Windows 上に Git 環境を構築する方法(TortoiseGit と msysGit)](./git/setup-git-windows)
     - [GitHub 上のリポジトリのフォーク、プッシュ、プルリクエスト](./git/git-fork-and-push)
   - [日本語表記ガイドライン](japanese-style)
   - [markdown早見表](markdown-sample)
