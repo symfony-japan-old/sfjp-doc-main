@@ -13,7 +13,7 @@ Symfony公式ブログで毎週公開される、Symfony関連の活動まとめ
 
 今週Symfony2には新たに`ControllerInterface`インターフェイスと`BaseController`クラスを追加しました。また、プロファイラーのリファクタリングを行い、一時的にWebデベロップメントツールバー(WDT)を削除しました(後に`WebProfilerBundle`として追加します)。それと、例外管理のリファクタリング、イベントリスナーに優先度を指定するパラメータを追加しました。
 
-(翻訳者追記: `ControllerInterface`と`BaseController`の追加とありますが、さらに修正が入って`Symfony\Component\DependencyInjection`コンポーネントの`ContainerAwareInterface`インターフェイス(DIコンテナの存在を認識する、つまりDIコンテナを指定するためのsetContainer()メソッドを持ったインターフェイス)とそれを実装した`ContainerAware`クラスになっています。)
+(翻訳者追記: `ControllerInterface`と`BaseController`の追加とありますが、さらに修正が入って`Symfony\Component\DependencyInjection`コンポーネントの`ContainerAwareInterface`インターフェイス(DIコンテナの存在を認識する、つまりDIコンテナを指定するための`setContainer()`メソッドを持ったインターフェイス)とそれを実装した`ContainerAware`クラスになっています。)
 
 開発メーリングリスト
 ---------------------
@@ -31,7 +31,7 @@ Symfony公式ブログで毎週公開される、Symfony関連の活動まとめ
 ### Symfony 2.Xブランチ:
 
 - [1277568](http://github.com/symfony/symfony/commit/12775689973787f282a11bd6f02f8b59cb78ddc8) [HttpFoundation] `Session`を修正
-- [0319838](http://github.com/symfony/symfony/commit/0319838cdc6a997bc1b5effde0a87753c75eb0b9) [TwigBundle] flashタグを追加
+- [0319838](http://github.com/symfony/symfony/commit/0319838cdc6a997bc1b5effde0a87753c75eb0b9) [TwigBundle] `flash`タグを追加
 - [fe78d5f](http://github.com/symfony/symfony/commit/fe78d5f0f0661e454a78478c187edd7633a71750) プロファイラーを無効にする方法を追加
 - [9c07e46](http://github.com/symfony/symfony/commit/9c07e46d91b30236d89a98f738b7b7f3e2e5dfd1) [FrameworkBundle] `ControllerInterface`を追加。コントローラーは`ControllerInterface`を実装しなければならない。`BaseController`は各コントローラーのベースとなるクラス。`Controller`クラスにはいくつかのプロキシーメソッドを追加し、DIコンテナーへ配列形式でアクセスできるよう修正
 - [789a02d](http://github.com/symfony/symfony/commit/789a02d56d79e32446fa7ea529f8a5d84e02a625) [FrameworkBundle] `SessionHelper::getAttribute()`メソッドを`get()`メソッドに変更
@@ -39,10 +39,10 @@ Symfony公式ブログで毎週公開される、Symfony関連の活動まとめ
 - [3c42e0b](http://github.com/symfony/symfony/commit/3c42e0b6ce79e49ba44a0adcb8bc1144027c0ae2) [FrameworkBundle] `ignore_errors`オプションのデフォルト値を現在のデバッグモードに基づいて設定するよう修正
 - [b1e7996](http://github.com/symfony/symfony/commit/b1e79963b120e3237a7a82f186ce83a5f568bdcf) [DependencyInjection] エクステンションの読み込みをフリーズ処理中に行うよう修正
 - [a432417](http://github.com/symfony/symfony/commit/a432417ab9f901c7915e01d04d16904c4479155f) [DependencyInjection] 存在しないファイルの読み込み時にエラーを無視できる設定を追加(オプション的なサービスファイルの読み込み時などに利用)
-- [bf67562](http://github.com/symfony/symfony/commit/bf6756226820e82ae55ae20004d20dd2eb9c79c5) [Templating] PHPレンダラーに`$template`変数を渡した場合の問題を修正
+- [bf67562](http://github.com/symfony/symfony/commit/bf6756226820e82ae55ae20004d20dd2eb9c79c5) [Templating] テンプレートに`$template`変数を渡した場合に、PHPレンダラーの変数名と衝突する問題を修正
 - [69f9d9c](http://github.com/symfony/symfony/commit/69f9d9c6bfc2fbdad11c32773e5bd10058b3c3e1) [DoctrineMongoDBBundle] WDT用のロガーとデータコレクターを追加
 - [0867080](http://github.com/symfony/symfony/commit/086708003a8bbe490de29cae48a3b2ca9f590021) [HttpFoundation] `*Bag`クラスに`keys()`メソッドを追加
-- [1d7f43e](http://github.com/symfony/symfony/commit/1d7f43eed4eb5c53a1227efc81fb5cd2b049fe72) [Framework] イベントに登録したリスナーが(イベントが処理済みだった場合などで)呼び出されなかった場合
+- [1d7f43e](http://github.com/symfony/symfony/commit/1d7f43eed4eb5c53a1227efc81fb5cd2b049fe72) [Framework] イベントに登録したリスナーが(イベントが処理済みなどで)呼び出されなかった場合、ログに出力するよう修正
 - [82ff790](http://github.com/symfony/symfony/commit/82ff79064acc336ce284a3914070479a0fe346ef) イベントディスパッチャーのリスナーに優先度の指定を追加
 - [57db35b](http://github.com/symfony/symfony/commit/57db35b93b98e9f8550cd137d4c39aa71a012687) `ExceptionManager`を`Request`へ依存しないよう修正
 - [92f4b92](http://github.com/symfony/symfony/commit/92f4b92cbbbb1e51ee65fd399b83b4a5e17e6ca2) [HttpFoundation] `Session`のシリアライゼーション処理を修正
