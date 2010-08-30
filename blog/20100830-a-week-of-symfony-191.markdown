@@ -16,17 +16,19 @@ Symfony公式ブログで毎週公開される、Symfony関連の活動まとめ
 (翻訳者追記: `ControllerInterface`と`BaseController`の追加とありますが、さらに修正が入って`Symfony\Component\DependencyInjection`コンポーネントの`ContainerAwareInterface`インターフェイス(DIコンテナの存在を認識する、つまりDIコンテナを指定するためのsetContainer()メソッドを持ったインターフェイス)とそれを実装した`ContainerAware`クラスになっています。)
 
 開発メーリングリスト
+---------------------
 
 - [フォームのCSRFトークンに関する問題](http://groups.google.com/group/symfony-devs/browse_thread/thread/68db5ac12f02eb5d)
 - [実際のプロジェクトで基本的なウィジェットを拡張する方法](http://groups.google.com/group/symfony-devs/browse_thread/thread/6f50c26ca917c036)
 
-Development highlights
+開発ハイライト
+----------------------
 
-Symfony 1.X branch:
+### Symfony 1.Xブランチ:
 
 - [r30773](http://trac.symfony-project.org/changeset/30773) [1.3, 1.4] イベントが正しく処理されない問題を修正
 
-Symfony 2.X branch:
+### Symfony 2.Xブランチ:
 
 - [1277568](http://github.com/symfony/symfony/commit/12775689973787f282a11bd6f02f8b59cb78ddc8) [HttpFoundation] `Session`を修正
 - [0319838](http://github.com/symfony/symfony/commit/0319838cdc6a997bc1b5effde0a87753c75eb0b9) [TwigBundle] flashタグを追加
@@ -51,7 +53,7 @@ Symfony 2.X branch:
 - [72db4c7](http://github.com/symfony/symfony/commit/72db4c734253f87fba7182da221a91a75a73bff7) `Profiler`と`DataCollector`クラスをリファクタリング (WDTは一時的に削除し、後々に`WebProfilerBundle`として追加予定)
 - [0208800](http://github.com/symfony/symfony/commit/02088004592d4704141f38257657755bf3a5b9f6) 例外管理のリファクタリング (`ExceptionManager`を削除)
 
-sfDoctrinePlugin:
+### sfDoctrinePlugin:
 
 - [r30774](http://trac.symfony-project.org/changeset/30774): [1.3, 1.4] アドミンジェネレーター内で`Doctrine`クラスからの呼び出し処理を`Doctrine_Core`クラスに修正
 
