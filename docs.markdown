@@ -101,6 +101,8 @@ Symfonyドキュメント
     - [Windows 上に Git 環境を構築する方法(TortoiseGit と msysGit)](./git/setup-git-windows)
     - [GitHub 上のリポジトリのフォーク、プッシュ、プルリクエスト](./git/git-fork-and-push)
   - [日本語表記ガイドライン](japanese-style)
+  - [A Week of symfony翻訳ツール](http://fivestar.fm/awos/)<br />
+    [@fivestr](http://twitter.com/fivestr)さんがSymfony2で作成したA Week of symfony翻訳補助ツール
   - [markdown早見表](markdown-sample)
   - [markdown簡易チェック](http://www.symfony-project.org/plugins/markdown_dingus)<br />
     markdownがどのようにレンダリングされるのかを、Webブラウザからテストできます。
