@@ -34,7 +34,7 @@ Symfony2を試してみるには、[サンドボックス](http://symfony-reload
 どのように協力するか？
 ------------------------
 
-Symfony2の開発がスタートしてから、50名以上の人々が様々な形で貢献してくれました。([http://github.com/visionmedia/git-extras](http://github.com/visionmedia/git-extras) にて集計しました)
+Symfony2の開発がスタートしてから、50名以上の人々が様々な形で貢献してくれました。([http://github.com/visionmedia/git-extras](http://github.com/visionmedia/git-extras) にて集計)
 
 - 646 Fabien Potencier
 - 40 Jonathan H. Wage
@@ -110,6 +110,7 @@ Symfony2はまだまだ完成していませんが、多くの方が既にWebサ
 > **CAUTION**
 > 実際のプロジェクトではSymfony2を盲目的に使わないでください。Symfony2はまだ開発中で、時に大幅な変更が入ることもあります。そのことを留意してください。
 
+<br />
 
 > **NOTE**
 > 翻訳者コメント<br />
