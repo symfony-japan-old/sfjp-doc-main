@@ -3,7 +3,7 @@ Symfony2 PR3 リリース; 手を貸してください
 
 ([原文リンク](http://www.symfony-project.org/blog/2010/09/13/symfony2-pr3-released-the-need-for-help))
 
-本日Symfony2 PR3(Preview Release3)をリリースしました。今回のブログがSymfony2のプレビューリリースにおける最初の告知となります。アルファバージョンがリリースできる段階まで迫っており、それに向けて皆さんに協力してほしいと思っています。
+本日Symfony2 PR3(Preview Release3)をリリースしました。今回のブログがSymfony2のプレビューリリースにおける最初の告知となります。アルファバージョンがリリースできる段階まで迫っており、それに向けて皆さんの協力が必要です。
 
 
 What's new?
