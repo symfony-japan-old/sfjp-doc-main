@@ -59,6 +59,8 @@ twitterアカウントの昇順
   [twitter](http://twitter.com/n416)、[フォーラム](http://symfony-jp.com/f/)
 - 西川　茂伸<br />
   [twitter](http://twitter.com/shishi4tw)、[ブログ](http://shishithefool.blogspot.com/)
+- 前島　有貴<br />
+  [twitter](http://twitter.com/yuchimiri)、[ブログ](http://d.hatena.ne.jp/yuchimiri/)
 
 
 メンバーリストに掲載ご希望の方は、GitHubで直接このページを編集して追加するか、[日本Symfonyユーザー会メーリングリスト](http://groups.google.com/group/symfony-users-ja)へご連絡ください。
