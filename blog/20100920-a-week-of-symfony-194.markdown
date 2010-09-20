@@ -1,6 +1,16 @@
 A week of symfony #194 (13->19 September 2010)
 ==============================================
 
+Symfony 公式ブログで毎週公開される、Symfony 関連の活動まとめ記事の翻訳です。
+この翻訳では、Symfony 本体に関連したアップデートなどのみを取り上げます。
+プラグインの更新等も含む全文は、以下のリンクからご確認ください。
+
+（[原文リンク](http://www.symfony-project.org/blog/2010/09/19/a-week-of-symfony-194-13-19-september-2010)）
+
+<br />
+<br />
+<hr />
+
 先週は Symfony2 PR3 が公開され、じきにリリースされる Symfony2 アルファバージョンへ一歩近づきました。
 また、Symfony\Framework 名前空間は削除され、Symfony\Component\HttpKernel と Symfony\Bundle\FrameworkBundle へコードが移動されました。
  
@@ -63,3 +73,4 @@ Symfony に関するブログ
 > Silex を作る上で必要になった要素などが、Symfony2 の機能として追加されたりしています（コントローラーをクロージャーで実装できる機能など）<br />
 > symfony 1系も多少フィックスが行われていますので、そろそろ 1.4.7 がリリースされるかもしれません。
 > [hidenorigoto]
+
