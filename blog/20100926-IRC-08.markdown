@@ -14,17 +14,23 @@ Symfonyに関するアレコレを話し合うIRC集会の第8回を、9/26（�
   - Doctrineのコアをコンパイルする機能が搭載された。
     - 使い方は以下
 
-    # まずsfTaskExtraPluginをインストール
+まずsfTaskExtraPluginをインストール
+
+
     $ php symfony plugin:install sfTaskExtraPlugin
 
-    # doctrine:compileを実行
+
+doctrine:compileを実行
+
+
     $ php symfony doctrine:compile
 
-    # doctrine:compileの完了時メッセージで表示されるコードをProjectConfiguration.class.phpのsetupに追加
 
-    - Doctrineコアをコンパイルしたファイルは835KBになった。
-      - モデル1個だけでのテストプロジェクトでは、コンパイルコアを使うとやや実行時間が長くなった。
-      - 実案件レベルで効果を検証する必要がある。
+doctrine:compileの完了時メッセージで表示されるコードをProjectConfiguration.class.phpのsetupに追加
+
+  - Doctrineコアをコンパイルしたファイルは835KBになった。
+    - モデル1個だけでのテストプロジェクトでは、コンパイルコアを使うとやや実行時間が長くなった。
+    - 実案件レベルで効果を検証する必要がある。
 
 
 ### Symfony2の設定ファイルのデフォルトフォーマットの議論
@@ -79,4 +85,3 @@ Symfonyに関するアレコレを話し合うIRC集会の第8回を、9/26（�
 ----
 
 次回は2週間後、10/10（日）の21時～23時で開催予定です。
-
