@@ -4,9 +4,38 @@ Changelong for 1.4.X
 公式サイトの[Changelog for 1.4.X](http://www.symfony-project.org/installation/1_4/changelog)の翻訳です。
 
 
+09/24/10: Version 1.4.8
+-----------------------
+
+ * [30969](http://trac.symfony-project.org/changeset/30969) ドイツ語とイタリア語の翻訳を追加 ([#9088](http://trac.symfony-project.org/ticket/9088)をクローズ)
+ * [30968](http://trac.symfony-project.org/changeset/30968) Adminジェネレーターのペルシア語翻訳を修正 ([#8960](http://trac.symfony-project.org/ticket/8960)をクローズ)
+ * [30967](http://trac.symfony-project.org/changeset/30967) 中国繁体字のi18nサポートを追加 ([#8885](http://trac.symfony-project.org/ticket/8885)をクローズ)
+ * [30966](http://trac.symfony-project.org/changeset/30966) DoctrineとPropelのスロベニア語の翻訳を更新 ([#8985](http://trac.symfony-project.org/ticket/8985)をクローズ)
+ * [30961](http://trac.symfony-project.org/changeset/30961) WDTのJavaScriptコードが追加されなくなっていた問題を修正 ([#9083](http://trac.symfony-project.org/ticket/9083)をクローズ、[#9080](http://trac.symfony-project.org/ticket/9080)に関連)
+
+09/21/10: Version 1.4.7
+-----------------------
+
+ * [30951](http://trac.symfony-project.org/changeset/30951) WDTが複数回挿入される問題を修正 ([#9080](http://trac.symfony-project.org/ticket/9080)をクローズ)
+ * [30915](http://trac.symfony-project.org/changeset/30915) "image/x-ms-bmp" MIMEタイプのサポートを追加 ([#9069](http://trac.symfony-project.org/ticket/9069)をクローズ、pbowyerからのパッチ)
+ * [30912](http://trac.symfony-project.org/changeset/30912) ビュークラスのオーバーライドを修正 ([#5097](http://trac.symfony-project.org/ticket/5097)をクローズ、caeferからのパッチ)
+ * [30901](http://trac.symfony-project.org/changeset/30901) Doctrineが生成したテーブルクラスのコメントを削除する処理をリバート ([#8880](http://trac.symfony-project.org/ticket/8880)をクローズ)
+ * [30900](http://trac.symfony-project.org/changeset/30900) リクエストがセキュアなページからフォワードされた場合のgetUriPrefix()の動作を修正 ([#4723](http://trac.symfony-project.org/ticket/4723)をクローズ)
+ * [30790](http://trac.symfony-project.org/changeset/30790) PHPのエラーメッセージに"%"が含まれていた場合のWDTへのロギングを修正
+ * [30563](http://trac.symfony-project.org/changeset/30563) sfWebController::redirectメソッドがHTTP仕様に適合していなかった問題を修正 ([#8952](http://trac.symfony-project.org/ticket/8952)をクローズ、randeからのパッチ)
+ * [30530](http://trac.symfony-project.org/changeset/30530) Windows上でプロジェクトを作成し、Linux上で使う場合のパスの問題を修正 ([#8835](http://trac.symfony-project.org/ticket/8835)をクローズ)
+ * [30529](http://trac.symfony-project.org/changeset/30529) Swift_PropelSpoolでメッセージがGLOBカラムに保存される場合の問題を修正 ([#8869](http://trac.symfony-project.org/ticket/8869)と[#8558](http://trac.symfony-project.org/ticket/8558)をクローズ、netounetからのパッチ)
+ * [30526](http://trac.symfony-project.org/changeset/30526) Adminジェネレーターのロシア語とウクライナ語の翻訳を更新 ([#8814](http://trac.symfony-project.org/ticket/8814)をクローズ)
+ * [30445](http://trac.symfony-project.org/changeset/30445) コンパイルされたコアを使うために、Doctrineがすでに読み込まれているかどうかのチェックを追加 ([#8917](http://trac.symfony-project.org/ticket/8917)をクローズ、gnukixありがとう)
+ * [30444](http://trac.symfony-project.org/changeset/30444) DoctrineではなくDoctrine_Coreを読み込むようにdoctrineプラグインを更新
+ * [30442](http://trac.symfony-project.org/changeset/30442) `Doctrine`の呼び出しを`Doctrine_Core`に変更
+ * [30441](http://trac.symfony-project.org/changeset/30441) DoctrineのオートローダーをDoctrine_Coreを使うように変更
+
+
 06/29/10: Version 1.4.6
 -----------------------
-
+
+
 - [30031](http://trac.symfony-project.org/changeset/30031) ビューキャッシュにおけるディレクトリトラバーサルの注入脆弱性を回避 ([#8805](http://trac.symfony-project.org/ticket/8805)をクローズ)
 - [30008](http://trac.symfony-project.org/changeset/30008) shell_execが無効な場合の使用方法を修正 ([#8758](http://trac.symfony-project.org/ticket/8758)をクローズ)
 - [29990](http://trac.symfony-project.org/changeset/29990) sfOutputEscaperObjectDecorator::__isset()の追加 ([#8793](http://trac.symfony-project.org/ticket/8793)をクローズ)
