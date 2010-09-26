@@ -1,0 +1,82 @@
+第8回 Symfonyユーザー会IRC集会を開催しました
+============================================
+
+Symfonyに関するアレコレを話し合うIRC集会の第8回を、9/26（日）の21時～23時に開催しました。
+以下、IRC集会の内容のまとめです。
+
+
+まとめ
+------
+
+### symfony 1.4.8/1.3.8
+
+  - 1.4.7はバグのあるバージョンなので使わない。
+  - Doctrineのコアをコンパイルする機能が搭載された。
+    - 使い方は以下
+
+    # まずsfTaskExtraPluginをインストール
+    $ php symfony plugin:install sfTaskExtraPlugin
+
+    # doctrine:compileを実行
+    $ php symfony doctrine:compile
+
+    # doctrine:compileの完了時メッセージで表示されるコードをProjectConfiguration.class.phpのsetupに追加
+
+    - Doctrineコアをコンパイルしたファイルは835KBになった。
+      - モデル1個だけでのテストプロジェクトでは、コンパイルコアを使うとやや実行時間が長くなった。
+      - 実案件レベルで効果を検証する必要がある。
+
+
+### Symfony2の設定ファイルのデフォルトフォーマットの議論
+
+  - [Default format for configurations](http://groups.google.com/group/symfony-devs/msg/a8b13cc4b0797271?hl=en)
+    - MLではXML派とYAML派。ただしfabienさんはYAMLは入門者には扱いづらいという意見あり。
+    - IRC集会の参加者では、YAMLが使いやすいからYAMLでよいのでは、という意見。
+
+
+### Symfony2のサンドボックスPR3
+
+  - hello/config/config.ymlに「assets_version」という設定項目
+    - アセットファイルのURLにバージョンパラメーターを追加するための設定
+    - [Symfony/Component/Templating/Helper/AssetHelper getUrl()](http://github.com/symfony/symfony/blob/master/src/Symfony/Component/Templating/Helper/AssetsHelper.php#L149)
+  - HttpCacheを有効にしても、hello/cache/http_cacheディレクトリにキャッシュファイルが生成されない
+    - 要調査
+
+
+### Symfony2を試されている方
+
+  - [@balibaliさん](http://twitter.com/balibali)
+    - ご自分のブログをSymfony2で作ってみたとのこと→ [Symfony2 で バリバリ日記2 をつくってみた](http://rimpei.org/blog/2010/09/balibali-diary2-is-powered-by-symfon2)
+
+
+### Symfony2でのモデルアクセスコードを記述する場所
+
+  - [Doctrine2の説明](http://docs.symfony-reloaded.org/guides/doctrine/orm/overview.html)で、エンティティクラスではなくコントローラーにDQLを書いている。
+    - symfony 1.xのように～Tableのようなクラスはないのか？（自分で用意する？）
+
+
+### Symfony2のAPIドキュメントシステム
+
+  - [Symfony2 API(PR3)](http://api.symfony-reloaded.org/PR3/index.html)
+    - 見やすい。
+    - symfony 1.xのAPIドキュメントも、同じ形式で作れないか？
+
+
+### LithiumのAOPとSymfonyのEventDispatcher
+
+  - LithiumのAOPは、filterを使ったコアの拡張
+  - これに相当するSymfonyの機能は、EventDispatcher
+  - どちらも、コア側で拡張ポイントを用意している必要がある
+
+
+### SymfonyのEventDispatcherでClosureを使えるのか？
+
+  - 使える。
+    - call_user_func()で呼び出せるものなら何でもOK。
+
+
+次回
+----
+
+次回は2週間後、10/10（日）の21時～23時で開催予定です。
+
