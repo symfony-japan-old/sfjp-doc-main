@@ -47,6 +47,7 @@ doctrine:compileの完了時メッセージで表示されるコードをProject
     - [Symfony/Component/Templating/Helper/AssetHelper getUrl()](http://github.com/symfony/symfony/blob/master/src/Symfony/Component/Templating/Helper/AssetsHelper.php#L149)
   - HttpCacheを有効にしても、hello/cache/http_cacheディレクトリにキャッシュファイルが生成されない
     - 要調査
+    - (2010/9/27追記) [@fivestrさん](http://twitter.com/fivestr)から、Cookieが残っているのが原因ではないかとアドバイスがあり、別のブラウザでアクセスしたところhttp_cacheディレクトリ内にキャッシュファイルが生成され、レスポンスも大幅に速くなりました。
 
 
 ### Symfony2を試されている方
@@ -59,6 +60,15 @@ doctrine:compileの完了時メッセージで表示されるコードをProject
 
   - [Doctrine2の説明](http://docs.symfony-reloaded.org/guides/doctrine/orm/overview.html)で、エンティティクラスではなくコントローラーにDQLを書いている。
     - symfony 1.xのように～Tableのようなクラスはないのか？（自分で用意する？）
+    - (2010/9/27追記) [@fivestrさん](http://twitter.com/fivestr)から、EntityManagerのgetRepository()を使ってレポジトリのメソッドを使う形になるとアドバイス頂きました。
+
+EntityRepositoryを使ってデータを取得する。
+
+    [php]
+    $em->getRepository('Domain\Model\User')->getAllUsers();
+
+参考：[Doctrine - Reference - Working with Objects - Custom Repositories](http://www.doctrine-project.org/projects/orm/2.0/docs/reference/working-with-objects/en#querying:custom-repositories)
+
 
 
 ### Symfony2のAPIドキュメントシステム
