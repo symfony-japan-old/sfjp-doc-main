@@ -65,6 +65,7 @@ doctrine:compileの完了時メッセージで表示されるコードをProject
 EntityRepositoryを使ってデータを取得する。
 
     [php]
+    // $em = $this['doctrine.orm.entity_manager']; // $emはEntityManager
     $em->getRepository('Domain\Model\User')->getAllUsers();
 
 参考：[Doctrine - Reference - Working with Objects - Custom Repositories](http://www.doctrine-project.org/projects/orm/2.0/docs/reference/working-with-objects/en#querying:custom-repositories)
