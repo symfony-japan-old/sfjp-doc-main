@@ -57,10 +57,8 @@ CakePHP、Lithium、Symfony のコアデベロッパーが肩を組む場面も
 来日されたコアデベロッパーの方たちは、みなさんとてもフレンドリーで、積極的に情報交換されていました。
 そして、ほぼ常に彼らはコードをいじっていました！
 
-<!--
 ![core developers](http://farm5.static.flickr.com/4089/5043840897_73f74723b6.jpg)<br />
 Photo by [@lllnoriko4lll](http://twitter.com/lllnoriko4lll)
--->
 
 イベント期間中にはお楽しみもいろいろありました。
 
@@ -115,6 +113,7 @@ PHP Matsuri のメインはハッカソンで、Symfony2 を利用した作品�
 ------
 
 ![Red Bulls](http://lh3.ggpht.com/_00dpQwjaG3M/TKqOskbe56I/AAAAAAAAJ3U/RtA2XqvjXmg/s800/IMG_0049.JPG)
+Photo by [@osakanapower](http://twitter.com/osakanapower)
 
 PHP Matsuri はとてもハードなイベントでした。
 参加されたみなさん、そして企画・運営されたスタッフのみなさん、お疲れさまでした！
