@@ -61,6 +61,7 @@ CakePHP、Lithium、Symfony のコアデベロッパーが肩を組む場面も
 ![core developers](http://farm5.static.flickr.com/4089/5043840897_73f74723b6.jpg)
 Photo by [@lllnoriko4lll](http://twitter.com/lllnoriko4lll)
 左から
+
   - CakePHP の Graham Weldon さん
   - Symfony の Kris Wallsmith さん
   - Lithium の Joël Perras さん
