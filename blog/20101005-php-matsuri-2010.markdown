@@ -1,0 +1,122 @@
+PHP Matsuri 2010 参加レポート（Symfony 編）
+============================================
+
+2010年10月2日～3日の2日間にわたり、[PHP Matsuri 2010](http://2010.phpmatsuri.net/)が開催されました。
+このイベントでの Symfony 関連の内容を本レポートにまとめています。
+
+
+![Framewok Cakes](http://lh6.ggpht.com/_00dpQwjaG3M/TKqOAsu5KfI/AAAAAAAAJ0g/NssrqkT5ez8/s720/IMG_1508.JPG)
+Photo by [@osakanapower](http://twitter.com/osakanapower)
+
+
+symfony コアチームのメンバーである Kris Wallsmith さんが来日
+-------------------------------------------------------------
+
+Symfony コミュニティにとってのビッグニュースは、このイベントのために Kris さんが来日されたことです。
+Kris さんには、以下の 2 つの枠でお話いただきました。
+
+  - Symfony2 ワークショップ
+  - Symfony2 Introduction セッション
+  
+
+Symfony2 ワークショップ
+-----------------------
+
+![Symfony2 Workshop by Kris](http://lh3.ggpht.com/_00dpQwjaG3M/TKqNYw0F_tI/AAAAAAAAJ0g/2cJnJZNnuHs/s720/IMG_1493.JPG)
+Photo by [@osakanapower](http://twitter.com/osakanapower)
+
+
+1日目の午後すぐに、Kris さんに Symfony2 のワークショップをやっていただきました。
+ワークショップでは Symfony2 と Doctrine2 を使ったアプリケーションの構築手順を、すべてその場で Kris さんが実際にコードを入力して教えていただきました。
+
+また、コードを書きながら、Symfony2 の DI コンテナがどういった仕組みで動いているのか、どのように設定するとどこが書き換えられるのかといった、内部の解説なども随時していただきました。
+
+特に Doctrine2 については、エンティティに記述したアノテーションを書き換え、その度に（マイグレーションではなく） Doctrine2 のスキーマアップデートを行う (php symfony doctrine:schema:update) という手順を見せて頂き、Doctrine2 の強力さを垣間見ることができました。
+
+
+個人的には、Kris さんの神がかったライブコーディングを見れたことが一番の収穫でした。
+
+
+
+Symfony2 Introduction セッション
+----------------------------------
+
+1日目の夕食後には、Kris さんによる Symfony2 の紹介セッションがありました。
+こちらはセッションのスライドがあります。
+
+<div style="width:425px" id="__ss_5339691"><strong style="display:block;margin:12px 0 4px"><a href="http://www.slideshare.net/kriswallsmith/symfony2-tokyo" title="A Practical Introduction to Symfony2">A Practical Introduction to Symfony2</a></strong><object id="__sse5339691" width="425" height="355"><param name="movie" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=symfony2tokyo-101002065759-phpapp02&stripped_title=symfony2-tokyo&userName=kriswallsmith" /><param name="allowFullScreen" value="true"/><param name="allowScriptAccess" value="always"/><embed name="__sse5339691" src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=symfony2tokyo-101002065759-phpapp02&stripped_title=symfony2-tokyo&userName=kriswallsmith" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="355"></embed></object><div style="padding:5px 0 12px">View more <a href="http://www.slideshare.net/">presentations</a> from <a href="http://www.slideshare.net/kriswallsmith">Kris Wallsmith</a>.</div></div>
+
+このセッションでは、Symfony2 の紹介や特徴の説明から、簡単なコード例の説明など、Symfony2 はどういったものなのかを具体的につかむことができました。
+
+
+
+
+CakePHP、Lithium、Symfony のコアデベロッパーが肩を組む場面も
+------------------------------------------------------------
+
+来日されたコアデベロッパーの方たちは、みなさんとてもフレンドリーで、積極的に情報交換されていました。
+そして、ほぼ常に彼らはコードをいじっていました！
+
+<!--
+![core developers](http://farm5.static.flickr.com/4089/5043840897_73f74723b6.jpg)<br />
+Photo by [@lllnoriko4lll](http://twitter.com/lllnoriko4lll)
+-->
+
+イベント期間中にはお楽しみもいろいろありました。
+
+  - 3 フレームワークのロゴをかたどったケーキ（最初の写真）
+  - Red Bull Girls
+  - 深夜のゲーム大会
+
+このように随所でリラックスしつつ、深夜～早朝まで多くの方がハックに勤しんでいました（徹夜の方も結構いらっしゃいました）
+
+
+参加者のイベント期間中ハック作品やセッション
+-----------------------------------------
+
+PHP Matsuri のメインはハッカソンで、Symfony2 を利用した作品を作られた方もいらっしゃいました。
+また、ハック以外に事例の発表などでも symfony に関するものがありました。
+公開されているものを紹介させていただきます。
+
+
+
+### Open pne3 with symfony
+
+[@co3kさん](http://twitter.com/co3k)による、OpenPNE3 の紹介 (symfony を使った事例)
+
+<div style="width:425px" id="__ss_5339910"><strong style="display:block;margin:12px 0 4px"><a href="http://www.slideshare.net/ebihara/open-pne3-withsymfony" title="Open pne3 with_symfony">Open pne3 with_symfony</a></strong><object id="__sse5339910" width="425" height="355"><param name="movie" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=openpne3withsymfony-101002081009-phpapp01&stripped_title=open-pne3-withsymfony&userName=ebihara" /><param name="allowFullScreen" value="true"/><param name="allowScriptAccess" value="always"/><embed name="__sse5339910" src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=openpne3withsymfony-101002081009-phpapp01&stripped_title=open-pne3-withsymfony&userName=ebihara" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="355"></embed></object><div style="padding:5px 0 12px">View more <a href="http://www.slideshare.net/">presentations</a> from <a href="http://www.slideshare.net/ebihara">Kousuke Ebihara</a>.</div></div>
+
+
+
+### アジャイルな開発をチームで やってみた(2010年版) - PHP Matsuri編
+
+[@HIROCASTさん](http://twitter.com/hirocast)による、symfony で TDD (テストファースト) 開発をした事例
+
+<div style="width:425px" id="__ss_5339823"><strong style="display:block;margin:12px 0 4px"><a href="http://www.slideshare.net/hirocaster/2010-php-matsuri" title="アジャイルな開発をチームで やってみた(2010年版) - PHP Matsuri編">アジャイルな開発をチームで やってみた(2010年版) - PHP Matsuri編</a></strong><object id="__sse5339823" width="425" height="355"><param name="movie" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=phpmatsuripublic-101002073602-phpapp01&stripped_title=2010-php-matsuri&userName=hirocaster" /><param name="allowFullScreen" value="true"/><param name="allowScriptAccess" value="always"/><embed name="__sse5339823" src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=phpmatsuripublic-101002073602-phpapp01&stripped_title=2010-php-matsuri&userName=hirocaster" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="355"></embed></object><div style="padding:5px 0 12px">View more <a href="http://www.slideshare.net/">presentations</a> from <a href="http://www.slideshare.net/hirocaster">hirocaster</a>.</div></div>
+
+  - @HIROCAST さんには 1 日目の深夜に TDD ワークショップもやってくださいました。
+
+
+
+### EasyWebServerBundle and Symfony1ProjectBundle
+
+[@co3kさん](http://twitter.com/co3k)による、Symfony2 のバンドル
+
+<div style="width:425px" id="__ss_5344625"><strong style="display:block;margin:12px 0 4px"><a href="http://www.slideshare.net/ebihara/easywebserverbundle-and-symfony1projectbundle-5344625" title="EasyWebServerBundle and Symfony1ProjectBundle">EasyWebServerBundle and Symfony1ProjectBundle</a></strong><object id="__sse5344625" width="425" height="355"><param name="movie" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=matsuri-101003015519-phpapp01&stripped_title=easywebserverbundle-and-symfony1projectbundle-5344625&userName=ebihara" /><param name="allowFullScreen" value="true"/><param name="allowScriptAccess" value="always"/><embed name="__sse5344625" src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=matsuri-101003015519-phpapp01&stripped_title=easywebserverbundle-and-symfony1projectbundle-5344625&userName=ebihara" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="355"></embed></object><div style="padding:5px 0 12px">View more <a href="http://www.slideshare.net/">presentations</a> from <a href="http://www.slideshare.net/ebihara">Kousuke Ebihara</a>.</div></div>
+
+  - [ebihara / EasyWebServerBundle](http://github.com/ebihara/EasyWebServerBundle)
+  - [ebihara / Symfony1ProjectBundle](http://github.com/ebihara/Symfony1ProjectBundle)
+  
+
+これ以外にも、Symfony2 の bootstrapper を触っていた [@ooharabucyouさん](http://twitter.com/ooharabucyou)、Symfony2 で孤独のグルメネタアプリを作って見事 Symfony 賞を受賞された [@mochizさん](http://twitter.com/mochiz)、深夜まで私の隣で Symfony2 のドキュメントやフォームと格闘されていた [@gilbite](http://twitter.com/gilbite) さんなど、Symfony2 関連でハックされていた方もちらほらいらっしゃいました。
+
+
+まとめ
+------
+
+![Red Bulls](http://lh3.ggpht.com/_00dpQwjaG3M/TKqOskbe56I/AAAAAAAAJ3U/RtA2XqvjXmg/s800/IMG_0049.JPG)
+
+PHP Matsuri はとてもハードなイベントでした。
+参加されたみなさん、そして企画・運営されたスタッフのみなさん、お疲れさまでした！
+
+
