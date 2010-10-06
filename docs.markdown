@@ -16,22 +16,17 @@ Symfonyドキュメント
 公式ドキュメント日本語訳
 ------------------------
 
-### symfony 1.x関連
+### symfony 1.4 関連
 
-  - **symfony完全ガイド 1.2(The Definitive Guide to symfony 1.2)**<br />
-    [HTML](http://symfony.sarabande.jp/book/1.2/)<br />
-    [PDF](http://cloud.github.com/downloads/masakielastic/masakielastic.github.com/sf-book-1.2-ja.pdf)<br />
-    symfony 1.2時点でのドキュメントですが、symfony 1.4でも根本の部分は共通していますので、十分に役立ちます。
-    symfonyの基本をしっかり学ぶ事ができます。
-    入門者から中級者まで、一読をおすすめします。<br />
-    symfony 1.4に対応した「Gentle introduction to symfony」も近日中に翻訳予定です。
+  - **A Gentle Introduction to symfony**<br />
+    [HTML(公式)](http://www.symfony-project.org/gentle-introduction/1_4/ja/)<br />
+    symfony 完全ガイドの内容を symfony 1.4 向けに書き直されたもので、特にフォームや ORM、メールまわりの内容が 1.4 向けに全面的に書き直されました。
+    symfony 1.4 の基本をしっかり学びたい方は、ひととおり読まれるとよいでしょう。
     
   - **実践symfony 1.3 & 1.4(Doctrine) (Practical symfony)**<br />
     [HTML(公式)](http://www.symfony-project.org/jobeet/1_4/Doctrine/ja/)<br />
-    [PDF](http://downloads.sarabande.jp/symfony/1.4/jobeet-1.4-doctrine-ja.pdf)<br />
     **実践symfony 1.3 & 1.4(Propel) (Practical symfony)**<br />
     [HTML(公式)](http://www.symfony-project.org/jobeet/1_4/Propel/ja/)<br />
-    [PDF](http://downloads.sarabande.jp/symfony/1.4/jobeet-1.4-propel-ja.pdf)<br />
     Jobeetという仕事情報サイトを構築しながらsymfonyの機能を一通り学習できるチュートリアルです。
     フレームワークを使った開発やMVCについての知識はあって、symfonyでの実践的な開発手法をすぐに学びたいという方におすすめです。
     Doctrine版とPropel版に分かれている点に注意してください。symfony 1.3以降では、デフォルトではDoctrineです。
@@ -43,9 +38,24 @@ Symfonyドキュメント
 
   - **もっと知りたいsymfony (More with symfony 1.3 & 1.4)**<br />
     [HTML(公式)](http://www.symfony-project.org/more-with-symfony/1_4/ja/)<br />
-    [PDF](http://dl.dropbox.com/u/957604/sf-advent2009-ja.pdf)<br />
     symfonyの使い方を一通り身につけた後、さらに高度な使い方を知りたい方向けのドキュメントです。
     また、symfony 1.3から利用できるSwiftMailerについての解説もこのドキュメントにあります。
+
+
+  - **Doctrine ORM for PHP**<br />
+    [HTML(公式)](http://www.doctrine-project.org/projects/orm/1.2/docs/manual/ja)<br />
+    symfonyにバンドルされているORMのDoctrineのマニュアルです。
+
+
+### symfony 1.x 旧バージョンのドキュメント
+
+  - **symfony完全ガイド 1.2(The Definitive Guide to symfony 1.2)**<br />
+    [HTML](http://symfony.sarabande.jp/book/1.2/)<br />
+    [PDF](http://cloud.github.com/downloads/masakielastic/masakielastic.github.com/sf-book-1.2-ja.pdf)<br />
+    symfony 1.2時点でのドキュメントですが、symfony 1.4でも根本の部分は共通していますので、十分に役立ちます。
+    symfonyの基本をしっかり学ぶ事ができます。
+    入門者から中級者まで、一読をおすすめします。<br />
+    symfony 1.4に対応した「Gentle introduction to symfony」も近日中に翻訳予定です。
 
   - **The symfony and Doctrine book**<br />
     [HTML(公式)](http://www.symfony-project.org/doctrine/1_2/ja/)<br />
@@ -56,10 +66,6 @@ Symfonyドキュメント
     [HTML](http://www.symfony-project.org/forms/1_2/ja/)<br />
     symfonyのフォームフレームワークsfFormについて、基本から解説したドキュメントです。
     また、ウィジェットやバリデーターの一覧もここにあります。
-
-  - **Doctrine ORM for PHP**<br />
-    [HTML(公式)](http://www.doctrine-project.org/projects/orm/1.2/docs/manual/ja)<br />
-    symfonyにバンドルされているORMのDoctrineのマニュアルです。
 
 
 ### Symfony2関連
