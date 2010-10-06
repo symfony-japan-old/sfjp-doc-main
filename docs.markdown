@@ -82,7 +82,7 @@ Symfonyドキュメント
 
 
 公式ドキュメント翻訳への参加方法
---------------------------------
+------------------------------
 
 現在、公式ドキュメントの翻訳はGitHubを使って行われています。
 [GitHubの使い方](github-howto)などを参考に、ご自分で翻訳したものを公式リポジトリへPull Requestする流れです。
@@ -90,11 +90,12 @@ Symfonyドキュメント
 
   - [symfony 1.xドキュメントのリポジトリ](http://github.com/symfony/symfony1-docs)
   - [Symfony2 ドキュメントのリポジトリ](http://github.com/symfony/symfony-docs)
+  - [Symfony2 日本語ドキュメントのリポジトリ](http://github.com/symfony-japan/symfony-docs-ja)
 
 
 
 ユーザー会ドキュメント整備への参加方法
---------------------------------------
+------------------------------------
 
   - [ユーザー会ドキュメントへの参加方法](joining-userdocs)
     - [GitHub の使い方](./git/github-howto)
