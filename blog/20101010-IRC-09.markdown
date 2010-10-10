@@ -1,0 +1,80 @@
+第9回 Symfonyユーザー会IRC集会を開催しました
+============================================
+
+Symfonyに関するアレコレを話し合うIRC集会の第8回を、10/10（日）の21時～23時に開催しました。
+以下、IRC集会の内容のまとめです。
+
+
+まとめ
+------
+
+### (symfony 1.x 向け) elXHProfPlugin
+
+  - XHProf のプロファイリングを手軽に行うためのプラグイン。
+    - [elXHProfPlugin - 1.0.0](http://www.symfony-project.org/plugins/elXHProfPlugin)
+  - XHProf のインストールについては、こちらを参照→ [XHProf 導入 by co3k](http://gist.github.com/458621)
+  - 環境を整えておけば、後は好きな箇所にプロファイリングの開始、終了コードを挿入するだけで、Web デバッグパネルから簡単にプロファイル情報を見ることができる。
+
+
+### symfony Day Cologne
+
+  - ドイツの Cologne (ケルン) で symfony day 2010 というイベントが開催されました。→ [イベントサイト](http://www.symfonyday.com/en/)
+    - [fabien さんの Symfony2 のスライド](http://www.slideshare.net/fabpot/the-state-of-symfony2-symfonyday-2010)
+      - Symfony2 での認証 (Auth) まわりの実装のことなど
+    - [Kris さんの symfony 1.x のテクニックに関するスライド](http://www.slideshare.net/kriswallsmith/advanced-symfony-techniques)
+
+
+### Symfony2 関連
+
+  - twitter を見ていると、Symfony2 を触ってみたという方が徐々に増えてきている印象
+  - src/Application と src/Bundle は機能的に違いがあるのか？
+    - ない
+  - cache ディレクトリに作られるファイルのパーミッションが 0644 である意図は？
+    - 意図があるのか分からないが、コードで明示的に 0644 にしている。
+    - [Symfony\Component\Routing\Router::writeCacheFile()](http://github.com/fabpot/symfony/blob/master/src/Symfony/Component/Routing/Router.php#L246)
+    - 異なるパーミッション設定で書き出せるようにしたいが、うまいやり方が分からないという話。
+
+
+
+### Doctrine2 関連
+
+  - DB から取得した結果を var_dump() につっこむのは、やはりできないらしいという話。
+  - lifecycle event
+    - Doctrine1 の postSave() などのフックと似た機能。
+    - [Doctrine2 ORM - Lifecycle Events](http://www.doctrine-project.org/projects/orm/2.0/docs/reference/events/en#lifecycle-events)
+    - UnitOfWork などからコールバックされる。
+    - @HasLifecycleCallbacks アノテーションを設定したエンティティでのみ有効になる。
+  - リレーションを JOIN して取得した結果のハイドレーション
+    - リレーション先オプジェクトのハイドレーションなどが lazy になっている？（要調査）
+  - 自動 flush はできるか？
+    - UnitOfWork で DB アクセスをキューイングできるが、キューの flush を自動でやれないか？という話
+
+
+### 他のフレームワークの話
+
+  - Lithium の URL バリデーター (に使われている filter_var() 関数) にバグがあるっぽい話
+    - PHP 5.3.3 なら修正済
+  - Zend Framework 2 の Signal
+    - [Zend Framework 2 - SignalSlotの利用メモ](http://d.hatena.ne.jp/sasezaki/20101007/p1)
+    - Symfony の EventDispatcher と似た機能。
+    - GlobalSignals だと static メソッド。(Symfony のものは dispatcher インスタンスが必ず必要)
+    - Zend/Session の ValidatorChain などでも使われている
+      - [zf2 / library / Zend / Session / ValidatorChain.php](http://github.com/zendframework/zf2/blob/master/library/Zend/Session/ValidatorChain.php)
+    - ez component で似た実装
+      - [ez components / documentation / tutorials - SignalSlot](http://ezcomponents.org/docs/tutorials/SignalSlot)
+
+
+### Symfony2 勉強会 (11月)
+
+  - 11月くらいに Symfony2 の勉強会をやりたいという話。
+    - 講義形式ではなく、ワークショップやハッカソン + LT くらい。
+    - [ユーザー会 ML](http://groups.google.com/group/symfony-users-ja) にて、日程や場所を調整します。今のところ 11/20 (土) か、11/27 (土) あたりを予定。
+
+
+
+
+次回
+----
+
+次回は2週間後、10/24（日）の21時～23時で開催予定です。
+
