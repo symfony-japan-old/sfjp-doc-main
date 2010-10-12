@@ -4,7 +4,7 @@
 ユーザー会サイトのコンテンツの表記は、マイクロソフトの日本語表記スタイルガイドに準ずるものとします。
 スタイルガイドは、以下のサイトからダウンロードできます。
 
-- [マイクロソフト ランゲージ ポータル](http://www.microsoft.com/language/ja/jp/download.mspx)
+- [マイクロソフト ランゲージ ポータル](http://www.microsoft.com/Language/ja-jp/StyleGuides.aspx)
 
 
 ただし、このスタイルガイドに100%合致することは求めません。
