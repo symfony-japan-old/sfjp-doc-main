@@ -51,6 +51,8 @@ twitterアカウントの昇順
   [twitter](http://twitter.com/ganchiku)、[ブログ](http://ganchiku.com/)
 - 後藤　秀宣<br />
   [twitter](http://twitter.com/hidenorigoto)、[ブログ](http://d.hatena.ne.jp/innx_hidenori/)
+- 大塚　弘記 a.k.a hirocaster<br />
+  [twitter](http://twitter.com/HIROCAST)、[ブログ](http://hiroki.jp/)
 - 光宗　朋宏<br />
   [twitter](http://twitter.com/Kiske)、[ブログ](http://d.hatena.ne.jp/Kiske/)
 - 加賀谷　昌樹<br />
