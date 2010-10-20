@@ -83,9 +83,17 @@ Symfony2 は、現段階（プレビューリリース 3）ではフルスタッ
 twitter ハッシュタグ
 --------------------
 
-  - 本勉強会関連のつぶやき、予習ブログエントリや参考記事のご紹介などには、ハッシュたぐ「[#Symfony2study](http://twitter.com/#!/search/%23Symfony2study)」をご利用ください。
+  - 本勉強会関連のつぶやき、予習ブログエントリや参考記事のご紹介などには、ハッシュタグ「[#Symfony2study](http://twitter.com/#!/search/%23Symfony2study)」をご利用ください。
 
+
+IRC チャンネル
+--------------
+
+  - Symfony IRC 集会で使っている IRC チャンネルを、この勉強会前と勉強会中にも利用します。
+    - **IRCサーバー** [Friend Chat](http://www.friend.td.nu/)<br />
+      irc.friend-chat.jp 6664
+    - **チャンネル**  #symfony-ja<br />
+      文字コードは **UTF-8** です。
 
 
 奮ってご参加ください！
-
