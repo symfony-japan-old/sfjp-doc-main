@@ -1,0 +1,76 @@
+第10回 Symfonyユーザー会IRC集会を開催しました
+==============================================
+
+Symfony に関するアレコレを話し合う IRC 集会の第 10 回を、10/24（日）の21時～23時に開催しました。
+以下、IRC 集会の内容のまとめです。
+
+
+まとめ
+------
+
+### Symfony2 の Security コンポーネントを試す
+
+  - Symfony2 の認証関連機能である Security コンポーネントがリポジトリに追加されたので試す
+    - サンドボックスでも試すことは可能（10/24 時点、GitHub の master リポジトリ。）
+  - Security コンポーネントのドキュメント
+    - [Symfony2 - Documentation >> Guides >> Security](http://docs.symfony-reloaded.org/master/guides/security/)
+    - symfony-reloaded.org のトップページからはこのページにたどり着けないので注意
+  - ドキュメントにあるように設定すると、BASIC 認証が動作することは確認
+  - ドキュメントにある、security.yml/security.xml の外部ファイル化
+    - メインの config.yml/config/xml で import 指定しないと読み込まれない
+    - ドキュメントでは、security.xml で名前空間を省略しても良いとあるが、ドキュメントのサンプルのままだとエラーになった
+
+
+### LOCAL PHP 部勉強会の Symfony2 を使ってみる Ust
+
+  - [LOCAL PHP部](http://php.local.gr.jp/)
+
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="480" height="296" id="utv402240" name="utv_n_18647"><param name="flashvars" value="loc=%2F&amp;autoplay=false&amp;vid=10390823&amp;locale=ja_JP" /><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="src" value="http://www.ustream.tv/flash/video/10390823?v3=1" /><embed flashvars="loc=%2F&amp;autoplay=false&amp;vid=10390823&amp;locale=ja_JP" width="480" height="296" allowfullscreen="true" allowscriptaccess="always" id="utv402240" name="utv_n_18647" src="http://www.ustream.tv/flash/video/10390823?v3=1" type="application/x-shockwave-flash" /></object>
+
+  - [@nazoさん](http://twitter.com/nazo) による発表です。
+  - Symfony2 の PR3 を実際にその場で試されています。
+
+
+### Symfony2 (や名前空間を使ったクラス) で汎用的なクラスの配置場所移動
+
+  - Application\HelloBundle など namespace や use の指定が各クラスのコードに入るので、配置場所を移動した場合にこれらを変更する必要がある
+    - symfony 1 ではオートロード対象であれば意識する必要がほとんどなかったため、それと比較して面倒に感じる
+    - うまい管理方法求む
+  - Application を使わず、全部 Bundle 配下で管理しておくという意見
+    - 公式ドキュメント [バンドルのベストプラクティス](http://docs.symfony-reloaded.org/master/guides/bundles/best_practices.html)
+    
+    
+### Doctrine2 関連
+
+  - [@brtriverさん](http://twitter.com/brtriver)のブログエントリ
+    - [Doctrine2を試してみる (1) エンティティマネージャー](http://www.exgear.jp/blog/2010/10/doctrine2-entitymanager/)
+    - [Doctrine2を試してみる(2) アノテーション](http://www.exgear.jp/blog/2010/10/doctrine2-annotatio/)
+    - [Doctrine2を試してみる(3) リレーション](http://www.exgear.jp/blog/2010/10/doctrine_association/)
+    - [Doctrine2を試してみる(4) リポジトリ](http://www.exgear.jp/blog/2010/10/doctrine2-repository/)
+    - [Doctrine2を試してみる(5) Timestampableを実装してみる](http://www.exgear.jp/blog/2010/10/doctrine2-timestampable/)
+  - migration の説明
+    - Symfony2 ドキュメント [Database Migrations](http://docs.symfony-reloaded.org/master/guides/doctrine/migrations/overview.html)
+    - Doctrine サイトのドキュメント [Migration Project Documentation](http://www.doctrine-project.org/projects/migrations/2.0/docs/reference/en)
+      - 今のところ Doctrine1 と似たような機能（コマンド群）
+  - Doctrine2 で Doctrine1 のビヘイビアのような機能を実装
+    - [Doctrine 2 "Behaviours" in a Nutshell](http://www.doctrine-project.org/blog/doctrine2-behaviours-nutshell)
+      - Searchable ビヘイビアのところで、implement しているインがーフェイスを EntityManager の preUpdate イベントで識別して処理している
+    - [A re-usable Versionable Behavior for Doctrine 2](http://www.doctrine-project.org/blog/doctrine2-versionable)
+  - 各エンティティごとのイベント（ライフサイクルコールバック）とは別に、グローバルに処理するイベントを EntityManager に設定できる
+    - [利用できるイベント](http://github.com/doctrine/doctrine2/blob/master/lib/Doctrine/ORM/Events.php)
+  - @Version アノテーション
+    - エンティティのカラムマッピング情報に @Version アノテーションを指定すると、そのフィールドの値が保存するたびに自動インクリメントされる
+    - [@Version - Annotation Reference](http://www.doctrine-project.org/projects/orm/2.0/docs/reference/annotations-reference/en#ann_version)
+
+
+### 第 1 回 Symfony2 勉強会
+
+  - 11/20（土）に開催されます。
+    - [第1回 Symfony2 勉強会のご案内 (11/20)](../events/20101014-symfony2-study)
+
+
+次回
+----
+
+次回は2週間後、11/7（日）の21時～23時で開催予定です。
+
