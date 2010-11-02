@@ -1,0 +1,20 @@
+Symfony Live カンファレンス 2011 関連のご案内
+=============================================
+
+Symfony の公式カンファレンスである Symfony Live 2011 が、2011 年 2 月と 3 月に開催される予定で、すでに参加登録の受付が始まっています。
+
+  - 公式ブログ [Symfony Live 2011: Paris & San Francisco](http://www.symfony-project.org/blog/2010/10/11/symfony-live-2011-paris-san-francisco)
+
+  - Symfony Live 2011 [サンフランシスコ 2/8〜9](http://www.symfony-live.com/san-francisco)
+  - Symfony Live 2011 [パリ 3/3〜4](http://www.symfony-live.com/paris)
+
+このカンファレンスでは、Symfony2 に関する最新情報のセッションだけでなく、symfony 1/Symfony2 に関する技術セッションやワークショップが数多く用意されます。
+Symfony ユーザーたちと Symfony 漬けの数日間を過ごせる、Symfony ユーザーなら是非参加しておきたいイベントです。
+
+
+この Symfony Live のうち、サンフランシスコで開催されるカンファレンスに日本からも参加しよう！と [@yando](http://twitter.com/yando) さんが呼びかけています。
+
+  - [ATND - Symfony Liveカンファレンス in サンフランシスコに行き隊](http://atnd.org/events/9561)
+
+
+コアデベロッパーたちの生の声を聞き、セッション以外にも多くの時間を共有できるまたとないチャンスです。是非この機会に一緒に参加してみませんか？
