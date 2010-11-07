@@ -1,0 +1,58 @@
+第11回 Symfonyユーザー会IRC集会を開催しました
+=============================================
+
+Symfony に関するアレコレを話し合う IRC 集会の第 11 回を、11/7（日）の21時～23時に開催しました。
+以下、IRC 集会の内容のまとめです。
+
+
+まとめ
+------
+
+### Doctrine2 の MongoDB 関連
+
+  - MongoDB の Map/Reduce 関連を扱うメソッドも用意されている
+    - [Query Builder API - Map Reduce](http://www.doctrine-project.org/projects/mongodb_odm/1.0/docs/reference/query-builder-api/en#find-queries:map-reduce)
+  - MongoDB の集約関数
+    - [集約 - mongoDB](http://www.mongodb.org/pages/viewpage.action?pageId=6750296)
+  - Doctrine2 から MongoDB へ接続して処理するテスト
+    - DB 名などを指定せずに接続すると、デフォルトのデータベース名 doctrine が使われる
+    - DB 名を指定するには、Configuration::setDefaultDB() メソッドを使う
+
+
+### Symfony2 の DI 関連
+
+  - [chobi_e さん](http://twitter.com/chobi_e)のブログエントリ
+    - [Symfony2を理解するためにBundleを書く](http://d.hatena.ne.jp/chobi_e/20101106)
+      - Bundle の書き方、DI へのサービスの登録方法などの説明があります。
+  - hidenorigoto 作の DefaultRouteBundle
+    - [DefaultRouteBundle](https://github.com/hidenorigoto/DefaultRouteBundle)
+      - デフォルトのルーティング（バンドル/コントローラー/アクション）を自動的に処理するバンドル
+      - chobi_e さんより、DI エクステンションの namespace は独自のものを設定すべきとのアドバイスがありました。
+      - DI のサービス定義で、kernel.listener タグを設定しておくと、カーネルのイベントリスナーを作れる。
+
+
+### Symfony2 で作られたサンプル
+
+  - [lichess](http://lichess.org/)
+    - Symfony2 と jQuery.UI、ForumBundle (Doctrine2 + MongoDB) で作られているそうです
+  - [ForumBundle](https://github.com/Herzult/ForumBundle)
+    - Symfony2 のバンドルで、Doctrine2 ベースのフォーラムシステム
+
+
+### Symfony2 のドキュメント
+
+  - Jobeet のようなチュートリアルが欲しいという意見### Symfony2 のドキュメントドキュメント
+
+  - Jobeet のようなドキュメントがチュートリアルがチュートリアルが欲しい欲しいという意見意見
+  - 11/20（土）に開催されます。
+    - [第1回 Symfony2 勉強会のご案内 (11/20)](../events/20101014-symfony2-study)
+    - この勉強会の懇親会の参加募集を開始しました [懇親会](http://atnd.org/events/9692)
+    - また、懇親会の 2 次会として、Symfony Midnight も開催します [Symfony Midnight #2](http://atnd.org/events/9693)
+
+
+
+次回
+----
+
+次回は 3 週間後、11/28（日）の21時～23時で開催予定です。
+
