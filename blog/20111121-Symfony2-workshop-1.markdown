@@ -5,7 +5,7 @@
 勉強会には約50人の方にご参加いただき、ほぼ全員の方に、Symfony2 の基礎的な知識の紹介と実際に機能を使って試す Symfony2 のワークショップをやっていただきました。準備の行き届かない部分もあったかと思いますが、概ね参加された方にはご満足いただけたのではないかと思います。
 
 
-!(勉強会の様子 photo by Hiroki Ohtsuka)[http://farm5.static.flickr.com/4125/5194051659_57a4bb7fc9.jpg]
+![勉強会の様子 photo by Hiroki Ohtsuka](http://farm5.static.flickr.com/4125/5194051659_57a4bb7fc9.jpg)
 
 
 会場と運営でご協力いただいた[ジンガジャパン株式会社](http://www.zynga.co.jp/)様、どうもありがとうございました！
