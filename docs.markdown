@@ -70,14 +70,16 @@ Symfonyドキュメント
 
 ### Symfony2関連
 
-  - [Symfony 2.0クイックツアー: 全体構成を学ぶ](/docs/symfony-docs/quick_tour/ja/01-the-big-picture)
-  - [Symfony 2.0クイックツアー：ビューを学ぶ](/docs/symfony-docs/quick_tour/ja/02-the-view)
-  - [Symfony 2.0クイックツアー：コントローラーを学ぶ](/docs/symfony-docs/quick_tour/ja/03-the-controller)
-  - [Symfony 2.0クイックツアー：バンドルを学ぶ](/docs/symfony-docs/quick_tour/ja/04-the-bundles)
-  - [Symfony 2.0クイックツアー：アーキテクチャを学ぶ](/docs/symfony-docs/quick_tour/ja/05-the-architecture)
+#### 日本語ドキュメント
 
-  - [Symfony2のコーディング規約](/docs/symfony-docs/contributing/ja/code/standards)
+  - [Symfony2 ドキュメント日本語版](http://docs.symfony.gr.jp)
 
+#### 英語公式ドキュメント
+
+  - [Symfony2 Documentation](http://docs.symfony-reloaded.org/master/)
+  - [Doctrine2 ORM](http://www.doctrine-project.org/projects/orm/2.0/docs/en)
+  - [MongoDB ODM](http://www.doctrine-project.org/projects/mongodb_odm/1.0/docs/reference/en)
+  - [Twig Documentation](http://www.twig-project.org/documentation)
 
 
 ドキュメントやブログ記事などへのリンク
@@ -95,7 +97,7 @@ Symfonyドキュメント
 （ユーザー会ドキュメント整備の流れと同じです）
 
   - [symfony 1.xドキュメントのリポジトリ](http://github.com/symfony/symfony1-docs)
-  - [Symfony2 ドキュメントのリポジトリ](http://github.com/symfony/symfony-docs)
+  - [Symfony2 英語ドキュメントのリポジトリ](http://github.com/symfony/symfony-docs)
   - [Symfony2 日本語ドキュメントのリポジトリ](http://github.com/symfony-japan/symfony-docs-ja)
 
 
