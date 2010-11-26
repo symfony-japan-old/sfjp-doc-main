@@ -1,7 +1,15 @@
 A week of symfony #202 (8->14 November 2010)
 ============================================
 
-This week, the symfony community held <a href="http://trac.symfony-project.org/wiki/Symfony2IRCMeetingLogs">the first Symfony2 IRC meeting</a>. From now on, these meetings will discuss every week several topics chosen by the community, such as best practices and solutions for very specific issues.
+Symfony 公式ブログで毎週公開される、Symfony 関連の活動まとめ記事の翻訳です。
+この翻訳では、Symfony 本体に関連したアップデートなどのみを取り上げます。
+プラグインの更新等も含む全文は、以下のリンクからご確認ください。
+
+（[原文リンク](http://www.symfony-project.org/blog/2010/11/07/a-week-of-symfony-201-1-7-november-2010)）
+
+<br />
+<br />
+<hr />
 
 今週、Symfonyコミュニティで[第1回 Symfony2 IRCミーティング](http://trac.symfony-project.org/wiki/Symfony2IRCMeetingLogs)が開催されました。これから毎週いくつかのトピックを選んで議論を行っていく予定です。
  
@@ -55,4 +63,4 @@ Symfony2 開発ハイライト
 > 本日、日本Symfonyユーザー会主催で[第1回Symfony2勉強会](http://symfony.gr.jp/events/20101014-symfony2-study)が開催されました。多くの方が参加され、Symfony2に対する期待の高さが伺えました。
 > Symfony2本体も開発が活発に行われており、ウィークリーIRCミーティングの開催などより一層よいものを作るためにさまざまな活動が行われています。
 > よりよいものにするため、興味がある方はぜひさまざまなイベントに参加してみてください。
-> [yuchimiri]
+> [fivestar]
