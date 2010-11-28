@@ -1,0 +1,44 @@
+第 12 回 Symfony ユーザー会 IRC 集会を開催しました
+==================================================
+
+Symfony に関するアレコレを話し合う IRC 集会の第 12 回を、11/29（日）の21時～23時に開催しました。
+以下、IRC 集会の内容のまとめです。
+
+
+まとめ
+------
+
+### Symfony2 ドキュメント翻訳のプロセス管理方法について
+
+  - うまい管理方法募集中
+  - Sphinx-Users.jp にある[翻訳プロセスについてのドキュメント](http://sphinx-users.jp/cookbook/translation.html)
+
+
+### Symfony2 の View レイヤーの話
+
+  - 現状 Symfony2 に View レイヤーはないが、追加する要望がでている話
+    - [View レイヤー実装の pull request - GitHub](https://github.com/fabpot/symfony/pull/200)
+    - なぜ View レイヤーが必要なのかという lsmith さんのブログエントリ [Lets talk about JSON in Symfony2](http://pooteeweet.org/blog/1850)
+
+
+### Symfony2 bootstrapper
+
+  - [symfony-bootstrapper- GitHub](https://github.com/symfony/symfony-bootstrapper)
+  - Symfony2 のアプリケーション構造を初期化するためのツール
+    - アプリケーション構造を、bootstrapper とは別のディレクトリへ作るためのコマンド
+    - 付属する vendor の初期化なども同様
+
+
+### 第 2 回 Symfony2 勉強会 (2011年1月)
+
+  - どういった内容・レベルでやりたいか意見を募集
+    - jobeet くらいのものを作る
+    - 進行は遅くても、みんなでワイワイやりたい（その方が身につく）という意見
+    - 機能だけではなくて、中身を理解している人を増やす方向が良いという意見
+  - メーリングリストにて、引き続き内容を詰めていきます
+
+
+次回
+----
+
+次回は2週間後、12/12（日）の21時～23時で開催予定です。
