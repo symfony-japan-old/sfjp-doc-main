@@ -5,7 +5,7 @@ Symfony 公式ブログで毎週公開される、Symfony 関連の活動まと�
 この翻訳では、Symfony 本体に関連したアップデートなどのみを取り上げます。
 プラグインの更新等も含む全文は、以下のリンクからご確認ください。
 
-（[原文リンク](http://www.symfony-project.org/blog/2010/11/07/a-week-of-symfony-201-1-7-november-2010)）
+（[原文リンク](http://www.symfony-project.org/blog/2010/11/14/a-week-of-symfony-202-8-14-november-2010)）
 
 <br />
 <br />
