@@ -11,16 +11,16 @@ Symfony 公式ブログで毎週公開される、Symfony 関連の活動まと�
 <br />
 <hr />
 
-今週のSymfony2の開発は多くの修正が発生し、Twigバンドルやフォーム、DIなどのコンポーネントの大部分にわたって行われた調整や追加により、パフォーマンスが改善しました。例えば、アウトプットエスケーパーコンポーネントは削除されました。そして、新しい命名規則に従って<a href="https://github.com/symfony/symfony/commit/944d91c1dfc68cf7f769ba7b60cb328fa06b786c">たくさんのメソッドがリネームしました</a>。Symfony2は週を追うごとに活溌になってきております。そのおかげでPR4バージョンのリリースも折り返し地点に着ており、最初のベータ版も年末までには公開できそうです。
+今週のSymfony2の開発は活発でした。Symfony2のコンポーネントに、多数の変更やチューニング、追加が行われました。Twigバンドルやフォーム、DIでパフォーマンスが改善し、OutputEscaperコンポーネントは削除され、新しい命名規則に従うように<a href="https://github.com/symfony/symfony/commit/944d91c1dfc68cf7f769ba7b60cb328fa06b786c">多数ののメソッドの名前が変更されました</a>。Symfony2は週を追うごとに活溌になってきております。そのおかげでPR4バージョンのリリースも折り返し地点に着ており、最初のベータ版も年末までには公開できそうです。
  
 開発メーリングリスト
 ------------------------
 
-  * [View layer for Symfony2](http://groups.google.com/group/symfony-devs/browse_thread/thread/1de6b80b134837d4)
+  * [Symfony2のビューレイヤー](http://groups.google.com/group/symfony-devs/browse_thread/thread/1de6b80b134837d4)
   * [Symfony2 Preview Release 4](http://groups.google.com/group/symfony-devs/browse_thread/thread/868ed984b24c62ab)
-  * [[RFC] Symfony2 method naming conventions](http://groups.google.com/group/symfony-devs/browse_thread/thread/2016947ac81466cd/ecf94783488c05ef)
-  * [Multiple asset hosts](http://groups.google.com/group/symfony-devs/browse_thread/thread/e46e5c8dcd0cf210)
-  * [Doctrine2 and Symfony Disconnected Class Metadata Factory](http://groups.google.com/group/symfony-devs/browse_thread/thread/5da0cc27e5b2e939)
+  * [[RFC] Symfony2 メソッド命名規則](http://groups.google.com/group/symfony-devs/browse_thread/thread/2016947ac81466cd/ecf94783488c05ef)
+  * [複数のホスト間でのアセット定義](http://groups.google.com/group/symfony-devs/browse_thread/thread/e46e5c8dcd0cf210)
+  * [Doctrine2とSymfonyDisconnectedClassMetadataFactoryの改良案](http://groups.google.com/group/symfony-devs/browse_thread/thread/5da0cc27e5b2e939)
 
 symfony 1 開発ハイライト
 --------------------------------
@@ -62,17 +62,17 @@ Symfony2 開発ハイライト
   * [f9e830c](http://github.com/symfony/symfony/commit/f9e830caa2b18d70edc4ac8e7e2d0dc57ca75326 "f9e830caa2b18d70edc4ac8e7e2d0dc57ca75326 commit on github"): \[Form\] フックメソッドpreprocessData()をFieldGroupに追加
   * [d95d336](http://github.com/symfony/symfony/commit/d95d33666d4af474558d776145b93c714df15e49 "d95d33666d4af474558d776145b93c714df15e49 commit on github"): \[HttpFoundation\] fixed class Requestクラスでファイルが空だったときにNULLに変換するように修正
   * [f2f0d04](http://github.com/symfony/symfony/commit/f2f0d044c33c29855c32f5ed143ae5f9a3e3ae0a "f2f0d044c33c29855c32f5ed143ae5f9a3e3ae0a commit on github"): \[Form, FrameworkBundle\] CheckboxFieldsのデフォルト値を修正
-  * [e0aa3f3](http://github.com/symfony/symfony/commit/e0aa3f30a82fbb8cc586d0959eba7d80834ae606 "e0aa3f30a82fbb8cc586d0959eba7d80834ae606 commit on github"): \[Form\] improved FileField to store files in a temporary location in case validation fails
-  * [5b056b2](http://github.com/symfony/symfony/commit/5b056b2b9ae5ef816d391819c05f9546f141d4e3 "5b056b2b9ae5ef816d391819c05f9546f141d4e3 commit on github"): refactored web profiler template definitions to make it easier for bundle developers to add their templates
-  * [ad68092](http://github.com/symfony/symfony/commit/ad68092291c01ebcff8bec027c41a0863f0390c2 "ad68092291c01ebcff8bec027c41a0863f0390c2 commit on github"): removed the OutputEscaper component, added escape mechanism in the Templating Engine class
-  * [60bbb8f](http://github.com/symfony/symfony/commit/60bbb8f38079bffa77a765d663658de853208ebb "60bbb8f38079bffa77a765d663658de853208ebb commit on github"): \[DependencyInjection\] optimized compiled containers: removed the __call() method in Container, removed the $shared variable in the dumped Container classes and optimized the PHP Dumper output
-  * [944d91c](http://github.com/symfony/symfony/commit/944d91c1dfc68cf7f769ba7b60cb328fa06b786c "944d91c1dfc68cf7f769ba7b60cb328fa06b786c commit on github"): made some method name changes to have a better coherence throughout the framework
-  * [6ab277e](http://github.com/symfony/symfony/commit/6ab277ee411b096d550e4932b39be13ded56bc0b "6ab277ee411b096d550e4932b39be13ded56bc0b commit on github"): added a LazyLoader for the routing
-  * [44b8ee3](http://github.com/symfony/symfony/commit/44b8ee3791a6af2eafb9d12f48ae0049f12615b7 "44b8ee3791a6af2eafb9d12f48ae0049f12615b7 commit on github"): added more classes in the class cache
-  * [dfe8bb9](http://github.com/symfony/symfony/commit/dfe8bb9fefcabd7876c55aef4b454f3eb52ef110 "dfe8bb9fefcabd7876c55aef4b454f3eb52ef110 commit on github"): added more classes to the bootstrap file
-  * [1e983a6](http://github.com/symfony/symfony/commit/1e983a6115e0bb3fee2cf591fbeee52c30884609 "1e983a6115e0bb3fee2cf591fbeee52c30884609 commit on github"): moved static Form configuration to a new class (avoid loading 7 classes just to enable CSRF -- even when no form is present in the page)
+  * [e0aa3f3](http://github.com/symfony/symfony/commit/e0aa3f30a82fbb8cc586d0959eba7d80834ae606 "e0aa3f30a82fbb8cc586d0959eba7d80834ae606 commit on github"): \[Form\] FileFieldがバリデーションが失敗した場合に一時領域にファイルを保管するように改善
+  * [5b056b2](http://github.com/symfony/symfony/commit/5b056b2b9ae5ef816d391819c05f9546f141d4e3 "5b056b2b9ae5ef816d391819c05f9546f141d4e3 commit on github"): バンドル開発者がテンプレートを追加しやすいようにウェブプロファイラテンプレートの定義をリファクタリング
+  * [ad68092](http://github.com/symfony/symfony/commit/ad68092291c01ebcff8bec027c41a0863f0390c2 "ad68092291c01ebcff8bec027c41a0863f0390c2 commit on github"): OutputEscaperコンポーネントを削除、Templating Engineクラスにエスケープ機構を追加
+  * [60bbb8f](http://github.com/symfony/symfony/commit/60bbb8f38079bffa77a765d663658de853208ebb "60bbb8f38079bffa77a765d663658de853208ebb commit on github"): \[DependencyInjection\] コンパイルされたコンテナの最適化：Containerから__call()メソッドを削除し、ダンプされたContainer内の$shared変数を削除し、PHP Dumperの出力を最適化
+  * [944d91c](http://github.com/symfony/symfony/commit/944d91c1dfc68cf7f769ba7b60cb328fa06b786c "944d91c1dfc68cf7f769ba7b60cb328fa06b786c commit on github"): フレームワーク内のより良い一貫性のために幾つかのメソッド名を修正
+  * [6ab277e](http://github.com/symfony/symfony/commit/6ab277ee411b096d550e4932b39be13ded56bc0b "6ab277ee411b096d550e4932b39be13ded56bc0b commit on github"): ルーティングのためのLazyLoaderを追加
+  * [44b8ee3](http://github.com/symfony/symfony/commit/44b8ee3791a6af2eafb9d12f48ae0049f12615b7 "44b8ee3791a6af2eafb9d12f48ae0049f12615b7 commit on github"): クラスキャッシュに幾つかのクラスを追加
+  * [dfe8bb9](http://github.com/symfony/symfony/commit/dfe8bb9fefcabd7876c55aef4b454f3eb52ef110 "dfe8bb9fefcabd7876c55aef4b454f3eb52ef110 commit on github"): bootstrapファイルに幾つかのクラスを追加
+  * [1e983a6](http://github.com/symfony/symfony/commit/1e983a6115e0bb3fee2cf591fbeee52c30884609 "1e983a6115e0bb3fee2cf591fbeee52c30884609 commit on github"): 静的なフォームの設定を新しいクラスに移行 (CSRFを有効にするための7つのクラスの読み込みを避けるように修正、ページ内にフォームが無いときにもそうなるように修正)
 
 Documentation
 -------------
 
-  * New <a href="http://trac.symfony-project.org/wiki/InstallingSymfonyInASubDirectoryWithCentOSandPlesk">Installing Symfony In A SubDirectory With CentOS and Plesk</a>, and <a href="http://trac.symfony-project.org/wiki/IRCLogs20101125">IRC Logs 2010-11-25</a> pages
+  * 新規ページ：<a href="http://trac.symfony-project.org/wiki/InstallingSymfonyInASubDirectoryWithCentOSandPlesk">CentOSとPleskでサブディレクトリにSymfonyをインストールする</a>と<a href="http://trac.symfony-project.org/wiki/IRCLogs20101125">IRCログ2010-11-25</a>
