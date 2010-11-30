@@ -11,7 +11,7 @@ Symfony 公式ブログで毎週公開される、Symfony 関連の活動まと�
 <br />
 <hr />
 
-今週のSymfony2の開発は活発でした。Symfony2のコンポーネントに、多数の変更やチューニング、追加が行われました。Twigバンドルやフォーム、DIでパフォーマンスが改善し、OutputEscaperコンポーネントは削除され、新しい命名規則に従うように<a href="https://github.com/symfony/symfony/commit/944d91c1dfc68cf7f769ba7b60cb328fa06b786c">多数ののメソッドの名前が変更されました</a>。Symfony2は週を追うごとに活溌になってきております。そのおかげでPR4バージョンのリリースも折り返し地点に着ており、最初のベータ版も年末までには公開できそうです。
+今週のSymfony2の開発は活発でした。Symfony2のコンポーネントに、多数の変更やチューニング、追加が行われました。Twigバンドルやフォーム、DIでパフォーマンスが改善し、OutputEscaperコンポーネントは削除され、新しい命名規則に従うように<a href="https://github.com/symfony/symfony/commit/944d91c1dfc68cf7f769ba7b60cb328fa06b786c">多数のメソッドの名前が変更されました</a>。Symfony2は週を追うごとに活溌になってきております。そのおかげでPR4バージョンのリリースも折り返し地点に着ており、最初のベータ版も年末までには公開できそうです。
  
 開発メーリングリスト
 ------------------------
@@ -83,4 +83,3 @@ Documentation
 > 今週のA Week of symfonyは、[@uechocoさん](http://twitter.com/uechoco) に翻訳していただきました。また、[@doublemarketさん](http://twitter.com/doublemarket) にも今後翻訳を手伝って頂けることになりました！
 > 翻訳の基礎知識や Git の使い方はこちらから教えますので、少しでもやってみたいと思っている方は、是非 [@hidenorigoto](http://twitter.com/hidenorigoto) までお声がけ下さい！
 > [hidenorigoto]
-
