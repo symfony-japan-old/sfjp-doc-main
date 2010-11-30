@@ -5,8 +5,7 @@ symfony 1/Symfony2 好きなメンバーの、TIPS 集や symfony/Symfony への
 
 
 
-> *TIPS*
+> **TIP**
 > 自分もアドベントカレンダー向けにブログ記事を書きたい！という方は、[Symfony Advent Calendar 2010](http://atnd.org/events/10466) からご登録ください。
-
 
 
