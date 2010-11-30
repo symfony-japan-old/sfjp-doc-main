@@ -11,14 +11,14 @@ Symfony 公式ブログで毎週公開される、Symfony 関連の活動まと�
 <br />
 <hr />
 
-今週はSymfony2の開発が大きく加速した一週間になりました。まず、Bernhard Schussekがフォームとバリデーターコンポーネントの開発を再度担当することになり、年内中に開発が終えられそうです。次に、Fabienが開発メーリングリストに「<a href="http://groups.google.com/group/symfony-devs/browse_thread/thread/925d40f1cff7fe11">アウトプットエスケーパーの削除について</a>」と「<a href="http://groups.google.com/group/symfony-devs/browse_thread/thread/5f09925263e9d86e">URIテンプレートの利用</a>」の2つの内容を投稿し、議論が行われました。最後に、<a href="http://trac.symfony-project.org/wiki/IRCLogs20101118">ウィークリーIRCミーティング</a>にてSymfony2に関する議論やアイディア、ベストプラクティスなどが活発に行われました。
+今週はSymfony2の開発が大きく加速した一週間になりました。まず、Bernhard Schussekがフォームとバリデーターコンポーネントの開発を再度担当することになり、年内中に開発が終えられそうです。次に、Fabienが開発メーリングリストに「<a href="http://groups.google.com/group/symfony-devs/browse_thread/thread/925d40f1cff7fe11">OutputEscaperの削除について</a>」と「<a href="http://groups.google.com/group/symfony-devs/browse_thread/thread/5f09925263e9d86e">URIテンプレートの利用</a>」の2つの内容を投稿し、議論が行われました。最後に、<a href="http://trac.symfony-project.org/wiki/IRCLogs20101118">ウィークリーIRCミーティング</a>にてSymfony2に関する議論やアイディア、ベストプラクティスなどが活発に行われました。
 
 開発メーリングリスト
 ------------------------
 
   * [チャンク形式のレスポンス](http://groups.google.com/group/symfony-devs/browse_thread/thread/47a44c763f510678)
   * [RFC - ルーティングにおけるURIテンプレートの利用](http://groups.google.com/group/symfony-devs/browse_thread/thread/5f09925263e9d86e)
-  * [RFC - アウトプットエスケーパーの削除](http://groups.google.com/group/symfony-devs/browse_thread/thread/925d40f1cff7fe11)
+  * [RFC - OutputEscaperの削除](http://groups.google.com/group/symfony-devs/browse_thread/thread/925d40f1cff7fe11)
   * [XMLとYAMLの設定](http://groups.google.com/group/symfony-devs/browse_thread/thread/e64d3eac79bb8e9a)
   * [redirect()をビューに移動](http://groups.google.com/group/symfony-devs/browse_thread/thread/6a26b1f306da1d1a)
 
@@ -28,7 +28,7 @@ symfony 1 開発ハイライト
 [チェンジログ](http://trac.symfony-project.com/trac/timeline?from=21%2F11%2F2010&daysback=6&milestone=on&ticket=on&changeset=on&update=Update):
 
   * [r31398](http://trac.symfony-project.org/changeset/31398 "31398 revision on trac"): \[1.3, 1.4\] sfRouteクラスのtypoを修正
-  * [r31399](http://trac.symfony-project.org/changeset/31399 "31399 revision on trac"), [r31400](http://trac.symfony-project.org/changeset/31400 "31400 revision on trac"): \[1.3, 1.4\] sfViewCacheManagerが正しくないhttp_protocol問題を修正
+  * [r31399](http://trac.symfony-project.org/changeset/31399 "31399 revision on trac"), [r31400](http://trac.symfony-project.org/changeset/31400 "31400 revision on trac"): \[1.3, 1.4\] sfViewCacheManagerが正しくないhttp_protocolを返す問題を修正
 
 sfPropelPlugin:
 
