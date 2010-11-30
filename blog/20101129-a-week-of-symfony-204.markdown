@@ -17,7 +17,7 @@ Symfony 公式ブログで毎週公開される、Symfony 関連の活動まと�
 ------------------------
 
   * [Symfony2のビューレイヤー](http://groups.google.com/group/symfony-devs/browse_thread/thread/1de6b80b134837d4)
-  * [Symfony2 Preview Release 4](http://groups.google.com/group/symfony-devs/browse_thread/thread/868ed984b24c62ab)
+  * [Symfony2 Preview Release 4 はいつ?](http://groups.google.com/group/symfony-devs/browse_thread/thread/868ed984b24c62ab)
   * [[RFC] Symfony2 メソッド命名規則](http://groups.google.com/group/symfony-devs/browse_thread/thread/2016947ac81466cd/ecf94783488c05ef)
   * [複数のホスト間でのアセット定義](http://groups.google.com/group/symfony-devs/browse_thread/thread/e46e5c8dcd0cf210)
   * [Doctrine2とSymfonyDisconnectedClassMetadataFactoryの改良案](http://groups.google.com/group/symfony-devs/browse_thread/thread/5da0cc27e5b2e939)
