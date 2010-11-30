@@ -76,3 +76,11 @@ Documentation
 -------------
 
   * 新規ページ：<a href="http://trac.symfony-project.org/wiki/InstallingSymfonyInASubDirectoryWithCentOSandPlesk">CentOSとPleskでサブディレクトリにSymfonyをインストールする</a>と<a href="http://trac.symfony-project.org/wiki/IRCLogs20101125">IRCログ2010-11-25</a>
+
+
+> **NOTE**
+> 翻訳者コメント<br />
+> 今週のA Week of symfonyは、[@uechocoさん](http://twitter.com/uechoco) に翻訳していただきました。また、[@doublemarketさん](http://twitter.com/doublemarket) にも今後翻訳を手伝って頂けることになりました！
+> 翻訳の基礎知識や Git の使い方はこちらから教えますので、少しでもやってみたいと思っている方は、是非 [@hidenorigoto](http://twitter.com/hidenorigoto) までお声がけ下さい！
+> [hidenorigoto]
+
