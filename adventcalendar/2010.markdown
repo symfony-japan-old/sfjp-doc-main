@@ -3,7 +3,16 @@ Symfonyアドベントカレンダー 2010
 
 symfony 1/Symfony2 好きなメンバーの、TIPS 集や symfony/Symfony への思いを綴ったブログ記事を 1 日に 1 本ずつお届けします。
 
+<br />
 
+1日目 はじめましてのSymfony2 Component(UniversalClassLoader)
+------------------------------------------------------------
+
+  - [chobi_e さん](http://d.hatena.ne.jp/chobi_e/20101201/1291190530)
+
+
+<br />
+<br />
 
 > **TIP**
 > 自分もアドベントカレンダー向けにブログ記事を書きたい！という方は、[Symfony Advent Calendar 2010](http://atnd.org/events/10466) からご登録ください。
