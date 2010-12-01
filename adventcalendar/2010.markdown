@@ -5,10 +5,10 @@ symfony 1/Symfony2 好きなメンバーの、TIPS 集や symfony/Symfony への
 
 <br />
 
-1日目 はじめましてのSymfony2 Component(UniversalClassLoader)
-------------------------------------------------------------
-
-  - [chobi_e さん](http://d.hatena.ne.jp/chobi_e/20101201/1291190530)
+1日目
+-----
+  - [はじめましてのSymfony2 Component(UniversalClassLoader)
+](http://d.hatena.ne.jp/chobi_e/20101201/1291190530) chobi_e さん
 
 
 <br />
