@@ -7,8 +7,13 @@ symfony 1/Symfony2 好きなメンバーの、TIPS 集や symfony/Symfony への
 
 1日目
 -----
-  - [はじめましてのSymfony2 Component(UniversalClassLoader)
-](http://d.hatena.ne.jp/chobi_e/20101201/1291190530) chobi_e さん
+
+  - [はじめましてのSymfony2 Component(UniversalClassLoader)](http://d.hatena.ne.jp/chobi_e/20101201/1291190530) chobi_e さん
+
+2日目
+-----
+
+  - [Symfony ORM のパフォーマンス比較 (1) symfony 1.4 & Doctrine 1.2](http://d.hatena.ne.jp/innx_hidenori/20101202/1291215747) hidenorigoto さん
 
 
 <br />
