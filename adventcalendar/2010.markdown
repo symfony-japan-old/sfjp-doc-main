@@ -15,6 +15,11 @@ symfony 1/Symfony2 好きなメンバーの、TIPS 集や symfony/Symfony への
 
   - [Symfony ORM のパフォーマンス比較 (1) symfony 1.4 & Doctrine 1.2](http://d.hatena.ne.jp/innx_hidenori/20101202/1291215747) hidenorigoto さん
 
+3日目
+-----
+
+  - [Symfony ORM のパフォーマンス比較 (2) Symfony2(PR4) & Doctrine2](http://d.hatena.ne.jp/innx_hidenori/20101203/1291302081) hidenorigoto さん
+
 
 <br />
 <br />
