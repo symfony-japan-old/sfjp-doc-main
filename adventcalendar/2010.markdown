@@ -25,6 +25,10 @@ symfony 1/Symfony2 好きなメンバーの、TIPS 集や symfony/Symfony への
 
   - [Symfony2で強制的にhello worldと表示するバンドルを作った話](http://sideport.g.hatena.ne.jp/anatoo/20101204/1291420969) anatoo さん
 
+5日目
+-----
+
+  - [symfony1.4でview.ymlの拡張を行う](http://ex.bucyou.net/sf2010-5/) ooharabucyou さん
 
 <br />
 <br />
