@@ -20,6 +20,11 @@ symfony 1/Symfony2 好きなメンバーの、TIPS 集や symfony/Symfony への
 
   - [Symfony ORM のパフォーマンス比較 (2) Symfony2(PR4) & Doctrine2](http://d.hatena.ne.jp/innx_hidenori/20101203/1291302081) hidenorigoto さん
 
+4日目
+-----
+
+  - [Symfony2で強制的にhello worldと表示するバンドルを作った話](http://sideport.g.hatena.ne.jp/anatoo/20101204/1291420969) anatoo さん
+
 
 <br />
 <br />
