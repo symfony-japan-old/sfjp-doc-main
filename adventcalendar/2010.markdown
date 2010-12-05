@@ -30,6 +30,11 @@ symfony 1/Symfony2 好きなメンバーの、TIPS 集や symfony/Symfony への
 
   - [symfony1.4でview.ymlの拡張を行う](http://ex.bucyou.net/sf2010-5/) ooharabucyou さん
 
+6日目
+-----
+
+  - [symfony 1.4向けの解説書 出版予定](http://d.hatena.ne.jp/innx_hidenori/20101206/1291562157) hidenorigoto さん
+
 <br />
 <br />
 
