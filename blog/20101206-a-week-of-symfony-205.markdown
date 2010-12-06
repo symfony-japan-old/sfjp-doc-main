@@ -24,7 +24,7 @@ sfPropelPlugin:
 
   * [r31584](http://trac.symfony-project.org/changeset/31584 "31584 revision on trac"): \[1.3, 1.4\] オランダ語の翻訳欠落分を追加
 
-Activity summary: 79 changesets, 23 bugs reported, 23 bugs fixed, 3 enhancements suggested, 5 documentation defects reported, 1 documentation defect fixed, and 25 documentation edits
+活動の概要: 79のチェンジセット、23のバグ報告、23のバグ修正、3の機能拡張提案、5のドキュメント不具合報告、1のドキュメント不具合修正、そして25のドキュメント編集
 
 Symfony2 開発ハイライト
 -------------------------------
@@ -49,7 +49,7 @@ Symfony2 開発ハイライト
   * [73331cf](http://github.com/symfony/symfony/commit/73331cf1c13212475d509e0e58c878e19643c752 "73331cf1c13212475d509e0e58c878e19643c752 commit on github"): \[DependencyInjection\] Interface Injectionを実装
   * [794634d](http://github.com/symfony/symfony/commit/794634db7ca1a630a68d4f631d4e9421266a1a26 "794634db7ca1a630a68d4f631d4e9421266a1a26 commit on github"), [45e34c2](http://github.com/symfony/symfony/commit/45e34c29fd7e615b837aecd9f9acd865ff40f148 "45e34c29fd7e615b837aecd9f9acd865ff40f148 commit on github"): \[Routing\] より効率的になるように、PhpGeneratorDumperクラス内のmethod_existsをルート名の配列に変更
 
-Documentation
+ドキュメンテーション
 -------------
 
   * <a href="http://trac.symfony-project.org/wiki/IRCLogs20101202">IRC ログ 2010 12 02</a>ページ
