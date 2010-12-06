@@ -35,6 +35,11 @@ symfony 1/Symfony2 好きなメンバーの、TIPS 集や symfony/Symfony への
 
   - [symfony 1.4向けの解説書 出版予定](http://d.hatena.ne.jp/innx_hidenori/20101206/1291562157) hidenorigoto さん
 
+7日目
+-----
+
+  - [SymfonyEventDispatcher→Symfony2(PR4)EventDispatcherの変更点](http://d.hatena.ne.jp/yuchimiri/20101207/p1) yuchimiri さん
+
 <br />
 <br />
 
