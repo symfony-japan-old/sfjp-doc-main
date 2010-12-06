@@ -54,3 +54,12 @@ Symfony2 開発ハイライト
 
   * <a href="http://trac.symfony-project.org/wiki/IRCLogs20101202">IRC ログ 2010 12 02</a>ページ
 
+> **NOTE**
+> 翻訳者コメント<br />
+> 今週の A Week of symfony は、[@doublemarketさん](http://twitter.com/doublemarket)に翻訳していただきました。
+> symfony/Symfony2 に少しでも貢献してみたいという方は、ちょっとしたドキュメント修正などから、今すぐに始めることができます！
+> <br />
+> また、今週は日本の Symfony ユーザー有志で [Symfony アドベントカレンダー 2010](http://www.symfony.gr.jp/adventcalendar/2010) というクリスマスまでの持ち回りブログが行われています。symfony 1系/Symfony2 系で、いろいろな情報が公開されていますので、毎日少しずつチェックするもよし、冬休みやお正月の楽しみとしてとっておくのもよしです。アドベントカレンダーの参加者枠も若干空きがあるようですので、この機会に何か TIPS を書いてみたいという方は、早めにご応募ください。
+> <br />
+> Symfony ユーザー会のメンバーで執筆している、ユーザー会公式の「[symfony 1.4 向けの解説書](http://d.hatena.ne.jp/innx_hidenori/20101206/1291562157)」も近々出版予定です！
+> [hidenorigoto]
