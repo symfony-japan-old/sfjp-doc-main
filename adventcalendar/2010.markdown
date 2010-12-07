@@ -40,6 +40,11 @@ symfony 1/Symfony2 好きなメンバーの、TIPS 集や symfony/Symfony への
 
   - [SymfonyEventDispatcher→Symfony2(PR4)EventDispatcherの変更点](http://d.hatena.ne.jp/yuchimiri/20101207/p1) yuchimiri さん
 
+8日目
+-----
+
+  - [[symfony2]DIコンテナの起動とエクステンション](http://d.hatena.ne.jp/Fivestar/20101207/1291741844) Fivestar さん
+
 <br />
 <br />
 
