@@ -1,7 +1,17 @@
 ユーザー会システム ChangeLog
 ============================
 
-- [ユーザー会システムのリポジトリ](http://github.com/hidenorigoto/sfjp-cms)
+- [ユーザー会システムのリポジトリ](http://github.com/hidenorigoto/sfjp-cms2)
+
+
+### [1.01](https://github.com/hidenorigoto/sfjp-cms2/tree/1.01)
+
+- リポジトリを再構築
+  - 依存モジュールが正しく設定できていなかったのを修正（submodule設定）
+- Git リポジトリの同期タスクに問題があったのを調整
+  - 大きなリポジトリの場合、サーバーの設定によってはメモリを消費しすぎるためfree、unsetを追加
+  - pullしても更新がなかった場合は何もしないように条件を追加
+  - 取得したワーキングツリーのファイルの更新日時が１日以内のもののみ処理するように条件を追加
 
 
 ### [1.0](http://github.com/hidenorigoto/sfjp-cms/commits/1.0)
@@ -15,6 +25,4 @@
 - 各ページのデータに、初回コミット日時などのフィールドを追加
 - その他リファクタリング
 
-
-### 初期版
 
