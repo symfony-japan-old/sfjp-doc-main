@@ -45,6 +45,11 @@ symfony 1/Symfony2 好きなメンバーの、TIPS 集や symfony/Symfony への
 
   - [[symfony2]DIコンテナの起動とエクステンション](http://d.hatena.ne.jp/Fivestar/20101207/1291741844) Fivestar さん
 
+9日目
+-----
+
+  - [[Symfony2]PEAR::Net_UserAgent_MobileをDIコンテナから呼び出す](http://labs.uechoco.com/blog/2010/12/symfony2-pear-net_useragent_mobile-di_container.html) uechoco さん
+
 <br />
 <br />
 
