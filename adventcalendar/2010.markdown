@@ -50,6 +50,11 @@ symfony 1/Symfony2 好きなメンバーの、TIPS 集や symfony/Symfony への
 
   - [[Symfony2]PEAR::Net_UserAgent_MobileをDIコンテナから呼び出す](http://labs.uechoco.com/blog/2010/12/symfony2-pear-net_useragent_mobile-di_container.html) uechoco さん
 
+10日目
+-----
+
+  - [Symfony2 × Doctratorで快適ActiveRecord生活](http://chobie.co/blog/20101210/symfony2_meets_doctrator.html) chobi_e さん
+
 <br />
 <br />
 
