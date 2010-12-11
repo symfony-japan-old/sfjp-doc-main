@@ -55,6 +55,16 @@ symfony 1/Symfony2 好きなメンバーの、TIPS 集や symfony/Symfony への
 
   - [Symfony2 × Doctratorで快適ActiveRecord生活](http://chobie.co/blog/20101210/symfony2_meets_doctrator.html) chobi_e さん
 
+11日目
+-----
+
+  - [[PHP][Symfony] symfony1/Symfony2の起動シーケンスの違い](http://d.hatena.ne.jp/kunit/20101211#1292049200) kunit さん
+
+12日目
+-----
+
+  - [Doctrine on symfony1.4でマスタースレーブ](http://blog.yagni.jp/archives/162) vectorxenon さん
+
 <br />
 <br />
 
