@@ -1,0 +1,47 @@
+第 13 回 Symfony ユーザー会 IRC 集会を開催しました
+==================================================
+
+Symfony に関するアレコレを話し合う IRC 集会の第 13 回を、12/12（日）の21時～23時に開催しました。
+以下、IRC 集会の内容のまとめです。
+
+
+まとめ
+------
+
+### Symfony アドベントカレンダー 2010
+
+symfony 1/Symfony2 に関する記事を 1 日に 1 つずつ交代で公開していくアドベントカレンダーをやっています。
+
+  - [Symfonyアドベントカレンダー 2010](http://www.symfony.gr.jp/adventcalendar/2010)
+
+
+### Symfony2 でモバイル向けに入出力の文字コードをグローバルに変更したい
+
+  - uechoco さんのアドベントカレンダー向けの記事「[[Symfony2]PEAR::Net_UserAgent_MobileをDIコンテナから呼び出す](http://labs.uechoco.com/blog/2010/12/symfony2-pear-net_useragent_mobile-di_container.html)」に関連して、リクエストとレスポンスの文字コードを一括で変換するにはどうしたらよいか？という話
+  - core.request イベントと、core.viewイベントあたりを使えばできそうという話
+    - core.request は notifyUntil での通知だが、パラメータで Request オブジェクトが渡されるので、それを変更すればよい
+    - なぜ filter ではなくて、notifyUntil で処理しているのかの意図が分からなかったので、ご存知の方は教えてください
+
+
+### Doctrine2 の勉強会をやりたい
+
+  - chobi_e さんから、Doctrine2(ORM) の勉強会をやりたいという提案がありました
+  - 興味のある方は、chobi_e さんへ
+
+
+### Doctrine2 サイトのドキュメントのシステム
+
+  - [pandoc](http://johnmacfarlane.net/pandoc/) というシステムで、markdown から reStructuredText へ変換して Sphinx でレンダリングしているらしい、という話
+
+
+### 翻訳ハッカソンをやりたい
+
+  - Symfony2 や Doctrine2 の翻訳をもっと進めたいという意見
+  - チケット管理システムなどがあった方が分りやすいという意見
+
+
+
+次回
+----
+
+次回は2週間後、12/26（日）の21時～23時で開催予定です。
