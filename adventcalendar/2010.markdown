@@ -70,6 +70,11 @@ symfony 1/Symfony2 好きなメンバーの、TIPS 集や symfony/Symfony への
 
   - [[Symfony2] DIコンテナ用設定ファイル](http://blog.stripejam.jp/?p=100) stripejam さん
 
+14日目
+-----
+
+  - [symfony2をローカルで動作させる環境をサクッと作る](http://d.hatena.ne.jp/jiskay/20101214) jiska さん
+
 <br />
 <br />
 
