@@ -68,7 +68,7 @@ symfony 1/Symfony2 好きなメンバーの、TIPS 集や symfony/Symfony への
 13日目
 -----
 
-  - [http://blog.stripejam.jp/?p=100]([Symfony2] DIコンテナ用設定ファイル) stripejam さん
+  - [[Symfony2] DIコンテナ用設定ファイル](http://blog.stripejam.jp/?p=100) stripejam さん
 
 <br />
 <br />
