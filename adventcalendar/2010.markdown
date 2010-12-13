@@ -65,6 +65,11 @@ symfony 1/Symfony2 好きなメンバーの、TIPS 集や symfony/Symfony への
 
   - [Doctrine on symfony1.4でマスタースレーブ](http://blog.yagni.jp/archives/162) vectorxenon さん
 
+13日目
+-----
+
+  - [http://blog.stripejam.jp/?p=100]([Symfony2] DIコンテナ用設定ファイル) stripejam さん
+
 <br />
 <br />
 
