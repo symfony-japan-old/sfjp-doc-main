@@ -80,10 +80,10 @@ symfony 1/Symfony2 好きなメンバーの、TIPS 集や symfony/Symfony への
 
   - [Symfony2 + MongoDB ODM を使ってみる](http://d.hatena.ne.jp/ja9/20101214/1292348839) madapaja さん
 
-<br />
-<br />
+16日目
+-----
 
-> **TIP**
-> 自分もアドベントカレンダー向けにブログ記事を書きたい！という方は、[Symfony Advent Calendar 2010](http://atnd.org/events/10466) からご登録ください。
+  - [ウノウラボ Unoh Labs: フィードバックサイクルを素早く回すために](http://labs.unoh.net/2010/12/for-quick-feedback-cycle.html) sanemat さん
+
 
 
