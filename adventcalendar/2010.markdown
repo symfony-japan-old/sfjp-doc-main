@@ -85,5 +85,10 @@ symfony 1/Symfony2 好きなメンバーの、TIPS 集や symfony/Symfony への
 
   - [ウノウラボ Unoh Labs: フィードバックサイクルを素早く回すために](http://labs.unoh.net/2010/12/for-quick-feedback-cycle.html) sanemat さん
 
+17日目
+-----
+
+  - [vim-symfony ver 0.10 についてのまとめ【決定版】](http://d.hatena.ne.jp/sugarbabe335/20101218/1292602452) soh335 さん
+
 
 
