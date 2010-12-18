@@ -83,9 +83,14 @@ symfony 1/Symfony2 好きなメンバーの、TIPS 集や symfony/Symfony への
 16日目
 -----
 
-  - [ウノウラボ Unoh Labs: フィードバックサイクルを素早く回すために](http://labs.unoh.net/2010/12/for-quick-feedback-cycle.html) sanemat さん
+  - [フィードバックサイクルを素早く回すために](http://labs.unoh.net/2010/12/for-quick-feedback-cycle.html) sanemat さん
 
 17日目
+-----
+
+  - [NetBeansとSymfonyの親和性](http://www.firstlogic.co.jp/blog/lab/2010/12/netbeanssymfony.html) n416 さん
+
+18日目
 -----
 
   - [vim-symfony ver 0.10 についてのまとめ【決定版】](http://d.hatena.ne.jp/sugarbabe335/20101218/1292602452) soh335 さん
