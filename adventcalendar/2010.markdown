@@ -95,5 +95,10 @@ symfony 1/Symfony2 好きなメンバーの、TIPS 集や symfony/Symfony への
 
   - [vim-symfony ver 0.10 についてのまとめ【決定版】](http://d.hatena.ne.jp/sugarbabe335/20101218/1292602452) soh335 さん
 
+19日目
+-----
+
+  - [[symfony] symfony で普段使っているpluginをまとめてみた](http://d.hatena.ne.jp/kopug/20101218/1292685587) kopug さん
+
 
 
