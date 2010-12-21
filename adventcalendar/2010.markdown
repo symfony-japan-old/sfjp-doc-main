@@ -100,5 +100,9 @@ symfony 1/Symfony2 好きなメンバーの、TIPS 集や symfony/Symfony への
 
   - [[symfony] symfony で普段使っているpluginをまとめてみた](http://d.hatena.ne.jp/kopug/20101218/1292685587) kopug さん
 
+20日目
+-----
+
+  - [Symfonyでクリスマスまでに彼女を作る方法（1.4対応）](http://d.hatena.ne.jp/bucci-r/20101220/1292839752) bucci-r さん
 
 
