@@ -115,4 +115,14 @@ symfony 1/Symfony2 好きなメンバーの、TIPS 集や symfony/Symfony への
 
   - [symfony : はじめてのsfForm](http://tech.maid-san.org/archives/343) sayama_yuki さん
 
+23日目
+-----
+
+  - [Goutteで始めるWebScraping](http://chobie.co/blog/20101223/goutte.html) chobi_e さん
+
+24日目
+-----
+
+  - [Symfony アドベントカレンダー 2010 チーム紹介](2010team)
+
 

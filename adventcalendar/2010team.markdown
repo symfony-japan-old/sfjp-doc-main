@@ -1,0 +1,265 @@
+Symfony アドベントカレンダー 2010 チーム紹介
+============================================
+
+Symfony アドベントカレンダーの記事を書いていただいた方々のプロフィールを紹介します（id の昇順です）。
+
+anatoo さん
+-----------
+
+  - 名前<br />
+    久保田 光則
+  - [twitter](http://twitter.com/anatoo) [ブログ](http://d.hatena.ne.jp/anatoo)
+  - 普段使っているフレームワーク<br />
+    Blanka
+  - 自己紹介<br />
+    ウェブアプリケーションエンジニア見習い。nequal所属。
+  - 記事<br />
+    [Symfony2で強制的にhello worldと表示するバンドルを作った話](http://sideport.g.hatena.ne.jp/anatoo/20101204/1291420969)
+
+bucci-r さん
+------------
+
+  - 名前<br />
+    川渕 貴志
+  - [twitter](http://twitter.com/bucci_r) [ブログ](http://d.hatena.ne.jp/bucci-r/)
+  - 普段使っているフレームワーク<br />
+    symfony 1.4
+  - 自己紹介<br />
+    ここ1年半はソーシャルアプリの開発に勤しんでいました。今はどちらかというとプラットフォーム開発のお仕事をしてます。symfonyとはPHPを始めた2年前からのお付き合い。symfonyかわいいよsymfony。
+  - 記事<br />
+    [Symfonyでクリスマスまでに彼女を作る方法（1.4対応）](http://d.hatena.ne.jp/bucci-r/20101220/1292839752)
+
+chobi_e さん
+------------
+
+  - 名前<br />
+    ちょびえ
+  - [twitter](http://twitter.com/chobi_e) [ブログ](http://chobie.co/)
+  - 普段使っているフレームワーク<br />
+    ー
+  - 自己紹介<br />
+    オープンソーシャル系なPHPエンジニアです。Symfony2は様々なプログラミングの基礎があるので勉強になるので前向きに取り組んでいます。
+  - 記事<br />
+    [はじめましてのSymfony2 Component(UniversalClassLoader)](http://d.hatena.ne.jp/chobi_e/20101201/1291190530)<br />
+    [Symfony2 × Doctratorで快適ActiveRecord生活](http://chobie.co/blog/20101210/symfony2_meets_doctrator.html)<br />
+    [Goutteで始めるWebScraping](http://chobie.co/blog/20101223/goutte.html)
+
+fivestar さん
+-------------
+
+  - 名前<br />
+    小川 雄大
+  - [twitter](http://twitter.com/fivestr) [ブログ](http://d.hatena.ne.jp/Fivestar/)
+  - 普段使っているフレームワーク<br />
+    Symfony2
+  - 自己紹介<br />
+    nequalに所属するエンジニアです。たまにSymfony2のバグ報告とかやってます。
+  - 記事<br />
+    [[symfony2]DIコンテナの起動とエクステンション](http://d.hatena.ne.jp/Fivestar/20101207/1291741844)
+
+hidenorigoto さん
+-----------------
+
+  - 名前<br />
+    後藤 秀宣
+  - [twitter](http://twitter.com/hidenorigoto) [ブログ](http://d.hatena.ne.jp/innx_hidenori/)
+  - 普段使っているフレームワーク<br />
+    symfony 1.4
+  - 自己紹介<br />
+    岐阜にあるインクス株式会社の代表取締役です。早く実案件にSymfony2を使いたくて、最近はずっとSymfony2の情報を追いかけています。Symfony2勉強会や今回のアドベントカレンダーをきっかけに、徐々に日本でSymfony2関連の情報を発信される方が増えてきて、とてもワクワクしています！
+  - 記事<br />
+    [Symfony ORM のパフォーマンス比較 (1) symfony 1.4 & Doctrine 1.2](http://d.hatena.ne.jp/innx_hidenori/20101202/1291215747)<br />
+    [Symfony ORM のパフォーマンス比較 (2) Symfony2(PR4) & Doctrine2](http://d.hatena.ne.jp/innx_hidenori/20101203/1291302081)<br />
+    [symfony 1.4向けの解説書 出版予定](http://d.hatena.ne.jp/innx_hidenori/20101206/1291562157)
+
+jiska さん
+----------
+  - 名前<br />
+    jiska
+  - [twitter](http://twitter.com/jiskanulo) [ブログ](http://d.hatena.ne.jp/jiskay/)
+  - 普段使っているフレームワーク<br />
+    symfony 1.4
+  - 自己紹介
+    都内でwebプログラマしてます。ずっと仕事ではphp使ってましたがsymfony歴は半年ほどです。
+  - 記事<br />
+    [symfony2をローカルで動作させる環境をサクッと作る](http://d.hatena.ne.jp/jiskay/20101214)
+
+kopug さん
+----------
+
+  - 名前<br />
+    船越 正宏
+  - [twitter](http://twitter.com/kopug) [ブログ](http://d.hatena.ne.jp/kopug)
+  - 普段使っているフレームワーク<br />
+    symfony 1.x
+  - 自己紹介<br />
+    名古屋にある株式会社エイチームでWEBなエンジニアをしております。ここ１年くらいはオープンソーシャル系のインフラ・サーバエンジニアみたいな事をしていましたが、最近またsymfony1.4で開発をしています！screen + zsh + vim と一緒にsymfonyと遊んでいます。
+  - 記事<br />
+    [[symfony] symfony で普段使っているpluginをまとめてみた](http://d.hatena.ne.jp/kopug/20101218/1292685587)
+
+kunit さん
+----------
+
+  - 名前<br />
+    高橋 邦彦
+  - [twitter](http://twitter.com/kunit) [ブログ](http://d.hatena.ne.jp/kunit)
+  - 普段使っているフレームワーク<br />
+    CakePHP
+  - 自己紹介<br />
+    最近はCakePHPで開発をしていますが、2年前はSymfony1.Xで開発をしていました。まったく新しくなったSymfony2のコードを見て面白いと思ったので、今後もSymfony2を追いかけていきたいと思っています。
+  - 記事<br />
+    [[PHP][Symfony] symfony1/Symfony2の起動シーケンスの違い](http://d.hatena.ne.jp/kunit/20101211#1292049200)
+
+madapaja さん
+-------------
+
+  - 名前<br />
+    いわさき
+  - [twitter](http://twitter.com/madapaja) [ブログ](http://d.hatena.ne.jp/ja9/)
+  - 普段使っているフレームワーク<br />
+    ー
+  - 自己紹介<br />
+    しばらくは、Symfony2とMongoDBを推すことにしたへなちょこプログラマ。Symfony初心者ですが、少しずつ勉強中。スペシャリストになれるのはいつかなぁ。水曜どうでしょうをこよなく愛してます。
+  - 記事<br />
+   [Symfony2 + MongoDB ODM を使ってみる](http://d.hatena.ne.jp/ja9/20101214/1292348839)
+
+n416 さん
+---------
+
+  - 名前<br />
+    中村慎吾
+  - [twitter](http://twitter.com/n416)
+  - 普段使っているフレームワーク<br />
+    symfony 1.4
+  - 自己紹介<br />
+  - ファーストロジック所属のSEです。丸１年プライベートも仕事もSymfony漬けの毎日。楽しいデス。Symfony2にも手を出したい！
+  - 記事<br />
+    [NetBeansとSymfonyの親和性](http://www.firstlogic.co.jp/blog/lab/2010/12/netbeanssymfony.html)
+
+ooharabucyou さん
+-----------------
+
+  - 名前<br />
+    ooharabucyou
+  - [twitter](http://twitter.com/ooharabucyou) [ブログ](http://www.bucyou.net)
+  - 普段使っているフレームワーク<br />
+    symfony 1.4
+  - 自己紹介<br />
+    OpenPNE3の開発で symfony1.4 を全力で活用中。symfonyのコーディングルールに慣れすぎて困ることがある。 Symfony2とは、お友達になりたがっている。最近は何故か、vim使いからEmacs使いになろうとしている。
+  - 記事<br />
+    [symfony1.4でview.ymlの拡張を行う](http://ex.bucyou.net/sf2010-5/)
+
+sanemat さん
+------------
+
+  - 名前<br />
+    sanemat
+  - [twitter](http://twitter.com/sanemat) [ブログ](http://sanematsu.wordpress.com/)
+  - 普段使っているフレームワーク<br />
+    lime & PHPUnit
+  - 自己紹介<br />
+    持続可能な開発をしたいですよね。xUnit Test Patterns(xUTP)を読みましょう。
+  - 記事<br />
+    [フィードバックサイクルを素早く回すために](http://labs.unoh.net/2010/12/for-quick-feedback-cycle.html)
+
+sayama_yuki さん
+----------------
+
+  - 名前<br />
+    内木場　夕紀
+  - [twitter](http://twitter.com/sayama_yuki) [ブログ](http://tech.maid-san.org/)
+  - 普段使っているフレームワーク<br />
+    symfony 1.4
+  - 自己紹介<br />
+    LoveFlower LLC 代表社員CEOです。PHPは3の頃から使ってますが、symfony使い始めてからは約半年です。Symfony2は気になっているものの、まだ手を出せてない状態。
+  - 記事<br />
+    [symfony : はじめてのsfForm](http://tech.maid-san.org/archives/343)
+
+soh335 さん
+-----------
+
+  - 名前<br />
+    soh335
+  - [twitter](http://twitter.com/soh335) [ブログ](http://d.hatena.ne.jp/sugarbabe335/)
+  - 普段使っているフレームワーク<br />
+    symfony 1.x
+  - 自己紹介<br />
+    symfony1.xを２年間ほど使ってます。同時にsymfonyの開発を最適化するためにvim-symfonyというプラグインを書いてます。最近はphpと離れてる事もあってSymfony2も追いかけれてません。
+  - 記事<br />
+    [vim-symfony ver 0.10 についてのまとめ【決定版】](http://d.hatena.ne.jp/sugarbabe335/20101218/1292602452)
+
+stripejam さん
+--------------
+
+  - 名前<br />
+    stripejam
+  - [twitter](http://twitter.com/stripejam) [ブログ](http://blog.stripejam.jp)
+  - 普段使っているフレームワーク<br />
+    ZendFramework
+  - 自己紹介<br />
+    新卒の時に、symfonyを触ってみましたが、途中挫折した苦い記憶があります。リベンジのつもりでSymfony2は使いこなせるようになりたいです。
+  - 記事<br />
+    [[Symfony2] DIコンテナ用設定ファイル](http://blog.stripejam.jp/?p=100)
+
+uechoco さん
+------------
+
+  - 名前<br />
+    うえちょこ
+  - [twitter](http://twitter.com/uechoco) [ブログ](http://labs.uechoco.com/blog/)
+  - 普段使っているフレームワーク<br />
+    CakePHP
+  - 自己紹介<br />
+    Symfony2勉強会をきっかけに再びSymfony熱を取り戻した元symfony 1.x使いの現在CakePHPユーザ。Symfony2をきっかけにPHP 5.3の真オブジェクト指向を勉強中。リラックマ(R)に出てくるキイロイトリというキャラクターをこよなく愛する。
+  - 記事<br />
+    [[Symfony2]PEAR::Net_UserAgent_MobileをDIコンテナから呼び出す](http://labs.uechoco.com/blog/2010/12/symfony2-pear-net_useragent_mobile-di_container.html)
+
+vectorxenon さん
+----------------
+
+  - 名前<br />
+    YUKI Kaoru
+  - [twitter](http://twitter.com/vectorxenon) [ブログ](http://blog.yagni.jp/)
+  - 普段使っているフレームワーク<br />
+    symfony 1.4
+  - 自己紹介<br />
+    仕事場にてsymfony1.4の布教活動に勤しむ。MySQLよりもPostgreSQLが好きなのだが、MySQLのほうがsymfonyとの親和性があっていいなーと思っていたり。
+  - 記事<br />
+    [Doctrine on symfony1.4でマスタースレーブ](http://blog.yagni.jp/archives/162)
+
+yando さん
+----------
+
+  - 名前<br />
+    安藤祐介
+  - [twitter](http://twitter.com/yando) [ブログ](http://blog.candycane.jp/)
+  - 普段使っているフレームワーク<br />
+    symfony 1.1 & Lithium
+  - 自己紹介<br />
+    CakePHPユーザーとして知られているがじつは何でも使う派です。2月のSymfonyLiveサンフランシスコに参戦予定
+  - 記事<br />
+    [公式イベント、Symfony Liveのチケットを抽選で2名にプレゼントします](http://blog.candycane.jp/archives/423)
+
+yuchimiri さん
+--------------
+
+  - 名前<br />
+    yuchimiri
+  - [twitter](http://twitter.com/yuchimiri) [ブログ](http://d.hatena.ne.jp/yuchimiri/)
+  - 普段使っているフレームワーク<br />
+    symfony 1.x
+  - 自己紹介<br />
+    ギークになりたいPHPerです。nequalに所属しています。最近Symfony2に興味津々！
+  - 記事<br />
+    [SymfonyEventDispatcher→Symfony2(PR4)EventDispatcherの変更点](http://d.hatena.ne.jp/yuchimiri/20101207/p1)
+
+
+> **NOTE**
+> 今年は Symfony2 の開発がピークを迎えていることもあり、Symfony 公式でのアドベントカレンダー形式でのドキュメントの公開がありませんでした。
+> そこで、[chobi_eさん](http://twitter.com/chobi_e) の呼びかけにより、日本人だけでアドベントカレンダーをやろうということになりました。
+> これだけ多くの皆さんに Symfony に関する記事を書いていただけたということは、スゴイことだと思います。
+> 今回のアドベントカレンダーを読んで「私も参加したい！」と思われた方がたくさんいらっしゃるのではないでしょうか。
+> （まだ気が早いですが）是非来年も Symfomy アドベントカレンダーをやりましょう！
+> 面白い形式での記事の公開の仕方など、アイデアについてはいつでも歓迎です！
+> [hidenorigoto]
+
