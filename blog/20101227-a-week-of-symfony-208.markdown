@@ -9,10 +9,10 @@ A week of symfony #208 (20->26 December 2010)
 開発メーリングリスト
 ------------------------
 
-  * [\[Symfony2\](https://groups.google.com/forum/#!topic/symfony-devs/x1_Z_Zd7h7A) パラメータコンバータ]
-  * [\[Symfony2\](https://groups.google.com/forum/#!topic/symfony-devs/gAxmTpsSzts) セキュリティコンポーネント: どのように自分のファイヤーウォールを実装する?]
-  * [\[Symfony2\](https://groups.google.com/forum/#!topic/symfony-devs/KS4dfw9dOm4) Twigテンプレートの_view変数について]
-  * [\[Symfony2\](https://groups.google.com/forum/#!topic/symfony-devs/JyCXxVMBbkE) ログインが必要な機能テスト]
+  * ["\[Symfony2\] パラメータコンバータ"](https://groups.google.com/forum/#!topic/symfony-devs/x1_Z_Zd7h7A)
+  * ["\[Symfony2\] セキュリティコンポーネント: どのように自分のファイヤーウォールを実装する?"](https://groups.google.com/forum/#!topic/symfony-devs/gAxmTpsSzts)
+  * ["\[Symfony2\] Twigテンプレートの_view変数について"](https://groups.google.com/forum/#!topic/symfony-devs/KS4dfw9dOm4)
+  * ["\[Symfony2\] ログインが必要な機能テスト"](https://groups.google.com/forum/#!topic/symfony-devs/JyCXxVMBbkE)
 
 Symfony2 開発ハイライト
 -------------------------------
