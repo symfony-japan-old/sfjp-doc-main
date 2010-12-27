@@ -3,15 +3,16 @@ A week of symfony #208 (20->26 December 2010)
 
 今週はフォームとバリデーションのコンポーネントを大きく更新しました。
 新しいロケールコンポーネント用のリファクタリングしたコードを取り込み、新しいフィールドと制約の実装を行ないました。
-また、Doctrineのプロジェクトで「Doctrine 2.0の最初の安定板」が公開されました。(http://www.doctrine-project.org/blog/doctrine2-released)
+また、Doctrineのプロジェクトで[Doctrine 2.0の最初の安定板](http://www.doctrine-project.org/blog/doctrine2-released)
+が公開されました。
  
 開発メーリングリスト
 ------------------------
 
-  * [\[Symfony2\] パラメータコンバータ](https://groups.google.com/forum/#!topic/symfony-devs/x1_Z_Zd7h7A)
-  * [\[Symfony2\] セキュリティコンポーネント: どのように自分のファイヤーウォールを実装する?](https://groups.google.com/forum/#!topic/symfony-devs/gAxmTpsSzts)
-  * [\[Symfony2\] Twigテンプレートの_view変数について](https://groups.google.com/forum/#!topic/symfony-devs/KS4dfw9dOm4)
-  * [\[Symfony2\] ログインが必要な機能テスト](https://groups.google.com/forum/#!topic/symfony-devs/JyCXxVMBbkE)
+  * [\[Symfony2\](https://groups.google.com/forum/#!topic/symfony-devs/x1_Z_Zd7h7A) パラメータコンバータ]
+  * [\[Symfony2\](https://groups.google.com/forum/#!topic/symfony-devs/gAxmTpsSzts) セキュリティコンポーネント: どのように自分のファイヤーウォールを実装する?]
+  * [\[Symfony2\](https://groups.google.com/forum/#!topic/symfony-devs/KS4dfw9dOm4) Twigテンプレートの_view変数について]
+  * [\[Symfony2\](https://groups.google.com/forum/#!topic/symfony-devs/JyCXxVMBbkE) ログインが必要な機能テスト]
 
 Symfony2 開発ハイライト
 -------------------------------
