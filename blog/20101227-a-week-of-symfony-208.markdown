@@ -9,10 +9,10 @@ A week of symfony #208 (20->26 December 2010)
 開発メーリングリスト
 ------------------------
 
-  * ["[Symfony2] パラメータコンバータ"](https://groups.google.com/forum/#!topic/symfony-devs/x1_Z_Zd7h7A)
-  * ["[Symfony2] セキュリティコンポーネント: どのように自分のファイヤーウォールを実装する?"](https://groups.google.com/forum/#!topic/symfony-devs/gAxmTpsSzts)
-  * ["[Symfony2] Twigテンプレートの_view変数について"](https://groups.google.com/forum/#!topic/symfony-devs/KS4dfw9dOm4)
-  * ["[Symfony2] ログインが必要な機能テスト"](https://groups.google.com/forum/#!topic/symfony-devs/JyCXxVMBbkE)
+  * [[Symfony2] ParamConverter](https://groups.google.com/forum/#!topic/symfony-devs/x1_Z_Zd7h7A)
+  * [[Symfony2] セキュリティコンポーネント: どのように自分のファイヤーウォールを実装する?](https://groups.google.com/forum/#!topic/symfony-devs/gAxmTpsSzts)
+  * [[Symfony2] Twigテンプレートの_view変数について](https://groups.google.com/forum/#!topic/symfony-devs/KS4dfw9dOm4)
+  * [[Symfony2] ログインが必要な機能テスト](https://groups.google.com/forum/#!topic/symfony-devs/JyCXxVMBbkE)
 
 Symfony2 開発ハイライト
 -------------------------------
@@ -32,7 +32,7 @@ Symfony2 開発ハイライト
   * [cd64046](http://github.com/symfony/symfony/commit/cd640468113eae70ecf2312deba40c260ba030de "cd640468113eae70ecf2312deba40c260ba030de commit on github"): \[Form\] PasswordFieldの"always_empty"オプションの意味の変更
   * [df6ffbb](http://github.com/symfony/symfony/commit/df6ffbbf070faf70f64433b9dafbafa2dbff660d "df6ffbbf070faf70f64433b9dafbafa2dbff660d commit on github"): ユーザプロパイダ名の削除
   * [b57411b](http://github.com/symfony/symfony/commit/b57411b5ec734c02451a9f7641d3b9d13bd838fb "b57411b5ec734c02451a9f7641d3b9d13bd838fb commit on github"): reloadUserByAccount()からloadUserByAccount()へ名称の変更
-  * [faac8e6](http://github.com/symfony/symfony/commit/faac8e6ffdc9ce295250445d5a1eeadc6a939845 "faac8e6ffdc9ce295250445d5a1eeadc6a939845 commit on github"): \[TwigBundle\] ifroleタグをhas_role関数に置換
+  * [faac8e6](http://github.com/symfony/symfony/commit/faac8e6ffdc9ce295250445d5a1eeadc6a939845 "faac8e6ffdc9ce295250445d5a1eeadc6a939845 commit on github"): \[TwigBundle\] ifroleタグをhas_role関数に置き換え
   * [d935df0](http://github.com/symfony/symfony/commit/d935df036cf8b592167afef7bef85b632b2a6e47 "d935df036cf8b592167afef7bef85b632b2a6e47 commit on github"): \[TwigBundle\] 未使用のタグとtwigのContentTagの削除
   * [5d65f3e](http://github.com/symfony/symfony/commit/5d65f3edbd8333cfefc16758a58a55d673b4c835 "5d65f3edbd8333cfefc16758a58a55d673b4c835 commit on github"): \[TwigBundle\] パスの変換をurlタグから関数へ変更
   * [d87c3c5](http://github.com/symfony/symfony/commit/d87c3c581cf401654d99cfc418a924e071094819 "d87c3c581cf401654d99cfc418a924e071094819 commit on github"): \[FrameworkBundle\] PdoSessionStorageのための設定値を追加
