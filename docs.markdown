@@ -1,5 +1,5 @@
 Symfonyドキュメント
-=============================
+===================
 
 ユーザー会独自のドキュメントや、公式サイトの日本語ドキュメントへリンクなどをまとめています。
 
@@ -19,25 +19,25 @@ Symfonyドキュメント
 ### symfony 1.4 関連
 
   - **A Gentle Introduction to symfony**<br />
-    [HTML(公式)](http://www.symfony-project.org/gentle-introduction/1_4/ja/)<br />
+    [HTML](http://www.symfony.gr.jp/docs/symfony1-docs/gentle-introduction/ja/) ([公式サイト内](http://www.symfony-project.org/gentle-introduction/1_4/ja/))<br />
     symfony 完全ガイドの内容を symfony 1.4 向けに書き直されたもので、特にフォームや ORM、メールまわりの内容が 1.4 向けに全面的に書き直されました。
     symfony 1.4 の基本をしっかり学びたい方は、ひととおり読まれるとよいでしょう。
-    
+
   - **実践symfony 1.3 & 1.4(Doctrine) (Practical symfony)**<br />
-    [HTML(公式)](http://www.symfony-project.org/jobeet/1_4/Doctrine/ja/)<br />
+    [HTML](http://www.symfony.gr.jp/docs/symfony1-docs/jobeet/ja/) ([公式サイト内](http://www.symfony-project.org/jobeet/1_4/Doctrine/ja/))<br />
     **実践symfony 1.3 & 1.4(Propel) (Practical symfony)**<br />
-    [HTML(公式)](http://www.symfony-project.org/jobeet/1_4/Propel/ja/)<br />
+    [公式サイト内](http://www.symfony-project.org/jobeet/1_4/Propel/ja/)<br />
     Jobeetという仕事情報サイトを構築しながらsymfonyの機能を一通り学習できるチュートリアルです。
     フレームワークを使った開発やMVCについての知識はあって、symfonyでの実践的な開発手法をすぐに学びたいという方におすすめです。
     Doctrine版とPropel版に分かれている点に注意してください。symfony 1.3以降では、デフォルトではDoctrineです。
 
   - **symfony 1.3 & 1.4 リファレンスガイド (The symfony Reference Book)**<br />
-    [HTML(公式)](http://www.symfony-project.org/reference/1_4/ja/)<br />
+    [HTML](http://www.symfony.gr.jp/docs/symfony1-docs/reference/ja/) ([公式サイト内](http://www.symfony-project.org/reference/1_4/ja/))<br />
     symfonyで使われている各種設定ファイルやイベントについてのリファレンスです。
     実際に開発する段階で参照することの多いドキュメントです。
 
   - **もっと知りたいsymfony (More with symfony 1.3 & 1.4)**<br />
-    [HTML(公式)](http://www.symfony-project.org/more-with-symfony/1_4/ja/)<br />
+    [HTML](http://www.symfony.gr.jp/docs/symfony1-docs/more-with-symfony/ja/) ([公式サイト内](http://www.symfony-project.org/more-with-symfony/1_4/ja/))<br />
     symfonyの使い方を一通り身につけた後、さらに高度な使い方を知りたい方向けのドキュメントです。
     また、symfony 1.3から利用できるSwiftMailerについての解説もこのドキュメントにあります。
 
