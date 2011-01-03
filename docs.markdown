@@ -50,7 +50,6 @@ Symfonyドキュメント
 ### symfony 1.x 旧バージョンのドキュメント
 
   - **symfony完全ガイド 1.2(The Definitive Guide to symfony 1.2)**<br />
-    [HTML](http://symfony.sarabande.jp/book/1.2/)<br />
     [PDF](http://cloud.github.com/downloads/masakielastic/masakielastic.github.com/sf-book-1.2-ja.pdf)<br />
     symfony 1.2時点でのドキュメントですが、symfony 1.4でも根本の部分は共通していますので、十分に役立ちます。
     symfonyの基本をしっかり学ぶ事ができます。
