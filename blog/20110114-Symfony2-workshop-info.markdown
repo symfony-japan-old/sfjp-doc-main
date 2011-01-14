@@ -4,7 +4,10 @@
 1月15日に開催する、[第2回Symfony2勉強会](http://atnd.org/events/10869)のワークショップを進めるにあたって、参考となるURLなどを紹介します。
 勉強会の当日も、随時こちらを参照しながら進めていただきます。
 
-  - [config.ymlへのORMの設定（マッピング）](http://docs.symfony-reloaded.org/master/guides/doctrine/orm/configuration.html#mapping-configuration)
+  - [ルーティングとアクションの基本](http://docs.symfony-reloaded.org/master/quick_tour/the_controller.html)<br />
+    特定のアクションへのルーティングの書き方、アクションの書き方、リダイレクトの仕方、セッション、flashメッセージなど
+
+  - [config.ymlへのORMの設定（マッピング）](http://docs.symfony-reloaded.org/master/guides/doctrine/orm/configuration.html#mapping-configuration)<br />
     バンドルごとにマッピングタイプを別々に指定できるようになりました
 
   - [Doctrine Annotations Reference](http://www.doctrine-project.org/docs/orm/2.0/en/reference/annotations-reference.html)<br />
@@ -29,6 +32,9 @@
 
   - [バリデーター](http://docs.symfony-reloaded.org/master/guides/validator/constraints.html)<br />
     これらのバリデーションを、アノテーションを使ってEntityへ記述します
+
+  - [メール](http://docs.symfony-reloaded.org/master/guides/emails.html)<br />
+    sendmailトランスポートで手軽に送信します
 
 
 参考になるバンドル
