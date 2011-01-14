@@ -1,11 +1,21 @@
 A week of symfony #210 (3->9 January 2011)
 ==========================================
 
-今週、Symfony2リポジトリは主にTwig、フォーム、セキュリティ、Doctrineコンポーネントなどの膨大なコミットを受けました。
+Symfony 公式ブログで毎週公開される、Symfony 関連の活動まとめ記事の翻訳です。
+この翻訳では、Symfony 本体に関連したアップデートなどのみを取り上げます。
+プラグインの更新等も含む全文は、以下のリンクからご確認ください。
+
+（[原文リンク](http://www.symfony-project.org/blog/2011/01/09/a-week-of-symfony-210-3-9-january-2011)）
+
+<br />
+<br />
+<hr />
+
+先週、Symfony2リポジトリには主にTwig、フォーム、セキュリティ、Doctrineコンポーネントなど多数のコミットがありました。
 twigバンドルは[今週公開されたTwig 1.0 RC1](http://blog.twig-project.org/post/2665679442/twig-1-0-0-rc1-released)で導入された重要な変更に合わせて大きくリファクタリングされました。
 セキュリティコンポーネントは新しいACLシステムが追加され、フォームコンポーネントはvirtual field groupsのサポートと自動的にクラスのメタデータを解析してフィールドを作成するFieldFactory機構のサポートを追加しました。
 一方、[先週のIRCミーティング](http://trac.symfony-project.org/wiki/IRCLogs20110106)で、Fabienは最終リリースまでのロードマップとweb assestsの取扱を含むいくつかの興味深い情報を発表しました。
- 
+
 開発メーリングリスト
 ------------------------
 
@@ -45,7 +55,7 @@ Symfony2 開発ハイライト
   * [2daa6b5](http://github.com/symfony/symfony/commit/2daa6b5bfedac13702cd75f4dc5d12a5d742724d "2daa6b5bfedac13702cd75f4dc5d12a5d742724d commit on github"): \[TwigBundle\] twigテンプレートのDateFields表示の修正
   * [a99d8c8](http://github.com/symfony/symfony/commit/a99d8c8558717d5d0cd29bcdc23f5ac077ade106 "a99d8c8558717d5d0cd29bcdc23f5ac077ade106 commit on github"): セキュリティIDの重複可能の修正
   * [55a48bc](http://github.com/symfony/symfony/commit/55a48bcfa629059b3b86c4319f38a15fbc8920e9 "55a48bcfa629059b3b86c4319f38a15fbc8920e9 commit on github"): AclVoterを最適化し、ユニットテストを追加
-  * [fa7fded](http://github.com/symfony/symfony/commit/fa7fdedf4b4ea492d38dff7e5f1a4094b6cd7ff0 "fa7fdedf4b4ea492d38dff7e5f1a4094b6cd7ff0 commit on github"): 400以上のコードがORMとMongoDBバンドルで重複してるのをつぶすため、メタバンドルのDoctrineAbstractBundleを導入
+  * [fa7fded](http://github.com/symfony/symfony/commit/fa7fdedf4b4ea492d38dff7e5f1a4094b6cd7ff0 "fa7fdedf4b4ea492d38dff7e5f1a4094b6cd7ff0 commit on github"): 400以上のコードがORMとMongoDBバンドルで重複していたため、メタバンドルのDoctrineAbstractBundleを導入
   * [302dbd1](http://github.com/symfony/symfony/commit/302dbd12257fb00cc7198bac01af6ad4994cc908 "302dbd12257fb00cc7198bac01af6ad4994cc908 commit on github"): Symfony DICがEventManagerを使用するようにリファクタリング
   * [eb4788e](http://github.com/symfony/symfony/commit/eb4788e98e4e578ae4178536c41536a79b4a1dfd "eb4788e98e4e578ae4178536c41536a79b4a1dfd commit on github"): \[DependencyInjection\] サービスキーおよびエイリアスの大文字と小文字を区別しない(PHPのメソッド名は大文字小文字区別しないように)
   * [840bd8a](http://github.com/symfony/symfony/commit/840bd8aacd4ab48474e0600ecd54acee7b82f080 "840bd8aacd4ab48474e0600ecd54acee7b82f080 commit on github"): \[TwigBundle\] 'render'タグでのHelperTokenParserの利用を削除
@@ -57,7 +67,7 @@ Symfony2 開発ハイライト
   * [8513082](http://github.com/symfony/symfony/commit/85130820079a65494d7cd4834eb120b126650e56 "85130820079a65494d7cd4834eb120b126650e56 commit on github"): \[Form, HttpFoundation\] FileとUploadedFileクラスの改善
   * [e9a7531](http://github.com/symfony/symfony/commit/e9a7531a26cccd06e701e3b8ee9df5faa3f4d075 "e9a7531a26cccd06e701e3b8ee9df5faa3f4d075 commit on github"): \[Form\] 制約メソッドのField::isTransformationSuccessful()を追加
   * [48af2fc](http://github.com/symfony/symfony/commit/48af2fc86edffd83034e2d3d3b94dc75511eae97 "48af2fc86edffd83034e2d3d3b94dc75511eae97 commit on github"): \[Form, FrameworkBundle, HttpFoundation\] フォームがCSRFから保護されている時に自動的にセッションを開始する
-  * [acdd5c0](http://github.com/symfony/symfony/commit/acdd5c06de1e62caa042df8a37360403475c58f0 "acdd5c06de1e62caa042df8a37360403475c58f0 commit on github"): \[Form\] changed 値の変換処理でUnexpectedTypeExceptionインタフェースを投げるように変更
+  * [acdd5c0](http://github.com/symfony/symfony/commit/acdd5c06de1e62caa042df8a37360403475c58f0 "acdd5c06de1e62caa042df8a37360403475c58f0 commit on github"): \[Form\] Value TransformerでUnexpectedTypeException例外をスローするように変更
   * [114b2cf](http://github.com/symfony/symfony/commit/114b2cf6c1a3ec20957db2333a1dc6d0211032dc "114b2cf6c1a3ec20957db2333a1dc6d0211032dc commit on github"): \[FrameworkBundle\] PHPのレンダーでフォームフィールドをレンダリングする時にattributesも渡す事ができるようにする
   * [39c9bf1](http://github.com/symfony/symfony/commit/39c9bf160e5716aec0f42b3552524804e534b8e5 "39c9bf160e5716aec0f42b3552524804e534b8e5 commit on github"): \[Validator\] @Ip制約の実装
   * [9b10c8a](http://github.com/symfony/symfony/commit/9b10c8a86652d50e4b3e38dc5dd8ca14ffb5619c "9b10c8a86652d50e4b3e38dc5dd8ca14ffb5619c commit on github"): \[WebProfileBundle\] リダイレクトが中断した時にレスポンスコンテンツにより多くの情報を追加
@@ -70,7 +80,7 @@ Symfony2 開発ハイライト
   * [1e27d43](http://github.com/symfony/symfony/commit/1e27d4359c9f70484ca28645da3a288f0267555a "1e27d4359c9f70484ca28645da3a288f0267555a commit on github"): \[DoctrineBundle\] class_metadata_factory_name設定オプションを追加
   * [3ab82cb](http://github.com/symfony/symfony/commit/3ab82cbd534d19fa2f164c099d87782aedd86eea "3ab82cbd534d19fa2f164c099d87782aedd86eea commit on github"): \[FrameworkBundle, Security\] 明示的に提供されているセキュリティプロバイダのDICエイリアスを作成
   * [598d458](http://github.com/symfony/symfony/commit/598d458a3c5e45f67a2f6686433272abde29b1e3 "598d458a3c5e45f67a2f6686433272abde29b1e3 commit on github"): CompatAssetsBundleに非推奨のcss/jsヘルパーとタグを再導入
-  * [4b78c43](http://github.com/symfony/symfony/commit/4b78c4376ff02a33afc6c0ac720cf014ac4d90e0 "4b78c4376ff02a33afc6c0ac720cf014ac4d90e0 commit on github"): \[Form\] classクラスのメタデータを解析することによって自動的にフィールドを作成するFieldFactory機構の追加
+  * [4b78c43](http://github.com/symfony/symfony/commit/4b78c4376ff02a33afc6c0ac720cf014ac4d90e0 "4b78c4376ff02a33afc6c0ac720cf014ac4d90e0 commit on github"): \[Form\] クラスのメタデータを解析することによって自動的にフィールドを作成するFieldFactory機構の追加
   * [c5ef113](http://github.com/symfony/symfony/commit/c5ef113b186caa09b951c48cc4f637c2660cef6f "c5ef113b186caa09b951c48cc4f637c2660cef6f commit on github"): DIコンテナの最適化
   * [da5475e](http://github.com/symfony/symfony/commit/da5475ec428102c90067c284a8995a87f91a8013 "da5475ec428102c90067c284a8995a87f91a8013 commit on github"): サービスの参照権限設定の変更
   * [b5e26d9](http://github.com/symfony/symfony/commit/b5e26d9db8c723c8812fa4dee6bd2c8a11dd6c5a "b5e26d9db8c723c8812fa4dee6bd2c8a11dd6c5a commit on github"): \[SwiftmailerBundle\] プライベートサービスの追加
@@ -84,11 +94,19 @@ Symfony2 開発ハイライト
   * [9553971](http://github.com/symfony/symfony/commit/9553971d06875d417695c4a63e03885a608dafb7 "9553971d06875d417695c4a63e03885a608dafb7 commit on github"): \[TwigBundle\] リクエストとセッションが利用できない場合でもRenderer::evaluate()を許可
   * [2ded40f](http://github.com/symfony/symfony/commit/2ded40fb7534388209c7522317f8c455480da5d3 "2ded40fb7534388209c7522317f8c455480da5d3 commit on github"): \[TwigBundle\] コンフィギュレーションからエクステンションを簡単に登録する方法を追加
   * [964bf43](http://github.com/symfony/symfony/commit/964bf4356ecedcdf02e0bce2d9d7fd0681cd7904 "964bf4356ecedcdf02e0bce2d9d7fd0681cd7904 commit on github"): Doctrine2が存在しない場合セキュリティテストが失敗していたのを修正
-  * [0c50ca8](http://github.com/symfony/symfony/commit/0c50ca87755daf2da40bdca9b8da4868f9b3c7a1 "0c50ca87755daf2da40bdca9b8da4868f9b3c7a1 commit on github"): \[TwigBundle\] renderer::evaluate()はリクエストが定義されており空でない事を確認する事が必要
+  * [0c50ca8](http://github.com/symfony/symfony/commit/0c50ca87755daf2da40bdca9b8da4868f9b3c7a1 "0c50ca87755daf2da40bdca9b8da4868f9b3c7a1 commit on github"): \[TwigBundle\] renderer::evaluate()はリクエストが定義されており空でない事を確認する必要がある
   * [554c86c](http://github.com/symfony/symfony/commit/554c86c5895f9ef3e48d6da3d4155b2fd763332d "554c86c5895f9ef3e48d6da3d4155b2fd763332d commit on github"): \[DependencyInjection\] エクステンションローダメソッドに役立つhasInterfaceInjectorForClass()の追加
-  * [f2ac2a4](http://github.com/symfony/symfony/commit/f2ac2a4c8a1e3aa1f75622c358a83984af3bf017 "f2ac2a4c8a1e3aa1f75622c358a83984af3bf017 commit on github"): レンダラのセッターインジェクションを使用するようテンプレートを変更
+  * [f2ac2a4](http://github.com/symfony/symfony/commit/f2ac2a4c8a1e3aa1f75622c358a83984af3bf017 "f2ac2a4c8a1e3aa1f75622c358a83984af3bf017 commit on github"): レンダラのセッターインジェクションを使用するようTemplatingコンポーネントを変更
   * [bc2ca8f](http://github.com/symfony/symfony/commit/bc2ca8f1cf77a60fdf460614fc9cdc218110dd43 "bc2ca8f1cf77a60fdf460614fc9cdc218110dd43 commit on github"): テンプレートでPHPレンダラはオプショナルに
-  * [3785a99](http://github.com/symfony/symfony/commit/3785a99b947c26b84585ffe34225b600822b382e "3785a99b947c26b84585ffe34225b600822b382e commit on github"): エイリアスに参照権限設定を追加
+  * [3785a99](http://github.com/symfony/symfony/commit/3785a99b947c26b84585ffe34225b600822b382e "3785a99b947c26b84585ffe34225b600822b382e commit on github"): DIコンテナのサービスエイリアスに参照権限を設定できるように機能追加
   * [a116199](http://github.com/symfony/symfony/commit/a11619973b9fea3b4452a9429968e1905c831392 "a11619973b9fea3b4452a9429968e1905c831392 commit on github"): \[DependencyInjection\] pharアーカイブの中のエクステンションのxmlバリデーションの修正
-  * [50809d2](http://github.com/symfony/symfony/commit/50809d2ae03d4ce0d744ff6fd2b3c515da353d6c "50809d2ae03d4ce0d744ff6fd2b3c515da353d6c commit on github"): \[TwigBundle\] セキュリティコンテキストとユーザが定義されている時にグローバル変数を追加
+  * [50809d2](http://github.com/symfony/symfony/commit/50809d2ae03d4ce0d744ff6fd2b3c515da353d6c "50809d2ae03d4ce0d744ff6fd2b3c515da353d6c commit on github"): \[TwigBundle\] セキュリティコンテキストとユーザを、定義されている場合にそれぞれグローバル変数に追加するように修正
   * [10fee8c](http://github.com/symfony/symfony/commit/10fee8c8bbd42a8a13efc9bc8e6b9e51ce8edb2a "10fee8c8bbd42a8a13efc9bc8e6b9e51ce8edb2a commit on github"): \[HttpKernel\] SQLite storageプロファイラにエスケープ処理を追加
+
+
+
+> **NOTE**
+> 翻訳者コメント<br />
+> 今週のA Week of symfonyは、[@taka512さん](http://twitter.com/taka512) に翻訳していただきました。
+> Symfony2は3月の正式リリースに向けていよいよベータバージョンが発表される段階になっています。これからの2ヶ月は、Symfony2からは目が離せませんね！
+> [hidenorigoto]
