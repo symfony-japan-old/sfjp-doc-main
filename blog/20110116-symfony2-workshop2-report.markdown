@@ -3,6 +3,7 @@
 
 2011年1月15日（土）に、[ジンガジャパン株式会社](http://www.zynga.co.jp/)様大会議室にて、第2回 Symfony2 勉強会を開催し、約40名の方々に Symfony2 での基本的な CRUD アプリケーション作成のワークショップに取り組んでいただきました。
 
+
 ワークショップで使ったシナリオは、次のURLで公開いたしました。
 
   - [ワークショップのシナリオ](https://docs.google.com/document/pub?id=1oR0bOpoKAaXp6p8CBZsYNmAVFvxkSDAk7ChoVJWVnOw)
@@ -26,6 +27,14 @@
   - [@madapaja](http://twitter.com/madapaja) [Symfony2からDoctrine MongoDB ODMを使ってみる](http://www.slideshare.net/madapaja/symfony2doctrine-mongo-db-odm-6550048)
   - [@chobi_e](http://twitter.com/chobi_e) [PHPエクステンションphp-git](https://github.com/chobie/php-git)とGit2Bundle
   - [@uechoco](http://twitter.com/uechoco) Hoge (写真アップロードサービスをSymfony2で作っている話）
+
+
+ワークショップと LT の模様は、[brtriver](http://twitter.com/brtriver) さんに Ustream で中継・録画していただきました。
+
+  - [ワークショップ Part1](http://www.ustream.tv/recorded/12022160)
+  - [ワークショップ Part2](http://www.ustream.tv/recorded/12024584)
+  - [LT](http://www.ustream.tv/recorded/12025531)
+
 
 
 次回の東京での Symfony2 勉強会の予定は未定ですが、「こういった勉強会をやってほしい」「Symfony2 で作ったものを発表したい」など、みなさんからのご意見ご提案は大歓迎です。是非 [Symfony ユーザー会メーリングリスト](http://groups.google.com/group/symfony-users-ja) までポストしてください。
