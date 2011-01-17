@@ -26,7 +26,7 @@
   - [@HIROCAST](http://twitter.com/hirocast) [これからのSymfony2の話をしよう](http://prezi.com/yzp1qeuew8gz/symfony2/)
   - [@madapaja](http://twitter.com/madapaja) [Symfony2からDoctrine MongoDB ODMを使ってみる](http://www.slideshare.net/madapaja/symfony2doctrine-mongo-db-odm-6550048)
   - [@chobi_e](http://twitter.com/chobi_e) [PHPエクステンションphp-git](https://github.com/chobie/php-git)とGit2Bundle
-  - [@uechoco](http://twitter.com/uechoco) Hoge (写真アップロードサービスをSymfony2で作っている話）
+  - [@uechoco](http://twitter.com/uechoco) [Hoge (写真アップロードサービスをSymfony2で作っている話）](http://www.slideshare.net/uechcoco/hoge-symfony2-symfony2-6597881)
 
 
 ワークショップと LT の模様は、[brtriver](http://twitter.com/brtriver) さんに Ustream で中継・録画していただきました。
