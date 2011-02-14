@@ -4,6 +4,21 @@ Changelong for 1.4.X
 公式サイトの[Changelog for 1.4.X](http://www.symfony-project.org/installation/1_4/changelog)の翻訳です。
 
 
+02/04/11: Version 1.4.9
+-----------------------
+
+ * [31928](http://trac.symfony-project.org/changeset/31928) cache.ymlでパーシャルがcontextualに指定されている場合に、キャッシュ可能なパーシャルのコピーされたレスポンスへより多くの変数を保存するように修正 ([#7192](http://trac.symfony-project.org/ticket/7192) をクローズ)
+ * [31895](http://trac.symfony-project.org/changeset/31895) 複雑なフラグメントがある場合に_auto_link_urls()ヘルパーでURLを抽出できなかった問題を修正 (RFC3986を参照 - [#9424](http://trac.symfony-project.org/ticket/9424) をクローズ - benlancasterからのパッチ)
+ * [31893](http://trac.symfony-project.org/changeset/31893) クラス名にハイフンがある場合のsfDomCssSelectorの動作を修正 (richsageからのパッチ、[#9411](http://trac.symfony-project.org/ticket/9411) をクローズ)
+ * [31471](http://trac.symfony-project.org/changeset/31471) session_cache_limiterのデフォルト値を'null'に変更
+ * [31399](http://trac.symfony-project.org/changeset/31399) sfViewCacheManagerが、キャッシュされたhttp_protocolを間違って返す問題を修正 ([#9254](http://trac.symfony-project.org/ticket/9254) をクローズ)
+ * [31254](http://trac.symfony-project.org/changeset/31254) WDTの追加処理の修正 ([#9107](http://trac.symfony-project.org/ticket/9107) をクローズ)
+ * [31249](http://trac.symfony-project.org/changeset/31249) Swift_DoctrineSpoolのメモリリークの修正
+ * [31248](http://trac.symfony-project.org/changeset/31248) sfI18nModuleExtract.class.phpが常にファイルベースのメッセージソースを仮定している問題の修正 ([#9153](http://trac.symfony-project.org/ticket/9153) をクローズ - daReaperからのパッチ)
+ * [31247](http://trac.symfony-project.org/changeset/31247) sfFilesystemのmbstringの問題を修正 ([#9139](http://trac.symfony-project.org/ticket/9139) をクローズ - nresniからのパッチをもとに修正)
+ * [31002](http://trac.symfony-project.org/changeset/31002) Adminジェネレータで生成したアクションクラスに、parent::preExecute()呼び出しを追加 ([#9099](http://trac.symfony-project.org/ticket/9099) をクローズ)
+
+
 09/24/10: Version 1.4.8
 -----------------------
 
