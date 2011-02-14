@@ -18,6 +18,6 @@ A week of symfony #213 (24->30 January 2011)
   * [[Symfony2] DI extensionsのデザインの問題](https://groups.google.com/forum/#!topic/symfony-devs/FE-EaSViqF8)
   * [[Symfony2] コンポーネントのサードパーティライブラリ依存](https://groups.google.com/forum/#!topic/symfony-devs/7wNhSRpBeIo)
   * [sfValidatorEmailのポジティブなfalse](https://groups.google.com/forum/#!topic/symfony-devs/3uY45yQcqm8)
-  * [\[RFC\] 複数の拡張に同じ名前(Alias + Method = Unique Key)を許可](https://groups.google.com/forum/#!topic/symfony-devs/ITIfeCKV8Jc)
+  * [[RFC] 複数の拡張に同じ名前(Alias + Method = Unique Key)を許可](https://groups.google.com/forum/#!topic/symfony-devs/ITIfeCKV8Jc)
   * [[RFC] サービス定義の引数のマッピング](https://groups.google.com/forum/#!topic/symfony-devs/iOZNf0Vymsk)
 
