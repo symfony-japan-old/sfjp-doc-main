@@ -1,14 +1,14 @@
-symfony 1.3.9 �� 1.4.9
+symfony 1.3.9 と 1.4.9
 ======================
 
-�R�A�`�[���́Asymfony 1.3��1.4�̍ŐV�p�b�`�o�[�W�����̃����[�X����у_�E�����[�h�������\�ɂȂ������Ƃ����m�点���邱�Ƃ��������v���܂��B�����̃����[�X�́A���N�̌��Ă��������X�|���X�^�C�g����JavaScript�A�X�^�C���V�[�g�Ȃǂ��e���v���[�g�p�[�V�������烌���_�����O����ۂ̖��ɑ΂���C����A�f�t�H���g�� session_cache_limiter�l�ւ̏C�����܂܂�Ă��܂��B�ύX�̂��ׂẴ��X�g�́A[changelog](http://www.symfony.gr.jp/changelog/1_4)���m�F���Ă��������B
+コアチームは、symfony 1.3と1.4の最新パッチバージョンのリリースおよびダウンロードが即時可能になったことをお知らせすることを嬉しく思います。これらのリリースは、長年の懸案だったレスポンスタイトルやJavaScript、スタイルシートなどをテンプレートパーシャルからレンダリングする際の問題に対する修正や、デフォルトの session_cache_limiter値への修正が含まれています。変更のすべてのリストは、[changelog](http://www.symfony.gr.jp/changelog/1_4)を確認してください。
 
-�܂��ADoctrine�`�[������܂��I�t�B�V�����o�[�W�����Ƃ��ă����[�X�͂���Ă��܂��񂪁ADoctrine 1.2�u�����`�ɂ͂������̏d�v�ȏC�����������Ă��܂��B��X�́ADoctrine�����̃��r�W�����ɐݒ肷�邱�Ƃɂ���Ă����̏C���������symfony�̃����[�X�Ɋ܂߂邱�Ƃɂ��܂����BDoctrine 1.2.4�������[�X���ꂽ���ɂ́A���߂ă����[�X���s���܂��B���̃����[�X��symfony 1.3�u�����`����̍Ō�̃����[�X�ɂȂ�\��ł��B�������Asymfony 1.4�͂����2�N�Ԃ̃R�A�`�[���ɂ�钷���T�|�[�g���󂯂邱�Ƃ��ł��܂��B
+また、Doctrineチームからまだオフィシャルバージョンとしてリリースはされていませんが、Doctrine 1.2ブランチにはいくつかの重要な修正が加えられています。我々は、Doctrineを特定のリビジョンに設定することによってこれらの修正を今回のsymfonyのリリースに含めることにしました。Doctrine 1.2.4がリリースされた時には、改めてリリースを行います。このリリースはsymfony 1.3ブランチからの最後のリリースになる予定です。もちろん、symfony 1.4はさらに2年間のコアチームによる長期サポートを受けることができます。
 
-�A�b�v�O���[�h���@
+アップグレード方法
 ------------------
 
-Subversion����^�O�̃R�s�[���`�F�b�N�A�E�g�����ꍇ�Aswitch�R�}���h�ōŐV�o�[�W�����ɃA�b�v�O���[�h�ł��܂��B
+Subversionからタグのコピーをチェックアウトした場合、switchコマンドで最新バージョンにアップグレードできます。
 
   // symfony 1.3
   $ svn switch http://svn.symfony-project.com/tags/RELEASE_1_3_9
@@ -16,7 +16,7 @@ Subversion����^�O�̃R�s�[���`�F�b�N�A�E�g�����ꍇ�Aswitch�R�}���h�ōŐV�o�[�W��
   // symfony 1.4
   $ svn switch http://svn.symfony-project.com/tags/RELEASE_1_4_9
 
-PEAR�p�b�P�[�W���g�p���Ă���ꍇ�Apear�R�}���h���g�p���ăA�b�v�O���[�h�ł��܂��B
+PEARパッケージを使用している場合、pearコマンドを使用してアップグレードできます。
 
   // symfony 1.3
   $ pear upgrade symfony/symfony-1.3.9
