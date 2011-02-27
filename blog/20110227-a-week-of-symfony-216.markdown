@@ -1,9 +1,9 @@
 A week of symfony #216 (14->20 February 2011)
 =============================================
 
-今週、Symfony2の必死な開発活動により、[セキュリティコンフィグレーションマージのサポート追加](https://github.com/symfony/symfony/commit/0b8fef234724cb4cb3a4ab37466efe193a6c7708)
+今週、Symfony2の必死な開発活動により、[セキュリティコンフィグレーションマージのサポート追加](https://github.com/symfony/symfony/commit/0b8fef234724cb4cb3a4ab37466efe193a6c7708)、
 [マージしたインテリジェントとシングルパスコンフィグロードの実装](https://github.com/symfony/symfony/commit/f9138d313b83f951cf82a2f7f902a2d6dd14fbb3) 
-[新しいコンフィグレーションコンポーネントに共通のコンフィグクラスを移動](https://github.com/symfony/symfony/commit/5c905beb13624d40a768e6e9ea98cb873e149c6e)などのいくつかの大規模なコミットを組み込んだ。
+、[新しいコンフィグレーションコンポーネントに共通のコンフィグクラスを移動](https://github.com/symfony/symfony/commit/5c905beb13624d40a768e6e9ea98cb873e149c6e)などのいくつかの大規模なコミットを組み込んだ。
 加えて、新しいAsseticBundleはSymfony2に統合され、web assetsを処理するためにより強力で柔軟な方法を可能にします。
 最後に、1.3.9および1.4.9メンテナンスバージョンがリリースされています。
 
@@ -33,7 +33,6 @@ Symfony2 開発ハイライト
   * [9ba2943](http://github.com/symfony/symfony/commit/9ba2943aff2941c283065e0f09c05a572462fa50 "9ba2943aff2941c283065e0f09c05a572462fa50 commit on github"), [c5fb96b](http://github.com/symfony/symfony/commit/c5fb96b86b65ad0aa09f5c3ad5abada4f4f9a24e "c5fb96b86b65ad0aa09f5c3ad5abada4f4f9a24e commit on github"): [HttpKernel] Kernelのユニットテストを追加
   * [39ed62d](http://github.com/symfony/symfony/commit/39ed62de46718af993e06a99d5e5f1ddfd7a8cbf "39ed62de46718af993e06a99d5e5f1ddfd7a8cbf commit on github"): validators resourcesに日本語翻訳を追加
   * [42a3e40](http://github.com/symfony/symfony/commit/42a3e404b28def5e85a1912412a6eb2311cbaf48 "42a3e404b28def5e85a1912412a6eb2311cbaf48 commit on github"): validators resourcesにスペイン語翻訳を追加
-
   * [6ff4120](http://github.com/symfony/symfony/commit/6ff41207843154c1f5546de54755e56bc9d9efd5 "6ff41207843154c1f5546de54755e56bc9d9efd5 commit on github"), [09a50c3](http://github.com/symfony/symfony/commit/09a50c3c55257edb95c102cb435e353f0b118208 "09a50c3c55257edb95c102cb435e353f0b118208 commit on github"): [Form] オプションがtrueの場合(デフォルト)、参照によって変更された親フォームからオブジェクトを受信する「by_reference」フォームオプションを追加
   * [74d0ac8](http://github.com/symfony/symfony/commit/74d0ac82f7d4ef2539a7fa0114025cdfd8229c54 "74d0ac82f7d4ef2539a7fa0114025cdfd8229c54 commit on github"): [Form] ValueTransformerInterfaceクリーンアップ（CollectionToStringTransformer削除）
   * [0b8fef2](http://github.com/symfony/symfony/commit/0b8fef234724cb4cb3a4ab37466efe193a6c7708 "0b8fef234724cb4cb3a4ab37466efe193a6c7708 commit on github"): [Security/DependencyInjection] セキュリティコンフィグレーションをマージするためのサポートを追加した。どのようなフォーマットからかは関係なく同じ構造に変換され、全てコンフィグアレイに渡される(多くのメソッドと新しいアーキテクチャを追加した大規模なコミット)
@@ -65,7 +64,6 @@ Symfony2 開発ハイライト
   * [1292925](http://github.com/symfony/symfony/commit/12929257021741a9d0c0d4b0c2d05836208cb324 "12929257021741a9d0c0d4b0c2d05836208cb324 commit on github"): [AsseticBundle] asseticインテグレーションの初期エントリ
   * [5c905be](http://github.com/symfony/symfony/commit/5c905beb13624d40a768e6e9ea98cb873e149c6e "5c905beb13624d40a768e6e9ea98cb873e149c6e commit on github"), [8588d55](http://github.com/symfony/symfony/commit/8588d55c11285117ef953ff25a6636bc6b594077 "8588d55c11285117ef953ff25a6636bc6b594077 commit on github"): 共通コンフィグレーションクラスを新しいコンフィグコンポーネントに移動
   * [20e31cd](http://github.com/symfony/symfony/commit/20e31cd3f256b777dda0a8e880336578d8063089 "20e31cd3f256b777dda0a8e880336578d8063089 commit on github"): [HttpKernel] Kernel.phpとHttpKernel.phpに発生した2つの一般的エラーのため、いくつかの説明を追加
- added some details for two commonly encountered errors in Kernel.php and HttpKernel.php
   * [b9f4eab](http://github.com/symfony/symfony/commit/b9f4eab5c2be8fc29d671adf2fbbf8d065292466 "b9f4eab5c2be8fc29d671adf2fbbf8d065292466 commit on github"), [d22743c](http://github.com/symfony/symfony/commit/d22743cf3ace5110a2587c279f9055ec79b19ab7 "d22743cf3ace5110a2587c279f9055ec79b19ab7 commit on github"): [Security/Acl] 事前生成されたスキーマの追加
   * [0643dc4](http://github.com/symfony/symfony/commit/0643dc44fddf347f4ffdc5764b141bfadc54aeb8 "0643dc44fddf347f4ffdc5764b141bfadc54aeb8 commit on github"): [Security] security votersに優先順位属性を追加
   * [5c7fe8f](http://github.com/symfony/symfony/commit/5c7fe8f866decdae3c6f543405bf1e64d119844d "5c7fe8f866decdae3c6f543405bf1e64d119844d commit on github"): [Security] encoder factoryの実装を簡素化
