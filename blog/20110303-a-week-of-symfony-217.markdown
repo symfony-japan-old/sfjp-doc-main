@@ -3,7 +3,7 @@ A week of symfony #217 (21->27 February 2011)
 
 Symfony2のパブリックAPIはまもなく数日中には凍結されるでしょう。そのため、今週の開発者たちは、最後の影響の大きな変更をリポジトリにコミットしました：Responseは[DICから削除](https://github.com/symfony/symfony/commit/d94acd85f9aee2342c7ec381d7fdd66aea1eafef)されました、 [AsseticBundleを支持して](https://github.com/symfony/symfony/commit/a3207e939f4f4de24a740ce56b04483eb46e4074) CompatAssetsBundleは削除されました、そして [boostrap ファイル](https://github.com/symfony/symfony/commit/b44d044b0afe218594d9ed7965eaeb272576bf80) も削除されました。
 他の幾つかの変更点も開発者MLで提案されました。例えば [translationするときにキーを使う](https://groups.google.com/forum/#!topic/symfony-devs/n3HznxzQW8A) や [FormsにDIを追加](https://groups.google.com/forum/#!topic/symfony-devs/WHiSVfrno74) などです。最後に、[Symfony2 ドキュメント](http://docs.symfony-reloaded.org/)が大きく再編され、新しいコンテンツやよりよいコンテンツがたくさん増えました。
- 
+
 開発者ML
 ------------------------
 
@@ -70,4 +70,8 @@ Symfony2 開発ハイライト
   * [e16c666](http://github.com/symfony/symfony/commit/e16c6662667eb7cf929ffd42415e72a54163cd7a "e16c6662667eb7cf929ffd42415e72a54163cd7a commit on github"): \[Routing\] からのパス情報が/にリダイレクトするように修正(ほかの/で終わっているルートに関して)
   * [b6049be](http://github.com/symfony/symfony/commit/b6049beca235eece6466d6ec612b3d11cb5c788e "b6049beca235eece6466d6ec612b3d11cb5c788e commit on github"), [381d1e2](http://github.com/symfony/symfony/commit/381d1e2da1410ddf8c9e2da07b4e4b8e1344adb7 "381d1e2da1410ddf8c9e2da07b4e4b8e1344adb7 commit on github"): \[Translation\] FallbackLocale Catalogueの検索を追加
   * [4b3c495](http://github.com/symfony/symfony/commit/4b3c49550f7a5cd21f774a103d8df9d2cb7dd719 "4b3c49550f7a5cd21f774a103d8df9d2cb7dd719 commit on github"): 静的コード分析によって見つかった問題を修正
+
+
+> **NOTE**
+> [@uechoco](http://twitter.com/uechoco) さんに翻訳していただいたものです。
 
