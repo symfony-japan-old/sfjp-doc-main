@@ -3,6 +3,10 @@ Changelong for 1.4.X
 
 公式サイトの[Changelog for 1.4.X](http://www.symfony-project.org/installation/1_4/changelog)の翻訳です。
 
+03/21/11: Version 1.4.10
+------------------------
+
+ * Doctrine 1.2.4へ更新 (セキュリティリリース)
 
 02/04/11: Version 1.4.9
 -----------------------
