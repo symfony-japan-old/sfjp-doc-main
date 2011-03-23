@@ -75,16 +75,11 @@ Symfonyドキュメント
 
 #### 英語公式ドキュメント
 
-  - [Symfony2 Documentation](http://docs.symfony-reloaded.org/master/)
+  - [Symfony2 Documentation](http://symfony.com/doc/2.0/)
+  - [Symfony2 API](http://api.symfony-reloaded.org/master/index.html)
   - [Doctrine2 ORM](http://www.doctrine-project.org/projects/orm/2.0/docs/en)
   - [MongoDB ODM](http://www.doctrine-project.org/projects/mongodb_odm/1.0/docs/reference/en)
   - [Twig Documentation](http://www.twig-project.org/documentation)
-
-
-ドキュメントやブログ記事などへのリンク
---------------------------------------
-
-  - [Symfony How-To リンク集](docs/link_index)
 
 
 
@@ -109,8 +104,6 @@ Symfonyドキュメント
     - [Windows 上に Git 環境を構築する方法(TortoiseGit と msysGit)](./git/setup-git-windows)
     - [GitHub 上のリポジトリのフォーク、プッシュ、プルリクエスト](./git/git-fork-and-push)
   - [日本語表記ガイドライン](japanese-style)
-  - [A Week of symfony翻訳ツール](http://fivestar.fm/awos/)<br />
-    [@fivestr](http://twitter.com/fivestr)さんがSymfony2で作成したA Week of symfony翻訳補助ツール
   - [markdown早見表](markdown-sample)
   - [markdown簡易チェック](http://www.symfony-project.org/plugins/markdown_dingus)<br />
     markdownがどのようにレンダリングされるのかを、Webブラウザからテストできます。
