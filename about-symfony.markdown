@@ -9,9 +9,9 @@ Symfonyの公式サイト
 -------------------
 
 - [symfony - open-source PHP web framework](http://www.symfony-project.org/)<br />
-  symfonyプロジェクトの公式サイト。1.x系のドキュメントや、公式ブログ、コードスニペット、プラグイン、Subversionリポジトリなど。
-- [Symfony Reloaded - 2.0 Preview Release](http://symfony-reloaded.org/)<br />
-  現在開発中の次期バージョン（2.0）に関するサイト。
+  symfonyプロジェクトの旧公式サイト。1.x系のドキュメントや、公式ブログ、コードスニペット、プラグイン、Subversionリポジトリなど。
+- [Symfony.com](http://symfony.com/)<br />
+  新しいSymfonyの公式サイト。主にSymfony2向けの情報。
 
 
 symfonyの特徴（バージョン 1.x）
