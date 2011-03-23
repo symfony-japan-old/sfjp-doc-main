@@ -127,8 +127,11 @@ Git を使う上での参考となるページなどを紹介します。
 
   - [Pro Git](http://progit.org/book/ja/)<br />
     すべてオンラインでフリーで読める Git の解説書。内容も新しく Git を使う上では必読。
+  - [Git入門](http://www8.atwiki.jp/git_jp/)
   - [git(1) Manual Page](http://www.kernel.org/pub/software/scm/git/docs/)<br />
     git コマンドのリファレンス
   - [Gitの使い方 - SourceForge.JPドキュメント管理](http://sourceforge.jp/docs/Git%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9)
   - [知らないと損をするgit - Absolute Playing!](http://d.hatena.ne.jp/Kiske/20081003/1223008270)
+  - [GitとGitHubを覚えよう](http://osc-tokyo-git.phper.jp/)<br />
+    OSC Tokyo 2011 Springのセミナーで使った資料です。
 
