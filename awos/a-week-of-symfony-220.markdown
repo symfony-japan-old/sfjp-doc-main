@@ -1,7 +1,7 @@
 A week of symfony #220 (14->20 March 2011)
 ==========================================
 
-今週、[国際拡張の要件](https://groups.google.com/forum/#!topic/symfony-devs/RBtwBObsLCE)に関連していくつかの問題を防ぐため、Symfony2は新しい国際拡張スタブを得た。また、おそらくSymfony2コードの最後の大きな変更となる[新しいイベントマネージャ](https://github.com/symfony/symfony/commit/699e046b4f0022fbd510a917efef9cf8b9587ed2) がコミットされた。最後に、symfony-docsリポジトリはSymfony2が安定化していきそのドキュメントが改善していく[たくさんのコミットを受信](https://github.com/symfony/symfony-docs/commits)した。
+今週、[国際拡張の要件](https://groups.google.com/forum/#!topic/symfony-devs/RBtwBObsLCE)に関連してのいくつかの問題を防ぐため、Symfony2は新しい国際拡張スタブを得た。また、おそらくSymfony2コードの最後の大きな変更となる[新しいイベントマネージャ](https://github.com/symfony/symfony/commit/699e046b4f0022fbd510a917efef9cf8b9587ed2) がコミットされた。最後に、symfony-docsリポジトリはSymfony2の安定化が拡大し、向上させていくドキュメントの[たくさんのコミットを受けた。](https://github.com/symfony/symfony-docs/commits)
  
 開発メーリングリスト
 ------------------------
