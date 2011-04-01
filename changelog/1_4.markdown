@@ -3,6 +3,12 @@ Changelong for 1.4.X
 
 公式サイトの[Changelog for 1.4.X](http://www.symfony-project.org/installation/1_4/changelog)の翻訳です。
 
+03/30/11: Version 1.4.11
+------------------------
+
+* Doctrineのexternalを、GitHubのmasterブランチからの独自のミラーリポジトリへ切り替え
+
+
 03/21/11: Version 1.4.10
 ------------------------
 
