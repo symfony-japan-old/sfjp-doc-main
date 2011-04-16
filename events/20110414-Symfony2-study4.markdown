@@ -33,7 +33,9 @@
 ---------------
 
  - 講師：上野さん（[twitter @uechoco](http://twitter.com/uechoco)）
- - 10時〜14時（12時〜13時休憩）
+ - 9:30：開場・受付開始（スタッフ集合 9:00）<br />
+   10:00 - 14:00 ワークショップ（12:00 - 13:00休憩）
+
 
 第 1 部は基礎編で、以下のような方が対象となります。
 
@@ -55,28 +57,38 @@
 
 勉強会の中で、Symfony2 standard ディストリビューションパッケージをインストールするところから説明しますが、事前にディストリビューションのダウンロードと、check.php での動作環境の確認まで完了していると、当日スムーズに進められます。
 
+<span style="red">第1部に参加される方は、作業できるノートPCなどを持参してください。</span>
+
 
 第 2 部：Symfony2 セッション + LT
 ---------------------------------
 
+ - 14:00 開場・受付開始<br />
+   14:30 - 18:00 講演等
+
+
 第2部では、Symfony2 の実践的な使い方や、より踏み込んで理解するためのセッション、ハンズオンを行います。
 
+ - 14:30 第2部開会
+
  - 後藤（[twitter @hidenorigoto](http://twitter.com/hidenorigoto)）<br />
-   ハンズオン「<span style="font-weight: bold;">Symfony2 + Behat(Bundle)でテストファースト開発</span>」<br />
+   ハンズオン「<span style="font-weight: bold;">Symfony2 + Behat(Bundle)でテストファースト開発</span>」　14:35 - 15:15<br />
    Cucumber 互換のテストツール Behat を Symfony2 に統合した BehatBundle の使い方を、実際にその場でインストールして手を動かしながら紹介していきます。
    Symfony2 や PHPUnit が事前にインストールされていると、スムーズに進められます。
  - 小川さん（[twitter @fivestr](http://twitter.com/fivestr)）<br />
-   セミナー「<span style="font-weight: bold;">Symfony2 のフォームについて</span>」<br />
+   セミナー「<span style="font-weight: bold;">Symfony2 のフォームについて</span>」 15:20 - 16:00<br />
    Symfony2 向けに刷新されたフォームコンポーネントについて。
  - 前田さん（[twitter @brtriver](http://twitter.com/brtriver)）<br />
-   セミナー「<span style="font-weight: bold;">PHPマイクロフレームワーク Silex 入門</span>」<br />
+   セミナー「<span style="font-weight: bold;">PHPマイクロフレームワーク Silex 入門</span>」 16:05 - 16:45<br />
    Symfony2 のコンポーネントをベースに開発されたマイクロフレームワーク Silex について。
  - 久保さん（[twitter @iteman](http://twitter.com/iteman)）<br />
-   キーノートセミナー「<span style="font-weight: bold;">Symfony2でより良いソフトウェアを作るために</span>」<br />
+   キーノートセミナー「<span style="font-weight: bold;">Symfony2でより良いソフトウェアを作るために</span>」 16:50 - 17:30<br />
    モジュールシステム、ドメインモデリング、DSL などの観点から Symfony2 のアーキテクチャ・フィーチャを俯瞰しつつ、Symfony2 を使ってより良いソフトウェアを作る方法を探索します。
 
+ - 17:35 - 17:55 LT<br />
+   LT 発表者は 3 名ほどを予定しています。現在募集中です。LT 発表者は参加費を無料とさせていただきますので、何かちょっとしたことでも、発表していただける方からのご応募をお待ちしてります。ご希望の方は、ユーザー会のメーリングリストや twitter 等でご連絡ください。
+ - 17:55 - 18:00 閉会
 
-LT 発表者は 3 名ほどを予定しています。現在募集中です。LT 発表者は参加費を無料とさせていただきますので、何かちょっとしたことでも、発表していただける方からのご応募をお待ちしてります。ご希望の方は、ユーザー会のメーリングリストや twitter 等でご連絡ください。
 
 
 懇親会 + Symfony Midnight
@@ -84,7 +96,6 @@ LT 発表者は 3 名ほどを予定しています。現在募集中です。LT
 
 勉強会の終了後は、会場近くのお店で懇親会を行う予定です。
 また、懇親会の後、さらに Symfony2 などをネタにお酒を飲んだりハッカソンのようなことをしながら朝まで過ごす Symfony Midnight も開催します。今回の Symfony Midnight では、Symfony2 ドキュメントの翻訳も同時に進めます。翻訳に参加したいけど、やり方が分からないという方にはその場でご説明しますので、是非参加をご検討ください。
-
 
 
 
