@@ -6,7 +6,7 @@ Ustream Symfonyしゃべり場(仮) (4/27)のご案内
 
 - 日時：4/27 (水)  22:00 ~ 1時間半程度
 - URL：[Ustream](http://www.ustream.tv/channel/sfbeer)
-- しゃべる側：[@brtriver](http://twitter.com/brtriver)、[@HIROCAST](http://twitter.com/HIROCAST)、[@hidenorigoto](http://twitter.com/hidenorigoto)
+- しゃべる側：[@brtriver](http://twitter.com/brtriver)、[@HIROCAST](http://twitter.com/HIROCAST)、[@shishi4tw](http://twitter.com/shishi4tw)、[@hidenorigoto](http://twitter.com/hidenorigoto)
 - 話題<br />
   ・symfony 1.4 勉強会、Symfony2 勉強会について<br />
   ・Symfony2 ベータ情報<br />
