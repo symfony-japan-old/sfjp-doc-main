@@ -1,0 +1,15 @@
+Ustream Symfonyしゃべり場(仮) (4/27)のご案内
+============================================
+
+[@brtriverさん](http://twitter.com/brtriver)企画の、Symfony をネタにした Ustream でのゆるい座談会の開催を予定しています。
+ほぼ音声のみの放送になる予定です。
+
+- 日時：4/27 (水)  22:00 ~ 1時間半程度
+- URL：[Ustream](http://www.ustream.tv/channel/sfbeer)
+- しゃべる側：[@brtriver](http://twitter.com/brtriver)、[@HIROCAST](http://twitter.com/HIROCAST)、[@hidenorigoto](http://twitter.com/hidenorigoto)
+- 話題<br />
+  ・symfony 1.4 勉強会、Symfony2 勉強会について<br />
+  ・Symfony2 ベータ情報<br />
+
+お時間のある方は、是非 Ustream をご視聴ください。
+
