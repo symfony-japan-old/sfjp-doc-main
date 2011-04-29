@@ -1,0 +1,15 @@
+Ustream Symfonyしゃべりば 第2回 (5/11)のご案内
+==============================================
+
+[@brtriverさん](http://twitter.com/brtriver)企画の、Symfony をネタにした Ustream でのゆるい座談会「Symfony しゃべりば」の第 2 回が開催されます。
+
+- 日時：5/11 (水)  22:00 ~ 1時間半程度
+- URL：[Ustream](http://www.ustream.tv/channel/sfbeer)
+- しゃべる側：[@brtriver](http://twitter.com/brtriver)、[@fivestr](http://twitter.com/fivestr)、[@ganchiku](http://twitter.com/ganchiku)、[@shishi4tw](http://twitter.com/shishi4tw)
+- 話題<br />
+  ・Symfony2 ベータ情報<br />
+  ・symfony 1.4 勉強会、Symfony2 勉強会について<br />
+  ・Symfony ユーザー会のイベントなど<br />
+
+お時間のある方は、是非 Ustream をご視聴ください。
+
