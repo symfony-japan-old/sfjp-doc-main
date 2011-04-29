@@ -1,6 +1,8 @@
 Ustream Symfonyしゃべり場(仮) (4/27)のご案内
 ============================================
 
+![Symfony Shaberiba](http://cdn-ak.f.st-hatena.com/images/fotolife/b/brtRiver/20110425/20110425015404.png "Symfonyしゃべりば")
+
 [@brtriverさん](http://twitter.com/brtriver)企画の、Symfony をネタにした Ustream でのゆるい座談会の開催を予定しています。
 ほぼ音声のみの放送になる予定です。
 
@@ -11,5 +13,22 @@ Ustream Symfonyしゃべり場(仮) (4/27)のご案内
   ・symfony 1.4 勉強会、Symfony2 勉強会について<br />
   ・Symfony2 ベータ情報<br />
 
+- [Facebookファンページ](http://www.facebook.com/pages/Symfony%E3%81%97%E3%82%83%E3%81%B9%E3%82%8A%E3%81%B0/183899751657633)
+
 お時間のある方は、是非 Ustream をご視聴ください。
 
+放送内の話題まとめ
+----------
+無事第1回の放送が終わりました。Twitterやチャットからも参加してもらい楽しい放送になりました。
+録画をしていないのですが、以下のような内容が主に話題にあがりました。
+
+- symfony 1.4勉強会
+- テスト方法
+- アジャイル開発
+- Symfony2 勉強会
+- 名前空間ってどう？
+- Behat BDD
+- sfFormって難しいよね
+- Silexについて
+
+2回目以降も企画していますので是非参加してみてください

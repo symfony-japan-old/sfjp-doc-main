@@ -1,6 +1,8 @@
 Ustream Symfonyしゃべりば 第2回 (5/11)のご案内
 ==============================================
 
+![Symfony Shaberiba](http://cdn-ak.f.st-hatena.com/images/fotolife/b/brtRiver/20110425/20110425015404.png "Symfonyしゃべりば")
+
 [@brtriverさん](http://twitter.com/brtriver)企画の、Symfony をネタにした Ustream でのゆるい座談会「Symfony しゃべりば」の第 2 回が開催されます。
 
 - 日時：5/11 (水)  22:00 ~ 1時間半程度
@@ -10,6 +12,8 @@ Ustream Symfonyしゃべりば 第2回 (5/11)のご案内
   ・Symfony2 ベータ情報<br />
   ・symfony 1.4 勉強会、Symfony2 勉強会について<br />
   ・Symfony ユーザー会のイベントなど<br />
+  
+- [Facebookファンページ](http://www.facebook.com/pages/Symfony%E3%81%97%E3%82%83%E3%81%B9%E3%82%8A%E3%81%B0/183899751657633)
 
 お時間のある方は、是非 Ustream をご視聴ください。
 
