@@ -17,10 +17,14 @@ Twig のエラーメッセージの改善
 コンフィギュレーションのエラーメッセージの改善
 ----------------------------------------------
 
-上述したことはコンフィギュレーションのエラーメッセージにもあてはまります。ここでは、Twig のテンプレートの代わりに設定ファイル (XML もしくは YAML 形式) を考えてみましょう。たとえば、サービスのなかで定義されていないパラメータを使おうとすると、次のエラー[メッセージ](https://github.com/symfony/symfony/commit/175f944f93c8d515627173a5fea792da956198bf)が示されます:
-「The service "%s" has a dependency on a non-existent parameter "foo".」
+上述したことはコンフィギュレーションのエラーメッセージにもあてはまります。ここでは、Twig のテンプレートの代わりに設定ファイル (XML もしくは YAML 形式) を考えてみましょう。たとえば、サービスのなかで定義されていないパラメータを使おうとすると、次のエラー[メッセージ](https://github.com/symfony/symfony/commit/175f944f93c8d515627173a5fea792da956198bf)が示されます。
+
+    The service "%s" has a dependency on a non-existent parameter "foo".
+
 そして古いメッセージは次のとおりです:
-「You have requested a non-existent parameter "foo".」
+
+    You have requested a non-existent parameter "foo".
+
 新しいメッセージはあなたが探す必要のあることを即座に伝えます。
 
 Doctrine のコンフィギュレーションの簡略化
