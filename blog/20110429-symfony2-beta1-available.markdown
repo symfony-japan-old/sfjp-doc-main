@@ -13,7 +13,7 @@ Symfony2 のベータ版は、すべての機能が安定しているわけで�
 
 [Symfony 2.0 Standard Edition ベータ1をダウロード](http://symfony.com/download)し、[クイックツアー](http://symfony.com/doc/2.0/quick_tour/the_big_picture.html)を読み、さらに[詳細なドキュメント](http://symfony.com/doc/2.0/)を読んでみてください。
 
-そして、何かお気づきの点があれば、是非私たちにフィードバックを送ってください。不便な点を[開発者メーリングリスト]((http://groups.google.com/group/symfony-devs)教えていただいたり、バグの[チケット](http://trac.symfony-project.org/report/24)を作成したり、[パッチ](http://symfony.com/doc/2.0/contributing/code/patches.html)を送ってください。
+そして、何かお気づきの点があれば、是非私たちにフィードバックを送ってください。不便な点を[開発者メーリングリスト](http://groups.google.com/group/symfony-devs)で教えていただいたり、バグの[チケット](http://trac.symfony-project.org/report/24)を作成したり、[パッチ](http://symfony.com/doc/2.0/contributing/code/patches.html)を送ってください。
 
 最後に、プレビューリリースの時と同じように、今後もおそらく1週間程度の間隔でリリースを行っていきます。フィードバックの状況にもよりますが、ベータフェーズは1ヶ月程度の期間が必要だと考えています。すべての致命的なバグが解決し、ドキュメントが完成した段階で、最初の RC 版をリリースします。
 
