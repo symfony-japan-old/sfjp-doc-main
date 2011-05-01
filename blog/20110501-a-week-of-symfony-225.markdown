@@ -1,7 +1,7 @@
 A week of symfony #225 (18->24 April 2011)
 ==========================================
 
-この週、Symfony2は新しいフォーム/検証コンポーネントの開発に集中した。最初に ['フォーム'ブランチ](https://github.com/symfony/symfony/commit/0069a70e42c74205a888aa7b5f1743700b24a51f)（300ファイル以上 25,000 行近くのコードの修正）をマージした。 その後、フォームを[拡張](https://github.com/symfony/symfony/pull/623)し、[使い易く](https://github.com/symfony/symfony/commit/e790587dc22cd52cd0648ad249a54a2ec8f9477d)するための修正や調整がコミットされた。また、[Symfony2 PR12がリリース](http://symfony.com/blog/symfony2-pr12-released)され、最初のベータ版が来週に発表される。
+今週、Symfony2は新しいフォーム/検証コンポーネントの開発に集中した。最初に [フォームブランチ](https://github.com/symfony/symfony/commit/0069a70e42c74205a888aa7b5f1743700b24a51f)（300ファイル以上 25,000 行近くのコードの修正）をマージした。 その後、フォームを[拡張](https://github.com/symfony/symfony/pull/623)し、[使い易く](https://github.com/symfony/symfony/commit/e790587dc22cd52cd0648ad249a54a2ec8f9477d)するための修正や調整がコミットされた。また、[Symfony2 PR12がリリース](http://symfony.com/blog/symfony2-pr12-released)され、最初のベータ版が来週に発表される。
 
  
 開発メーリングリスト
