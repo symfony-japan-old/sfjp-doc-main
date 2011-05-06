@@ -1,7 +1,7 @@
 Symfony2: よりかんたんになりました (パート 2)
 =============================================
 
-  - [原文リンク]{http://symfony.com/blog/symfony2-getting-easier-part-2)
+  - [原文リンク](http://symfony.com/blog/symfony2-getting-easier-part-2)
     
 by Fabien Potencier – May 05, 2011
 
