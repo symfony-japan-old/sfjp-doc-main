@@ -9,11 +9,15 @@ Ustream Symfonyしゃべりば 第2回 (5/11)のご案内
 - URL：[Ustream](http://www.ustream.tv/channel/sfbeer)
 - しゃべる側：[@brtriver](http://twitter.com/brtriver)、[@fivestr](http://twitter.com/fivestr)、[@ganchiku](http://twitter.com/ganchiku)、[@shishi4tw](http://twitter.com/shishi4tw)
 - 話題<br />
-  ・Symfony2 ベータ情報<br />
-  ・symfony 1.4 勉強会、Symfony2 勉強会について<br />
-  ・Symfony ユーザー会のイベントなど<br />
+  ・Symfony2 セキュリティーコンポーネント<br />
+  ・symfony 1.4 勉強会振り返り(アド民ジェネレーター、テスト)<br />
+  ・Symfony2 勉強会の概要<br />
+  ・Symfony 温泉<br />
+  ・雑談<br />
   
 - [Facebookファンページ](http://www.facebook.com/pages/Symfony%E3%81%97%E3%82%83%E3%81%B9%E3%82%8A%E3%81%B0/183899751657633)
 
-お時間のある方は、是非 Ustream をご視聴ください。
+おかげさまで第2回も多くの方からのご参加いただき盛り上がりました。
+本編のアーカイブを公開していますので聞き逃した方は以下のリンクからチェックしてみてください。
 
+- [Symfonyしゃべりば #2](http://www.ustream.tv/recorded/14669796)

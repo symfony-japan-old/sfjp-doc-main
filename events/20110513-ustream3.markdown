@@ -1,0 +1,23 @@
+Ustream Symfonyしゃべりば 第3回 (5/18)のご案内
+==============================================
+
+![Symfony Shaberiba](http://cdn-ak.f.st-hatena.com/images/fotolife/b/brtRiver/20110425/20110425015404.png "Symfonyしゃべりば")
+
+[@brtriverさん](http://twitter.com/brtriver)企画の、Symfony をネタにした Ustream でのゆるい座談会「Symfony しゃべりば」の第 3 回が開催されます。
+
+- 日時：5/18 (水)  22:00 ~ 1時間半程度
+- URL：[Ustream](http://www.ustream.tv/channel/sfbeer)
+- しゃべる側：[@brtriver](http://twitter.com/brtriver)、[@uechoco](http://twitter.com/uechoco)、[@vectorxenon](http://twitter.com/vectorxenon)、[@yuchimiri](http://twitter.com/yuchimiri)
+- 話題<br />
+  ・Symfony2 はどうなってる？<br />
+  ・Symfony2 勉強会<br />
+  ・Symfony2 基礎体力 (周辺のライブラリやパッケージ)<br />
+　  　・Symfony Component<br />
+　  　・Doctrine2<br />
+　  　・Twig<br />
+  ・Symfony 女子会<br />
+  ・Symfony 温泉続報<br />
+  ・イカセンター<br />
+  ・雑談<br />
+  
+- [Facebookファンページ](http://www.facebook.com/pages/Symfony%E3%81%97%E3%82%83%E3%81%B9%E3%82%8A%E3%81%B0/183899751657633)
