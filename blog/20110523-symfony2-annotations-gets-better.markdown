@@ -1,5 +1,5 @@
-Symfony2: Annotations get better
-=================================
+Symfony2: アノテーションが改善されました
+========================================
 
   - [原文リンク](http://symfony.com/blog/symfony2-annotations-gets-better)
 
