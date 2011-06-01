@@ -1,5 +1,5 @@
-Symfony2: Annotations get better
-=================================
+Symfony2: アノテーションが改善されました
+========================================
 
   - [原文リンク](http://symfony.com/blog/symfony2-annotations-gets-better)
 
@@ -66,4 +66,4 @@ Johannes はこの問題のエレガントなソリューションを見つけ�
         private $name;
     }
 
-これでアノテーションはより「ネイティブ」に感じられます。Symfony2 のコンテキストの外側からアノテーションを使いたいのであれば、Doctrine Common [repository](https://github.com/doctrine/common/tree/3.0.x) (version 3.0) をご覧ください。
+これでアノテーションはより「ネイティブ」に感じられます。Symfony2 のコンテキストの外側からアノテーションを使いたいのであれば、Doctrine Common の[リポジトリ](https://github.com/doctrine/common/tree/3.0.x) (version 3.0) をご覧ください。

@@ -1,6 +1,8 @@
 Symfony2: beta2 がリリースされました
 ====================================
 
+  - [原文リンク](http://symfony.com/blog/symfony2-beta2-released)
+
 by Fabien Potencier – May 23, 2011
 
 予想よりも時間がかかりましたが、Symfony2 の beta2 が利用できるようになりました。
