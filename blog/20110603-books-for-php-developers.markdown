@@ -11,7 +11,7 @@ PHP 5.3 以降で動く画像操作ライブラリの [Imagine](https://github.c
 
  - [オブジェクト指向における再利用のためのデザインパターン](http://www.amazon.co.jp/dp/4797311126) (邦訳: 1999年、原文: 1994年 Erich Gamma、Ralph Johnson、Richard Helm、John Vlissides 著)
  - [リファクタリング](http://www.amazon.co.jp/dp/4894712288) (邦訳: 2000年、原文: 1999年 Martin Fowler、Kent Beck、John Brant、William Opdyke、Don Roberts 著)  
- - エンタープライズ アプリケーションアーキテクチャパターン(http://www.amazon.co.jp/dp/4798105538) (邦訳: 2005年、原文: 2002年 Martin Fowler 著)
+ - [エンタープライズ アプリケーションアーキテクチャパターン](http://www.amazon.co.jp/dp/4798105538) (邦訳: 2005年、原文: 2002年 Martin Fowler 著)
  - [xUnit Test Patterns](http://www.amazon.co.jp/dp/0131495054) (邦訳: 未刊行、原文: 2007年)
  - [Growing Object-Oriented Software, Guided by Tests](http://www.amazon.co.jp/dp/0321503627) (邦訳: 未刊行、原文: 2009年 Steve Freeman、Nat Pryce著)
 
@@ -24,7 +24,7 @@ Giorgio Sironi さん
 
 [PHP Zone](http://php.dzone.com/users/piccoloprincipe) で PHP のテストコードを中心にチュートリアルを連載しています。上述の Bulat Shakirzyanov さんの Clean code のスライドで Giorgio さんの[ブログ](http://giorgiosironi.blogspot.com/)が学習のためのリソースとして紹介されています。
 
-- エリック・エヴァンスのドメイン駆動設計 (邦訳: 2011年、原文: 2003年 Eric Evans 著)
+- [エリック・エヴァンスのドメイン駆動設計](http://www.amazon.co.jp/dp/4798121967) (邦訳: 2011年、原文: 2003年 Eric Evans 著)
 
 
 >**注:** 「エリック・エヴァンスのドメイン駆動設計」 (原文のタイトルは Domain Driven Design) の要約と DDD の原則を紹介した「[Domain Driven Design Quickly 日本語版](http://www.infoq.com/jp/minibooks/domain-driven-design-quickly)」の pdf は InfoQ で会員登録すれば無料で入手できます。Jimmy Nilsson の「ドメイン駆動」(邦訳:2008年、原文: 2006年) に Martin Fowler と Eric Evans が序文を寄稿し、Spring Framework 創設者の Rod Johnson が賛辞を送っています。
