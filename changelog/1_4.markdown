@@ -3,6 +3,22 @@ Changelong for 1.4.X
 
 公式サイトの[Changelog for 1.4.X](http://www.symfony-project.org/installation/1_4/changelog)の翻訳です。
 
+07/01/11: Version 1.4.12
+------------------------
+
+ * [32634](http://trac.symfony-project.org/changeset/32634) エラーメッセージ中のtypoを修正 ([#9762](http://trac.symfony-project.org/ticket/9762)をクローズ - garakからのパッチ)
+ * [32635](http://trac.symfony-project.org/changeset/32635) typoを修正 ([#9682](http://trac.symfony-project.org/ticket/9682)をクローズ)
+ * [32637](http://trac.symfony-project.org/changeset/32637) フランス語向けの不足していた翻訳を追加 (Garfield-frからのパッチ - [#9025](http://trac.symfony-project.org/ticket/9025)をクローズ)
+ * [32638](http://trac.symfony-project.org/changeset/32638) ドイツ語向けの不足していた翻訳を追加 (_GeG_からのパッチ - [#9659](http://trac.symfony-project.org/ticket/9659)をクローズ)
+ * [32639](http://trac.symfony-project.org/changeset/32639) typoを修正 ([#9561](http://trac.symfony-project.org/ticket/9561)をクローズ、Elvis_the_Kingからのパッチ)
+ * [32641](http://trac.symfony-project.org/changeset/32641) スタックトレース中の追加コードを修正 ([#9511](http://trac.symfony-project.org/ticket/9511)をクローズ、tomiからのパッチ)
+ * [32652](http://trac.symfony-project.org/changeset/32652) sfRouteがいくつかのパラメータをシリアライズしなかった問題を修正 ([#9833](http://trac.symfony-project.org/ticket/9833)をクローズ)
+ * [32653](http://trac.symfony-project.org/changeset/32653) PHP のノーティスが出る問題を修正 ([#9813](http://trac.symfony-project.org/ticket/9813)をクローズ)
+ * [32654](http://trac.symfony-project.org/changeset/32654) sfObjectRouteCollectionの標準アクションを修正 (HEADリクエストをGETリクエストと等価に。[#9669](http://trac.symfony-project.org/ticket/9669)をクローズ、ganchikuからのパッチ)
+ * [32677](http://trac.symfony-project.org/changeset/32677) Swiftmailerのバージョンについての情報が不足していた問題を修正 ([#9838](http://trac.symfony-project.org/ticket/9838)をクローズ)
+ * [32678](http://trac.symfony-project.org/changeset/32678) 値に負の指数がある場合のsfNumberFormat::format()の問題を修正 ([#9836](http://trac.symfony-project.org/ticket/9836)をクローズ)
+
+
 03/30/11: Version 1.4.11
 ------------------------
 
