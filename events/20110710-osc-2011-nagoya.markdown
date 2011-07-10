@@ -11,14 +11,14 @@ OSC 2011 Nagoya のご案内
 Piece Projectとの共同出展・セミナー
 -----------------------------------
 
-今回は、日本Symfonyユーザー会と、Piece Projectという2つのOSSコミュニティが共同で1つのブースとセミナーを行います。
+今回は、日本Symfonyユーザー会と、Piece Projectという2つのOSSコミュニティが共同で1つのブース出展とセミナーを行います。
 
  - [Piece Project](http://piece-framework.com/ja/index.html)
 
 Piece Projectからはリードデベロッパーの久保さんにいらして頂きます。
 
 
-ブースの内奥
+ブースの内容
 ------------
 
 ブースでは、書籍『[symfony 1.4によるWebアプリケーション開発](http://books.symfony.gr.jp/14book/)』の展示、パンフレット等の展示、ステッカーの配布などを行います。また、希望があればMakeGoodやSymfony2、Behat等の実演を行います。
