@@ -63,6 +63,8 @@ twitterアカウントの昇順
   [twitter](http://twitter.com/n416)、[フォーラム](http://symfony-jp.com/f/)
 - 西川　茂伸<br />
   [twitter](http://twitter.com/shishi4tw)、[ブログ](http://shishithefool.blogspot.com/)
+- 上野　裕介<br />
+  [twitter](http://twitter.com/uechoco)、[ブログ](http://labs.uechoco.com/blog/)
 - 前島　有貴<br />
   [twitter](http://twitter.com/yuchimiri)、[ブログ](http://d.hatena.ne.jp/yuchimiri/)
 
