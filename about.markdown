@@ -42,7 +42,7 @@ Symfonyユーザー会へのお問い合わせは、以下宛にお願いしま�
 twitterアカウントの昇順
 
 - 菱田　裕美<br />
-  [twitter](http://twittercom/77web)、[ブログ](http://php-sql-gdgd.jugem.jp/)
+  [twitter](http://twitter.com/77web)、[ブログ](http://php-sql-gdgd.jugem.jp/)
 - Akky Akimoto<br />
   [twitter](http://twitter.com/akky)、[ブログ](http://akimoto.jp/)
 - 前田　雅央<br />
