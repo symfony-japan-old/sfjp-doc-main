@@ -67,6 +67,8 @@ twitterアカウントの昇順
   [twitter](http://twitter.com/uechoco)、[ブログ](http://labs.uechoco.com/blog/)
 - 前島　有貴<br />
   [twitter](http://twitter.com/yuchimiri)、[ブログ](http://d.hatena.ne.jp/yuchimiri/)
+- 山道　喬<br />
+  [twitter](http://twitter.com/yanchi)、[ブログ](http://yanchi52.blog21.fc2.com/)
 
 
 メンバーリストに掲載ご希望の方は、GitHubで直接このページを編集して追加するか、[日本Symfonyユーザー会メーリングリスト](http://groups.google.com/group/symfony-users-ja)へご連絡ください。
