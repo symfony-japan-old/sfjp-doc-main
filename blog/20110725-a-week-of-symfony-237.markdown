@@ -15,7 +15,6 @@ Symfony2開発ハイライト
 [Changelog](http://github.com/symfony/symfony/commits/master):
 
   * [ea7a0eb](http://github.com/symfony/symfony/commit/ea7a0eb19c487e882693659d472aca61bed4a9ed "ea7a0eb19c487e882693659d472aca61bed4a9ed commit on github"): [Security] パターンで{_locale}を使用した際のリダイレクトURLの修正
-fixed redirection URLs when using {_locale} in the pattern
   * [30d348d](http://github.com/symfony/symfony/commit/30d348d18db64072b7eb948277bbaa05e346d5ee "30d348d18db64072b7eb948277bbaa05e346d5ee commit on github"): [Form] デフォルト無効メッセージを翻訳可能に作成
   * [0e4d057](http://github.com/symfony/symfony/commit/0e4d057984e6b71f9ae270b2301691fe1b9ee70a "0e4d057984e6b71f9ae270b2301691fe1b9ee70a commit on github"): いくつかのレスポンスのRFC対応を調整するロジックのパブリックメソッドを再利用するため移動
   * [dbe1854](http://github.com/symfony/symfony/commit/dbe1854e1f1d59c020dcf11ef11d8cb3d4aa3a5d "dbe1854e1f1d59c020dcf11ef11d8cb3d4aa3a5d commit on github"): AccessDeniedExceptionをラップするAccessDeniedHttpExceptionを追加
