@@ -57,6 +57,8 @@ twitterアカウントの昇順
   [twitter](http://twitter.com/HIROCAST)、[ブログ](http://hiroki.jp/)
 - 光宗　朋宏<br />
   [twitter](http://twitter.com/Kiske)、[ブログ](http://d.hatena.ne.jp/Kiske/)
+- 岩崎　晃司<br />
+  [twitter](http://twitter.com/madapaja)、[ブログ](http://d.hatena.ne.jp/ja9/)
 - 加賀谷　昌樹<br />
   [twitter](http://twitter.com/masakielastic)、[ブログ](http://blog.sarabande.jp/)
 - 中村　慎吾<br />
@@ -65,12 +67,10 @@ twitterアカウントの昇順
   [twitter](http://twitter.com/shishi4tw)、[ブログ](http://shishithefool.blogspot.com/)
 - 上野　裕介<br />
   [twitter](http://twitter.com/uechoco)、[ブログ](http://labs.uechoco.com/blog/)
-- 前島　有貴<br />
-  [twitter](http://twitter.com/yuchimiri)、[ブログ](http://d.hatena.ne.jp/yuchimiri/)
 - 山道　喬<br />
   [twitter](http://twitter.com/yanchi)、[ブログ](http://yanchi52.blog21.fc2.com/)
-- 岩崎　晃司<br />
-  [twitter](http://twitter.com/madapaja)、[ブログ](http://d.hatena.ne.jp/ja9/)
+- 前島　有貴<br />
+  [twitter](http://twitter.com/yuchimiri)、[ブログ](http://d.hatena.ne.jp/yuchimiri/)
 
 
 メンバーリストに掲載ご希望の方は、GitHubで直接このページを編集して追加するか、[日本Symfonyユーザー会メーリングリスト](http://groups.google.com/group/symfony-users-ja)へご連絡ください。
