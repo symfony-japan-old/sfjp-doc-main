@@ -1,0 +1,17 @@
+オープンソースカンファレンス2011名古屋(8/20)用チュートリアルの公開
+==================================================================
+
+今週末に開催される「[オープンソースカンファレンス2011名古屋](http://www.ospn.jp/osc2011-nagoya/)」にて、Piece Projectと日本Symfonyユーザー会の共同にて「[PHPフレームワークSymfony2の開発チュートリアル](https://www.ospn.jp/osc2011-nagoya/modules/eguide/event.php?eid=13)」というセミナーを行います。
+
+
+このセミナーに参加予定の方向けに、Symfony2の環境構築と当日説明するチュートリアルのドキュメントのα版を公開します。
+
+* [アプリケーションと環境のセットアップ](http://docs.symfony.gr.jp/symfony2/osc2011-nagoya-symfony2-tutorial/application-and-environment-setup.html)
+* [飲料注文アプリケーションチュートリアル](http://docs.symfony.gr.jp/symfony2/osc2011-nagoya-symfony2-tutorial/symfony2-php-framework-development-tutorial.html)
+
+OSC当日は、Symfony2の特徴の概要説明などを行った後、上記のチュートリアルを実際にその場で実演しながら構築し、解説していきます。パソコンなどをお持ちいただかなくても、セミナーの場では実演を見ていただき、後で家に帰ってから復習するという参加の仕方でも問題ありません。また、モバイル環境をお持ちの方は、アプリケーション環境をセットアップしてきて頂ければ、セミナー中に一緒に試しながら聞いていただくこともできます。
+
+
+なお、このチュートリアルは、ドメイン駆動設計を意識した Symfony2 の開発チュートリアルとして、今後内容を追加・修正していく予定です。OSC Nagoyaに参加されない方々も、是非一度チュートリアルの内容を試していただき、ご意見等お気軽に頂けると助かります。
+
+
