@@ -47,6 +47,8 @@ twitterアカウントの昇順
   [twitter](http://twitter.com/akky)、[ブログ](http://akimoto.jp/)
 - 前田　雅央<br />
   [twitter](http://twitter.com/brtriver)、[ブログ](http://d.hatena.ne.jp/brtRiver)
+- 藤田　耕治<br />
+  [twitter](http://twitter.com/gilbite)
 - 小川　雄大<br />
   [twitter](http://twitter.com/fivestr)、[ブログ](http://d.hatena.ne.jp/Fivestar)
 - 大野　晋<br />
