@@ -4,8 +4,55 @@ Symfonyドキュメント
 ユーザー会独自のドキュメントや、公式サイトの日本語ドキュメントへリンクなどをまとめています。
 
 
-入門者向け
---------
+Symfony2関連
+------------
+
+#### Symfony2日本語ドキュメントポータル
+
+  - [Symfony2 ドキュメント日本語版](http://docs.symfony.gr.jp)<br>
+    Symfony2公式ドキュメント（クイックツアー、ガイドブック、クックブック、リファレンス）の翻訳と、日本ユーザー会オリジナルのBlogチュートリアル、アプリケーション開発チュートリアルがあります。
+
+
+#### 英語公式ドキュメント
+
+  - [Symfony2 Documentation](http://symfony.com/doc/current/)
+  - [Symfony2 API](http://api.symfony.com/2.0/index.html)
+  - [Doctrine2 ORM](http://www.doctrine-project.org/projects/orm/2.1/docs/en)
+  - [MongoDB ODM](http://www.doctrine-project.org/docs/mongodb_odm/1.0/en/)
+  - [Twig Documentation](http://twig.sensiolabs.org/documentation)
+
+
+
+公式ドキュメント翻訳への参加方法
+------------------------------
+
+現在、公式ドキュメントの翻訳はGitHubを使って行われています。
+[GitHubの使い方](github-howto)などを参考に、ご自分で翻訳したものを公式リポジトリへPull Requestする流れです。
+（ユーザー会ドキュメント整備の流れと同じです）
+
+  - [Symfony2 日本語ドキュメントのリポジトリ](http://github.com/symfony-japan/symfony-docs-ja)
+  - [Symfony2 日本語ドキュメント翻訳手順](https://github.com/symfony-japan/symfony-docs-ja/wiki)
+  - [Symfony2 英語ドキュメントのリポジトリ](http://github.com/symfony/symfony-docs)
+  - [symfony 1.xドキュメントのリポジトリ](http://github.com/symfony/symfony1-docs)
+
+
+
+ユーザー会ドキュメント整備への参加方法
+------------------------------------
+
+  - [ユーザー会ドキュメントへの参加方法](joining-userdocs)
+    - [GitHub の使い方](./git/github-howto)
+    - [Windows 上に Git 環境を構築する方法(TortoiseGit と msysGit)](./git/setup-git-windows)
+    - [GitHub 上のリポジトリのフォーク、プッシュ、プルリクエスト](./git/git-fork-and-push)
+  - [日本語表記ガイドライン](japanese-style)
+  - [markdown早見表](markdown-sample)
+  - [markdown簡易チェック](http://www.symfony-project.org/plugins/markdown_dingus)<br />
+    markdownがどのようにレンダリングされるのかを、Webブラウザからテストできます。
+
+
+
+1.4入門者向け
+-------------
 
   - [symfony 1.4のインストール方法（入門者・評価向け）](docs/for-beginners/installation)
   - [Blogチュートリアル](docs/for-beginners/blog-tutorial/?sk=file&so=asc)<br />
@@ -13,10 +60,8 @@ Symfonyドキュメント
     [CakePHPのブログチュートリアル](http://book.cakephp.org/ja/view/219/Blog)と同等のものを開発しますので、CakePHPとの機能比較の参考にしてください。
 
 
-公式ドキュメント日本語訳
-------------------------
-
-### symfony 1.4 関連
+1.4向け公式ドキュメント日本語訳
+-------------------------------
 
   - **A Gentle Introduction to symfony**<br />
     [HTML](http://www.symfony.gr.jp/docs/symfony1-docs/gentle-introduction/ja/?sk=file&so=asc) ([公式サイト内](http://www.symfony-project.org/gentle-introduction/1_4/ja/))<br />
@@ -65,48 +110,6 @@ Symfonyドキュメント
     [HTML](http://www.symfony-project.org/forms/1_2/ja/)<br />
     symfonyのフォームフレームワークsfFormについて、基本から解説したドキュメントです。
     また、ウィジェットやバリデーターの一覧もここにあります。
-
-
-### Symfony2関連
-
-#### 日本語ドキュメント
-
-  - [Symfony2 ドキュメント日本語版](http://docs.symfony.gr.jp)
-
-#### 英語公式ドキュメント
-
-  - [Symfony2 Documentation](http://symfony.com/doc/2.0/)
-  - [Symfony2 API](http://api.symfony-reloaded.org/master/index.html)
-  - [Doctrine2 ORM](http://www.doctrine-project.org/projects/orm/2.0/docs/en)
-  - [MongoDB ODM](http://www.doctrine-project.org/projects/mongodb_odm/1.0/docs/reference/en)
-  - [Twig Documentation](http://www.twig-project.org/documentation)
-
-
-
-公式ドキュメント翻訳への参加方法
-------------------------------
-
-現在、公式ドキュメントの翻訳はGitHubを使って行われています。
-[GitHubの使い方](github-howto)などを参考に、ご自分で翻訳したものを公式リポジトリへPull Requestする流れです。
-（ユーザー会ドキュメント整備の流れと同じです）
-
-  - [symfony 1.xドキュメントのリポジトリ](http://github.com/symfony/symfony1-docs)
-  - [Symfony2 英語ドキュメントのリポジトリ](http://github.com/symfony/symfony-docs)
-  - [Symfony2 日本語ドキュメントのリポジトリ](http://github.com/symfony-japan/symfony-docs-ja)
-
-
-
-ユーザー会ドキュメント整備への参加方法
-------------------------------------
-
-  - [ユーザー会ドキュメントへの参加方法](joining-userdocs)
-    - [GitHub の使い方](./git/github-howto)
-    - [Windows 上に Git 環境を構築する方法(TortoiseGit と msysGit)](./git/setup-git-windows)
-    - [GitHub 上のリポジトリのフォーク、プッシュ、プルリクエスト](./git/git-fork-and-push)
-  - [日本語表記ガイドライン](japanese-style)
-  - [markdown早見表](markdown-sample)
-  - [markdown簡易チェック](http://www.symfony-project.org/plugins/markdown_dingus)<br />
-    markdownがどのようにレンダリングされるのかを、Webブラウザからテストできます。
 
 
 
