@@ -28,7 +28,7 @@ symfony 1/Symfony2 好きなメンバーの、TIPS 集や symfony/Symfony への
 5日目
 -----
 
-  - [@fivestar](http://twitter.com/fivestar) [SymfonyのFormコンポーネントを使いこなすために](http://fivestar.hatenablog.com/entry/2011/12/06/013145)
+  - [@fivestr](http://twitter.com/fivestr) [SymfonyのFormコンポーネントを使いこなすために](http://fivestar.hatenablog.com/entry/2011/12/06/013145)
 
 6日目
 -----
