@@ -20,3 +20,11 @@ Symfony2のネタ、symfony 1系のネタ、Symfonyとはちょっと関係な�
 * [昨年の Symfony アドベントカレンダー](http://www.symfony.gr.jp/adventcalendar/2010)
 
 
+
+24日までの記事がすべて公開されました
+------------------------------------
+
+* [2011年のアドベントカレンダーの記事一覧](http://www.symfony.gr.jp/adventcalendar/2011)
+
+記事を書かれた皆様、ありがとうございました。
+
