@@ -1,7 +1,7 @@
 Symfony 2.1: Doctrine 関係のバンドルが Doctrine グループへ移管されました
 ========================================================================
 
-([原文リンク](http://symfony.com/blog/symfony-2-1-the-doctrine-bundle-has-moved-to-the-doctrine-organization))
+([原文リンク](http://symfony.com/blog/symfony-2-1-the-doctrine-bundle-has-moved-to-the-doctrine-organization)) posted by Fabien Potencier – January 02, 2012
 
 Symfony2 の [DoctrineBundle](https://github.com/doctrine/DoctrineBundle) が Doctrine グループ（GitHub 上で１つの organization）へ[移管されました](https://github.com/symfony/symfony/commit/dcf209a4aaf27147848437bc5a505b5506116d44)。
 これにより、Doctrine 関係のバンドルのメンテナンスは Symfony から独立して行われるようになります。
