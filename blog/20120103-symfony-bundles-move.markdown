@@ -1,7 +1,7 @@
 [Doctrine] Symfony 向けバンドルが Doctrine グループへ移管されました
 ===================================================================
 
-([原文リンク](http://www.doctrine-project.org/blog/symfony-bundles-move)) posted by beberlei - 2011/12/15
+([原文リンク](http://www.doctrine-project.org/blog/symfony-bundles-move) posted by beberlei - 2011/12/15)
 
 > **CAUTION**
 > この変更は Symfony 2.0 のアプリケーションには影響はありません。Symfony の master ブランチを使っている場合にのみ影響します。
@@ -24,27 +24,29 @@ DoctrineFixturesBundle、DoctrineMigrationsBundle、DoctrineMongoDBBundle につ
 
 コード内で書き換える必要がある箇所は多くはありません。たとえば DoctrineBundle を使っている場合は、次のようにしてください。
 
-    deps ファイルで DoctrineBundle の新しいリポジトリ URL を設定してください:
+deps ファイルで DoctrineBundle の新しいリポジトリ URL を設定してください:
 
-        [DoctrineBundle]
-            git=http://github.com/doctrine/DoctrineBundle.git
-            target=/bundles/Doctrine/Bundle/DoctrineBundle
+    [ini]
+    [DoctrineBundle]
+        git=http://github.com/doctrine/DoctrineBundle.git
+        target=/bundles/Doctrine/Bundle/DoctrineBundle
 
-    AppKernel.php でバンドルクラスの FQCN を変更します:
+AppKernel.php でバンドルクラスの FQCN を変更します:
 
-        [PHP]
-        $bundles = array(
-            //..
-            new Doctrine\Bundle\DoctrineBundle\DoctrineBundle(),
-            //..
-        );
+    [PHP]
+    $bundles = array(
+        //..
+        new Doctrine\Bundle\DoctrineBundle\DoctrineBundle(),
+        //..
+    );
 
-    Registry の参照を変更してください。
+Registry の参照を変更してください。
 
 Symfony\Bundle\DoctrineBundle\Registry クラスがタイプヒンティングで使われているかもしれません。このようなコードでは、Doctrine\Bundle\DoctrineBundle\Registry クラスを参照するように変更してください。
 
 新しいリポジトリを使う完全な deps ファイルは、次のようになります:
 
+    [ini]
     [data-fixtures]
         git=http://github.com/doctrine/data-fixtures.git
 

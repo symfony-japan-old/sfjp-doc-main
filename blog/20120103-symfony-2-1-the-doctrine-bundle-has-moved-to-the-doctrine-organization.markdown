@@ -1,7 +1,7 @@
 Symfony 2.1: Doctrine 関係のバンドルが Doctrine グループへ移管されました
 ========================================================================
 
-([原文リンク](http://symfony.com/blog/symfony-2-1-the-doctrine-bundle-has-moved-to-the-doctrine-organization)) posted by Fabien Potencier – January 02, 2012
+([原文リンク](http://symfony.com/blog/symfony-2-1-the-doctrine-bundle-has-moved-to-the-doctrine-organization) posted by Fabien Potencier – January 02, 2012)
 
 Symfony2 の [DoctrineBundle](https://github.com/doctrine/DoctrineBundle) が Doctrine グループ（GitHub 上で１つの organization）へ[移管されました](https://github.com/symfony/symfony/commit/dcf209a4aaf27147848437bc5a505b5506116d44)。
 これにより、Doctrine 関係のバンドルのメンテナンスは Symfony から独立して行われるようになります。
@@ -23,7 +23,7 @@ DoctrineFixturesBundle、DoctrineMigrationsBundle、DoctrineMongoDBBundle につ
   - [https://github.com/doctrine/DoctrineFixturesBundle](https://github.com/doctrine/DoctrineFixturesBundle)
   - [https://github.com/doctrine/DoctrineMigrationsBundle](https://github.com/doctrine/DoctrineMigrationsBundle)
 
-コードの書き換え部分などの詳細については、Doctrine の[ブログ記事](http://www.doctrine-project.org/blog/symfony-bundles-move)を参照してください。
+コードの書き換え部分などの詳細については、Doctrine の[ブログ記事](http://www.doctrine-project.org/blog/symfony-bundles-move)([日本語訳](http://www.symfony.gr.jp/blog/20120103-symfony-bundles-move))を参照してください。
 
 > **NOTE**
 > Symfony 2.0 ブランチ（2012年1月3日時点のステーブルリリース）を使っており、depsファイルによりvendor install/updateを行う場合は、SensioGeneratorBundleの2.0ブランチを参照するように設定を追加する必要があります。[こちらのコミット](https://github.com/symfony/symfony-standard/commit/5a2c4ba7ea07f03d1222a682d360e631dea8abdd)を参考にしてください。
