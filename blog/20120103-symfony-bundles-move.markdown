@@ -7,7 +7,7 @@
 > この変更は Symfony 2.0 のアプリケーションには影響はありません。Symfony の master ブランチを使っている場合にのみ影響します。
 
 Symfony2 の Doctrine 関係のバンドルが Doctrine グループへ移管されました。
-DoctrineBundle は Symfony 2.0 リリースのコアバンドルの 1 つですが、今後はより Symfony からは独立してメンテナンスが行われます。
+DoctrineBundle は Symfony 2.0 リリースのコアバンドルの 1 つですが、今後は Symfony からは独立してメンテナンスが行われます。
 
   - バンドルのリリースサイクルは Symfony とは独立します。
   - 実際にメンテナンスを行なっているメンバーが所属するグループにコードが移されます。
