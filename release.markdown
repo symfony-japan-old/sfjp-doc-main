@@ -1,6 +1,6 @@
-- 2.2 : [2.2.0](http://symfony.com/download)(2013/03/01)<br />
-  2.1 : [2.1.8](http://symfony.com/download)(2013/02/23)<br />
-  2.0 : [2.0.22](http://symfony.com/download)(2013/01/17)<br />
+- 2.2 : [2.2.0](http://symfony.com/blog/symfony-2-2-0)(2013/03/01)<br />
+  2.1 : [2.1.9](http://symfony.com/blog/symfony-2-1-9-released)(2013/03/26)<br />
+  2.0 : [2.0.23](http://symfony.com/blog/symfony-2-0-23-released)(2013/03/20)<br />
   [Symfony2日本語ドキュメント](http://docs.symfony.gr.jp/)
-- 1.4 : [1.4.20](http://www.symfony-project.org/installation)(2012/11/25)<br />
+- 1.4 : [1.4.20](http://symfony.com/download)(2012/11/25)<br />
   [Changelog](/changelog/1_4)
