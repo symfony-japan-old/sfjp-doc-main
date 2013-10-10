@@ -32,7 +32,6 @@ Symfonyユーザー会は、現在は特に会則を定めていませんので�
 Symfonyユーザー会へのお問い合わせは、以下宛にお願いします。
 
 - 日本Symfonyユーザー会運営事務局
-- アシアル株式会社　小川　雄大
 - info@symfony.gr.jp
 
 
@@ -50,7 +49,7 @@ twitterアカウントの昇順
 - 藤田　耕治<br />
   [twitter](http://twitter.com/gilbite)
 - 小川　雄大<br />
-  [twitter](http://twitter.com/fivestr)、[ブログ](http://d.hatena.ne.jp/Fivestar)
+  [twitter](http://twitter.com/fivestr)、[ブログ](http://fivestar.hatenablog.com/)
 - 大野　晋<br />
   [twitter](http://twitter.com/ganchiku)、[ブログ](http://ganchiku.com/)
 - 後藤　秀宣<br />
