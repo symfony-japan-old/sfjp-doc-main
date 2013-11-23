@@ -63,7 +63,7 @@ twitterアカウントの昇順
 - 加賀谷　昌樹<br />
   [twitter](http://twitter.com/masakielastic)、[ブログ](http://blog.sarabande.jp/)
 - 中村　慎吾<br />
-  [twitter](http://twitter.com/n416)、[フォーラム](http://symfony-jp.com/f/)
+  [twitter](http://twitter.com/n416)
 - 西川　茂伸<br />
   [twitter](http://twitter.com/shishi4tw)、[ブログ](http://shishithefool.blogspot.com/)
 - 上野　裕介<br />

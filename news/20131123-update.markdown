@@ -1,0 +1,13 @@
+Symfonyに関する情報はtwitter、facebookで
+========================================
+
+Symfonyに関する情報、勉強会等のご案内は日本Symfonyユーザー会のtwitter、facebookで発信しております。
+
+- [twitter](https://twitter.com/symfony_japan)
+- [facebook](https://www.facebook.com/SymfonyJapan)
+
+是非こちらを購読してください。
+
+また、Symfony2 公式ドキュメントの日本語翻訳は[こちら](http://docs.symfony.gr.jp/)で掲載しております。翻訳活動も随時行っておりますので、ご協力頂ける方は[ユーザー会メーリングリスト](http://groups.google.com/group/symfony-users-ja)等でお声がけください。
+
+
