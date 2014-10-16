@@ -74,6 +74,8 @@ twitterアカウントの昇順
   [twitter](http://twitter.com/yuchimiri)、[ブログ](http://d.hatena.ne.jp/yuchimiri/)
 - 小西　裕太<br />
   [twitter](http://twitter.com/kmusiclife)、[ブログ](http://blog.kmusiclife.com/)
+- 岡田　祐一<br />
+  [twitter](http://twitter.com/okapon_pon)、[ブログ](http://okapon-pon.hatenablog.com/)
 - 落合　雄一<br />
   [twitter](https://twitter.com/Ochiai_Cstap)
 
