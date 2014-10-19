@@ -78,6 +78,8 @@ twitterアカウントの昇順
   [twitter](http://twitter.com/okapon_pon)、[ブログ](http://okapon-pon.hatenablog.com/)
 - 落合　雄一<br />
   [twitter](https://twitter.com/Ochiai_Cstap)
+- 望月　涼太<br />
+  [twitter](https://twitter.com/polidog)、[ブログ](http://www.polidog.jp/)
+
 
 メンバーリストに掲載ご希望の方は、GitHubで直接このページを編集して追加するか、[日本Symfonyユーザー会メーリングリスト](http://groups.google.com/group/symfony-users-ja)へご連絡ください。
-
