@@ -58,6 +58,8 @@ twitterアカウントの昇順
   [twitter](http://twitter.com/HIROCAST)、[ブログ](http://hiroki.jp/)
 - 光宗　朋宏<br />
   [twitter](http://twitter.com/Kiske)、[ブログ](http://d.hatena.ne.jp/Kiske/)
+- 勢田　圭剛<br />
+  [twitter](http://twitter.com/kseta19)、[ブログ](http://kseta.hatenablog.jp/)
 - 岩崎　晃司<br />
   [twitter](http://twitter.com/madapaja)、[ブログ](http://d.hatena.ne.jp/ja9/)
 - 加賀谷　昌樹<br />
