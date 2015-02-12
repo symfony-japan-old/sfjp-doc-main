@@ -1,3 +1,8 @@
+---
+layout: default
+title: 手嶋屋主催 第一回OpenPNE3で学ぶsymfony勉強会のご案内（6/12）
+---
+
 手嶋屋主催 第一回OpenPNE3で学ぶsymfony勉強会のご案内（6/12）
 ============================================================
 
@@ -6,5 +11,3 @@
 詳細は、以下のATNDのページをご覧下さい。
 
 - [6/12 第一回OpenPNE3で学ぶsymfony勉強会 ATND](http://atnd.org/events/4668)
-
-

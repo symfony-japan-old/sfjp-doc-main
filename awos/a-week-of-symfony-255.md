@@ -1,8 +1,13 @@
+---
+layout: default
+title: "A week of symfony #255 (14->20 November 2011)"
+---
+
 A week of symfony #255 (14->20 November 2011)
 =============================================
 
 This week, [Symfony 2.0.6 was published](http://symfony.com/blog/security-release-symfony-2-0-6) as an important security release. Meanwhile, the official Symfony Community celebrated its first week introducing several improvements and announcing its 1,000th member milestone.
- 
+
 Development mailing list
 ------------------------
 

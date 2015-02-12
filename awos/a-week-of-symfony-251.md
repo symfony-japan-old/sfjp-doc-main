@@ -1,8 +1,13 @@
+---
+layout: default
+title: "A week of symfony #251 (17->23 October 2011)"
+---
+
 A week of symfony #251 (17->23 October 2011)
 ============================================
 
 This week, Symfony2 [added a stopwatch](https://github.com/symfony/symfony/commit/106ebdbe184b0cd9ff8f3a12232cf242b0696f58) to profile code. The first use of this stopwatch is the new [timeline panel](https://github.com/symfony/symfony/commit/842ac36f339a65e3e31fd345a01ba4002a7430ae) in the web profiler. All these new features were introduced during the last [Symfony Day 2011](http://www.symfonyday.com/en/) conference.
- 
+
 Development mailing list
 ------------------------
 

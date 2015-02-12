@@ -1,8 +1,13 @@
+---
+layout: default
+title: A week of symfony#207 (13->19 December 2010)
+---
+
 A week of symfony #207 (13->19 December 2010)
 =============================================
 
 Symfony2 committed this week two huge changesets related to the Security component: [fixed user refreshing after unserialization](https://github.com/symfony/symfony/commit/3c692bd1608eb2bef30f74343f476a5e045ab38b) and [added authentication trust resolver](https://github.com/symfony/symfony/commit/abe804726279148cdebae017550308c7fc21114b). It also committed two small but important tweaks: the new hash syntax for Twig templates and the new format for XML attribute names.
- 
+
 Development mailing list
 ------------------------
 

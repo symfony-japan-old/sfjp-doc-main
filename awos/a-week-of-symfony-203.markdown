@@ -1,8 +1,13 @@
+---
+layout: default
+title: A week of symfony#203 (15->21 November 2010)
+---
+
 A week of symfony #203 (15->21 November 2010)
 =============================================
 
 Symfony2 development activity got a big boost this week. Firstly, Bernhard Schussek announced that he will be again in charge of the form and validation components, which will be finished by the end of the year. Secondly, Fabien initiated two interesting discussions in the developers mailing list: <a href="http://groups.google.com/group/symfony-devs/browse_thread/thread/925d40f1cff7fe11">removing the output escaper component</a> and <a href="http://groups.google.com/group/symfony-devs/browse_thread/thread/5f09925263e9d86e">using templates for routing patterns</a>. Lastly, the <a href="http://trac.symfony-project.org/wiki/IRCLogs20101118">weekly IRC meeting</a> generated some exciting discussions, ideas, best practices and updates about Symfony2 development status.
- 
+
 Development mailing list
 ------------------------
 

@@ -1,3 +1,8 @@
+---
+layout: default
+title: Symfonyアドベントカレンダー 2011
+---
+
 Symfonyアドベントカレンダー 2011
 ================================
 
@@ -124,6 +129,3 @@ symfony 1/Symfony2 好きなメンバーの、TIPS 集や symfony/Symfony への
 ------
 
   - [@hidenorigoto](http://twitter.com/hidenorigoto) [Symfony2の@apiアノテーションによる後方互換性の維持管理](http://phpmentors.jp/post/14695139021/symfony2-api)
-
-
-

@@ -1,3 +1,8 @@
+---
+layout: default
+title: Symfony ドキュメント
+---
+
 Symfonyドキュメント
 ===================
 
@@ -117,4 +122,3 @@ Symfony2関連
 ----------
 
   - [markdownの文法](http://blog.2310.net/archives/6)
-

@@ -1,8 +1,13 @@
+---
+layout: default
+title: "A week of symfony #253 (31 October -> 6 November 2011)"
+---
+
 A week of symfony #253 (31 October -> 6 November 2011)
 ======================================================
 
 This week, [Symfony 2.0.5 was released](http://symfony.com/blog/symfony-2-0-5-released), fixing tens of minor bugs and introducing some tweaks ([view changelog](https://github.com/symfony/symfony/blob/2.0/CHANGELOG-2.0.md)). Meanwhile, in the [last weekly IRC meeting](https://groups.google.com/forum/#!topic/symfony-devs/MDi_Yw-7cIY), it was announced a big push for Symfony2 components, including a revamped documentation.
- 
+
 Development mailing list
 ------------------------
 

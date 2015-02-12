@@ -1,8 +1,13 @@
+---
+layout: default
+title: "A week of symfony #248 (26 September -> 2 October 2011)"
+---
+
 A week of symfony #248 (26 September -> 2 October 2011)
 =======================================================
 
 This week Symfony2 committed the first changes related with the new [composer component](https://github.com/symfony/symfony/commit/9ade639bb41423be611a023ab6966b855424f7be), a package manager that will greatly simplify bundle installation in symfony projects. In addition, parameters.ini configuration file was replaced by parameters.yml, a new mandatory [checklist for pull requests](http://symfony.com/doc/current/contributing/code/patches.html#check-list) was published and the [documentation of Twig](http://twig.sensiolabs.org/documentation) was significantly  improved.
- 
+
 Development mailing list
 ------------------------
 

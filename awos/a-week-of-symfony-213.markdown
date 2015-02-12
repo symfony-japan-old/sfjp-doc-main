@@ -1,8 +1,13 @@
+---
+layout: default
+title: "A week of symfony #213 (24->30 January 2011)"
+---
+
 A week of symfony #213 (24->30 January 2011)
 ============================================
 
 Symfony2 achieved this week a remarkable milestone: more than 500 pull requests have been submitted by tens of developers around the world. In addition, Symfony2 added some cool new features, such as a [cache warmer](http://github.com/symfony/symfony/commit/d0b4bfc8f61becce7cb31a3435bf31ad60e0dd62) to improve performance, [definition inheritance support for DIC](https://github.com/fabpot/symfony/commit/803dd58002b7bb80d90a1cc09ee3112c05e58c5e) and a complete [refactorization of the CSRF protection](https://github.com/symfony/symfony/commit/7848a7ca6383dce22584c96b3acd38af6d190be5). Lastly, [three new sessions](http://www.symfony-project.org/blog/2011/01/28/symfony-live-conferences-updates) were unveiled for the [Symfony Live conferences](http://www.symfony-live.com/).
- 
+
 Development mailing list
 ------------------------
 

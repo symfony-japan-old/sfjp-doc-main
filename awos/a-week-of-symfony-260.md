@@ -1,8 +1,13 @@
+---
+layout: default
+title: "A week of symfony #260 (19->25 December 2011)"
+---
+
 A week of symfony #260 (19->25 December 2011)
 =============================================
 
 This week, the Symfony2 master branch focused on a big [DoctrineBridge](https://github.com/symfony/symfony/tree/master/src/Symfony/Bridge/Doctrine) refactorization. In addition, the Filesystem class was [moved to its own component](https://github.com/symfony/symfony/commit/818a3321c01c504c5aed05caf9a8b3984071a82d). Lastly, the 2.0 branch was made compatible with the upcoming Twig 1.5 version.
- 
+
 Development mailing list
 ------------------------
 
@@ -96,4 +101,3 @@ They talked about us
   * [Configuration Reference(配置参考)](http://www.phperblog.net/?p=329)
   * [■２日目■　symfonyの学習-プロジェクト作成→モジュール作成まで-](http://ehipygeb.blogspot.com/2011/12/symfony.html)
   * [The "default" context does not exist и symfony doctrine:data-dump](http://ivansudakov.blogspot.com/2011/12/default-context-does-not-exist-symfony.html)
-  

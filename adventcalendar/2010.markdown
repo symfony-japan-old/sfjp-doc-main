@@ -1,3 +1,8 @@
+---
+layout: default
+title: Symfonyアドベントカレンダー 2010
+---
+
 Symfonyアドベントカレンダー 2010
 ================================
 
@@ -124,5 +129,3 @@ symfony 1/Symfony2 好きなメンバーの、TIPS 集や symfony/Symfony への
 -----
 
   - [Symfony アドベントカレンダー 2010 チーム紹介](2010team)
-
-

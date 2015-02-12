@@ -1,8 +1,13 @@
+---
+layout: default
+title: A week of symfony#202 (8->14 November 2010)
+---
+
 A week of symfony #202 (8->14 November 2010)
 ============================================
 
 This week, the symfony community held <a href="http://trac.symfony-project.org/wiki/Symfony2IRCMeetingLogs">the first Symfony2 IRC meeting</a>. From now on, these meetings will discuss every week several topics chosen by the community, such as best practices and solutions for very specific issues.
- 
+
 Development mailing list
 ------------------------
 

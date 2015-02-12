@@ -1,8 +1,13 @@
+---
+layout: default
+title: A week of symfony#200 (25->31 October 2010)
+---
+
 A week of symfony #200 (25->31 October 2010)
 ============================================
 
 This week the Output Escaper component was heavily refactored and the Propel bundle was transformed into an independent bundle. In addition, the <a href="http://docs.symfony-reloaded.org/master/guides/cache/http.html">Symfony2 HTTP cache documentation</a> was published.
- 
+
 Development mailing list
 ------------------------
 

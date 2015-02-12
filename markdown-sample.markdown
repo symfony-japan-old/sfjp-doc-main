@@ -1,3 +1,8 @@
+---
+layout: default
+title: markdown早見表
+---
+
 markdown早見表
 ==============
 
@@ -149,6 +154,3 @@ H2見出し
 <pre>
 これは`inline special chars`文中にメソッド名などを記述する場合
 </pre>
-
-
-

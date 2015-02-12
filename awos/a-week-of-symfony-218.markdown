@@ -1,10 +1,15 @@
+---
+layout: default
+title: "A week of symfony #218 (28 February -> 6 March 2011)"
+---
+
 A week of symfony #218 (28 February -> 6 March 2011)
 ====================================================
 
 What a week for symfony project! [Hundreds of developers](http://www.flickr.com/search/?q=sflive2011&s=rec&z=t) gathered in Paris for [Symfony Live 2011](http://www.symfony-live.com/paris) conference, attending [tens of technical sessions](https://docs.google.com/document/pub?id=1rXrCNX25JArMq5TEHJOFiJjnmsKjRX4JpUoFxTXqob0), discussing [the future of Symfony2](http://trac.symfony-project.org/wiki/SfliveParisDevMeeting) and getting in touch with other community members.
 
 A new way to download and install Symfony2 [based on distributions](http://symfony.com/distributions) was unveiled during the conference. In addition, at the closing keynote, symfony project showed its brand-new visual identity and the new [symfony.com](http://symfony.com) domain. This new design is already [being adopted in Symfony2 code](http://twitter.com/#!/fabpot/status/44353455271313408).
- 
+
 Development mailing list
 ------------------------
 

@@ -1,8 +1,13 @@
+---
+layout: default
+title: "A week of symfony #252 (24->30 October 2011)"
+---
+
 A week of symfony #252 (24->30 October 2011)
 ============================================
 
 Symfony 1.4.15 was released this week, fixing a few bugs and demonstrating the strong support of symfony 1.4.x branch until its late 2012 deadline. Meanwhile, Symfony2 added [a matcher](https://github.com/symfony/symfony/commit/24b93928bf783290c0df193f1b9948a174b01d1b) and [a command](https://github.com/symfony/symfony/commit/8cc3158d8901b8aefadde7f24be92fd9ed2b07e7) that help debugging router matching problems.
- 
+
 Development mailing list
 ------------------------
 

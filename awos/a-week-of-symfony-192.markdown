@@ -1,8 +1,13 @@
+---
+layout: default
+title: A week of symfony#192 (30 August -> 5 September 2010)
+---
+
 A week of symfony #192 (30 August -> 5 September 2010)
 ======================================================
 
 Symfony2 introduced this week its new Web Profiler Bundle. The Symfony Profiler augments the web development toolbar and provides the most detailed debug information available in any framework.
- 
+
 Development mailing list
 ------------------------
 

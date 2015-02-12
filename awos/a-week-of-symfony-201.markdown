@@ -1,8 +1,13 @@
+---
+layout: default
+title: A week of symfony#201 (1->7 November 2010)
+---
+
 A week of symfony #201 (1->7 November 2010)
 ===========================================
 
 Symfony2 development focused this week on unit tests. Hundreds of new tests were committed, mostly on the Security component. In addition, the symfony developers mailing list activity surged with some insightful discussions.
- 
+
 Development mailing list
 ------------------------
 

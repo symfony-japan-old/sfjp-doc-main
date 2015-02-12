@@ -1,8 +1,13 @@
+---
+layout: default
+title: "A week of symfony #249 (3->9 October 2011)"
+---
+
 A week of symfony #249 (3->9 October 2011)
 ==========================================
 
 Symfony 2.0.4 version was [released this week](http://symfony.com/blog/symfony-2-0-4-released), maintaining the fast pace of Symfony2 upgrades. In addition, the independent [security audit of Symfony2](http://symfony.com/blog/symfony2-security-audit) and Twig code was disclosed. Lastly, an important, and backwards incompatible change, was committed to the Symfony2 master branch: locale management was moved from the Session class to the Request class ([see details](https://github.com/symfony/symfony/commit/74bc699b270122b70b1de6ece47c726f5df8bd41)).
- 
+
 Development mailing list
 ------------------------
 
@@ -125,4 +130,3 @@ They talked about us
   * [Symfony2 против Flat PHP](http://monsterbirth.ru/symfony-2-book-na-russkom/symfony2-protiv-flat-php/)
   * [Deploy Symfony application with capifony](http://www.screenfony.com/blog/deploy-symfony-application-with-capifony)
   * [Generación de reportes PDF con Symfony 1.4, Doctrine y FPDF](http://blog.datasolutions.pe/index.php/20111002/generacion-de-reportes-pdf-con-symfony-1-4-doctrine-fpdf/)
-  

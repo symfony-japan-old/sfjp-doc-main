@@ -1,3 +1,8 @@
+---
+layout: default
+title: Symfony勉強会兼忘年会および前日イベントのご案内
+---
+
 # Symfony勉強会兼忘年会および前日イベントのご案内
 
 <span style="color: red; font-weight: bold;">11/16追記　すべてのイベントのお申し込み受付を開始いたしました。</span>

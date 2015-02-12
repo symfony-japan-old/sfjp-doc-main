@@ -1,10 +1,15 @@
+---
+layout: default
+title: "A week of symfony #216 (14->20 February 2011)"
+---
+
 A week of symfony #216 (14->20 February 2011)
 =============================================
 
 Symfony2 frantic development activity included this week some massive commits such as [adding support for merging security configurations](https://github.com/symfony/symfony/commit/0b8fef234724cb4cb3a4ab37466efe193a6c7708), [implementing single-pass config loading with intelligent merging](https://github.com/symfony/symfony/commit/f9138d313b83f951cf82a2f7f902a2d6dd14fbb3) and [moving common configuration classes to a new Config component](https://github.com/symfony/symfony/commit/5c905beb13624d40a768e6e9ea98cb873e149c6e).
 In addition, the new [AsseticBundle was integrated](https://github.com/symfony/symfony/commit/12929257021741a9d0c0d4b0c2d05836208cb324) in Symfony2, allowing a much more powerful and flexible way to handle web assets.
 Lastly, [1.3.9 and 1.4.9 maintenance versions were released](http://www.symfony-project.org/blog/2011/02/14/symfony-1-3-9-and-1-4-9).
- 
+
 Development mailing list
 ------------------------
 

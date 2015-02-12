@@ -1,8 +1,13 @@
+---
+layout: default
+title: A week of symfony#194 (13->19 September 2010)
+---
+
 A week of symfony #194 (13->19 September 2010)
 ==============================================
 
 Symfony2 PR3 was published this week, paving the way for the soon to be released Symfony2 alpha version. Meanwhile, the Symfony\Framework namespace was deleted and its code was moved to Symfony\Component\HttpKernel and Symfony\Bundle\FrameworkBundle.
- 
+
 Development mailing list
 ------------------------
 

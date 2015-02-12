@@ -1,8 +1,13 @@
+---
+layout: default
+title: A week of symfony#205 (29->5 November 2010)
+---
+
 A week of symfony #205 (29->5 November 2010)
 ============================================
 
 This week, the [Symfony2 Preview Release 4](http://www.symfony-project.org/blog/2010/12/01/symfony2-pr4-released) version was released. Despite being far from finished, this is a //full-featured// version and therefore it's the best way to learn the new Symfony2 philosophy.
- 
+
 Development mailing list
 ------------------------
 
@@ -73,7 +78,7 @@ New [developers for hire](http://trac.symfony-project.com/trac/wiki/DevelopersFo
   * [gjPositions](http://www.symfony-project.org/plugins/gjPositionsPlugin): adds a compositioning workflow to your admin module (so called Composition Canvas) that allows the user to compose a canvas from components/partials (so called Design Elements) and manually assign any type of content (so called Content Elements) to them.
   * [sfMultipleAjaxUploadGallery](http://www.symfony-project.org/plugins/sfMultipleAjaxUploadGalleryPlugin): generates a gallery management module with an ajax multiple photo uploader.
   * [tsJQuerySuggest](http://www.symfony-project.org/plugins/tsJQuerySuggestPlugin): provides a jquery base suggest/autocompleter input.
-  * [jlGMapSlot](http://www.symfony-project.org/plugins/jlGMapSlotPlugin): allows Apostrophe editors to add Google Map slots to any page. 
+  * [jlGMapSlot](http://www.symfony-project.org/plugins/jlGMapSlotPlugin): allows Apostrophe editors to add Google Map slots to any page.
   * [sfRedminishAdmin](http://www.symfony-project.org/plugins/sfRedminishAdminPlugin): an admin generator with a theme based on the one provided by Redmine.
 
 Updated plugins

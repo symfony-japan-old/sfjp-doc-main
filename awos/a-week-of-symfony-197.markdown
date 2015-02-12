@@ -1,8 +1,13 @@
+---
+layout: default
+title: A week of symfony#197 (4->10 October 2010)
+---
+
 A week of symfony #197 (4->10 October 2010)
 ===========================================
 
 This week the symfony community gathered around the <a href="http://www.symfonyday.com/">Symfony Day 2010</a> conference. The event hosted many insightful sessions and the <a href="http://github.com/symfony-cmf/symfony-cmf/wiki/Post-Symfony-Day-Cologne-2010-Meeting-Notes">Symfony2 CMF meetup</a>. In addition, a new major component of Symfony2 was introduced: the Firewall component, which provides authentication and authoritation for applications.
- 
+
 Development mailing list
 ------------------------
 

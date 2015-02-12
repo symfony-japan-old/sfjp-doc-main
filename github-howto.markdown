@@ -1,3 +1,8 @@
+---
+layout: default
+title: GitHubの使い方
+---
+
 GitHubの 使い方
 ===============
 
