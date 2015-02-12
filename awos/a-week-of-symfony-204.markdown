@@ -1,8 +1,13 @@
+---
+layout: default
+title: A week of symfony#204 (22->28 November 2010)
+---
+
 A week of symfony #204 (22->28 November 2010)
 =============================================
 
 Symfony2 development activity exploded this week with thousands of changes, tweaks and additions across most of its components: twig bundle, forms and dependency injection improved their performance; the Output Escaper component was removed; and <a href="https://github.com/symfony/symfony/commit/944d91c1dfc68cf7f769ba7b60cb328fa06b786c">lots of methods were renamed</a> to follow the new naming convention. Symfony2 is gaining momentum week by week and therefore, the release of PR4 version is around the corner and the first beta version could be published before the end of the year.
- 
+
 Development mailing list
 ------------------------
 

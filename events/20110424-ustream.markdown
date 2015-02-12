@@ -1,3 +1,8 @@
+---
+layout: default
+title: Ustream Symfonyしゃべり場(仮) (4/27)のご案内
+---
+
 Ustream Symfonyしゃべり場(仮) (4/27)のご案内
 ============================================
 

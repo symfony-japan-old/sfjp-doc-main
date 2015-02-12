@@ -1,8 +1,13 @@
+---
+layout: default
+title: A week of symfony#193 (6->12 September 2010)
+---
+
 A week of symfony #193 (6->12 September 2010)
 =============================================
 
 Annotations shined this week: Symfony2 routing component <a href="http://github.com/symfony/symfony/commit/130494066d7ef69ce0b5ac48e82b5f150bee0357">added an annotation loader</a>, a new experimental <a href="http://bundles.symfony-reloaded.org/frameworkextrabundle/">FrameworkExtraBundle</a> was released to support annotations for controllers and development mailing-list hosted a discussion about <a href="http://groups.google.com/group/symfony-devs/browse_thread/thread/19c04caa20bc8dc9">defining services with annotations</a>. Unfortunately, this week we also found out that Symfony2 will probably delay its launch date until the next Symfony Live Conference (3-5 March 2011).
- 
+
 Development mailing list
 ------------------------
 

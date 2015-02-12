@@ -1,8 +1,13 @@
+---
+layout: default
+title: A week of symfony#199 (18->24 October 2010)
+---
+
 A week of symfony #199 (18->24 October 2010)
 ============================================
 
 The symfony project celebrated this week its fith anniversary publishing the last major component of Symfony2 framework: the <a href="http://github.com/fabpot/symfony/commit/f216f313e8909015fe9961a5604d179f64c35a90">Security Component</a>. In addition, the Form and Validation components also received lots of commits and patches.
- 
+
 Development mailing list
 ------------------------
 

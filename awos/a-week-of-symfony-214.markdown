@@ -1,8 +1,13 @@
+---
+layout: default
+title: "A week of symfony #214 (31 January -> 6 February 2011)"
+---
+
 A week of symfony #214 (31 January -> 6 February 2011)
 ======================================================
 
 Symfony2 boosted its development activity this week, just before the first Symfony Live 2011 conference in San Francisco. A [new SecurityBundle](https://github.com/symfony/symfony/commit/e645090423a037912ac5e0c43bc3ea104998fa2a) was introduced, class loading was moved to its own component and the Form and Validator components were vastly revamped. In addition, the first version of the [config normalizer](http://github.com/symfony/symfony/commit/b484763a7a331d68504b5b047c733ab076d266b9) was committed, although [symfony community showed no consensus](https://groups.google.com/forum/#!topic/symfony-devs/3nwwiUaT4ds) about it yet.
- 
+
 Development mailing list
 ------------------------
 

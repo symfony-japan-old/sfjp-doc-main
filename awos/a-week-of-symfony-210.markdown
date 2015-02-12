@@ -1,9 +1,14 @@
+---
+layout: default
+title: "A week of symfony #210 (3->9 January 2011)"
+---
+
 A week of symfony #210 (3->9 January 2011)
 ==========================================
 
 Symfony2 repository received this week a massive amount of commits, mostly on Twig, Form, Security and Doctrine components. Twig bundle was heavily refactored to match the important changes introduced in Twig 1.0 RC1, which was also [published this week](http://blog.twig-project.org/post/2665679442/twig-1-0-0-rc1-released). Security component added a brand-new ACL system and Form component added support for virtual field groups and a FieldFactory mechanism to automatically create fields by introspecting metadata of a class.
 Meanwhile, in [the last weekly IRC meeting](http://trac.symfony-project.org/wiki/IRCLogs20110106), Fabien unveiled some interesting information about Symfony2, including a new way to handle web assests and the expected roadmap until its final release.
- 
+
 Development mailing list
 ------------------------
 

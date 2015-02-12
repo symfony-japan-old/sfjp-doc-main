@@ -1,8 +1,13 @@
+---
+layout: default
+title: "A week of symfony #211 (10->16 January 2011)"
+---
+
 A week of symfony #211 (10->16 January 2011)
 ============================================
 
 Symfony2 introduced this week some minor but profound refactorings: the [routing component adopted URI template notation](http://github.com/symfony/symfony/commit/b63de46374d330464aa3c3f9f3288c2524ad4229), bundles changed their names [to be the class name of the bundle](https://github.com/symfony/symfony/commit/7ac6d59173a201082e0da665ab6c7766a7cda427) not the last part of the namespace and [templates name format changed](https://github.com/symfony/symfony/commit/a365ab2884b76c99a8f5884a2ee289e9dc5bd227) to bundle:section:template.renderer.format (both the renderer and the format are mandatory). Meanwhile, [the Symfony2 donation drive](http://www.symfony-project.org/blog/2011/01/13/symfony2-donation-drive) to fund code security audits was an astonishing success.
- 
+
 Development mailing list
 ------------------------
 

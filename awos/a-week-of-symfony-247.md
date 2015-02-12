@@ -1,8 +1,13 @@
+---
+layout: default
+title: "A week of symfony #247 (19->25 September 2011)"
+---
+
 A week of symfony #247 (19->25 September 2011)
 ==============================================
 
 Symfony2 published this week its [2.0.3 maintenance version](http://symfony.com/blog/symfony-2-0-3-released), which fixed some minor bugs. Meanwhile, 2.1 branch added cool new tweaks and features, such as a new [validator for user password](https://github.com/symfony/symfony/commit/7d3c2df98d993f5406e712e39b7b5a1b1059f814), the ability to set [different options for repeating fields](https://github.com/symfony/symfony/commit/8819db3923e9a2ea8b73b3d0eafcedc4ab899c6b) and [PHP 5.4 traits support](https://github.com/symfony/symfony/commit/e5a23dbdaa0f33a282d425d706c8622f58776016) for ClassLoader. Lastly, symfony developers gathered this week for another symfony meeting and discussed [lots of interesting topics](https://gist.github.com/1235987).
- 
+
 Development mailing list
 ------------------------
 

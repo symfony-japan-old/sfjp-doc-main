@@ -1,9 +1,14 @@
+---
+layout: default
+title: "A week of symfony #217 (21->27 February 2011)"
+---
+
 A week of symfony #217 (21->27 February 2011)
 =============================================
 
 The public API of Symfony2 will be freezed in just a few days. Therefore, this week developers committed some of the last big impact changes to the code repository: the Response was [removed from DIC](https://github.com/symfony/symfony/commit/d94acd85f9aee2342c7ec381d7fdd66aea1eafef), CompatAssetsBundle was removed [in favor of AsseticBundle](https://github.com/symfony/symfony/commit/a3207e939f4f4de24a740ce56b04483eb46e4074), and the [boostrap files](https://github.com/symfony/symfony/commit/b44d044b0afe218594d9ed7965eaeb272576bf80) were also removed.
 Several other changes were proposed in the developers mailing list, such as [using keys for translations](https://groups.google.com/forum/#!topic/symfony-devs/n3HznxzQW8A) and [adding DI to Forms](https://groups.google.com/forum/#!topic/symfony-devs/WHiSVfrno74). Lastly, [Symfony2 documentation](http://docs.symfony-reloaded.org/) was profoundly reorganized and vastly expanded with new and improved contents.
- 
+
 Development mailing list
 ------------------------
 

@@ -1,9 +1,14 @@
+---
+layout: default
+title: "A week of symfony #212 (17->23 January 2011)"
+---
+
 A week of symfony #212 (17->23 January 2011)
 ============================================
 
 This week, [Symfony2 PR5 was released](http://www.symfony-project.org/blog/2011/01/17/symfony2-pr5-released) and the [definitive roadmap for Symfony2](http://www.symfony-project.org/blog/2011/01/17/stabilizing-symfony2) was laid out.
 Meanwhile, the activity of the [developers mailing list](https://groups.google.com/forum/#!forum/symfony-devs) skyrocketed with tens of messages openly discussing every important feature of Symfony2. As a result of these discussions, the [bundle management was completely refactored](https://github.com/symfony/symfony/commit/6d1e91a1faecb1f46a781d0e4ce37ed9d3fba3cc).
- 
+
 Development mailing list
 ------------------------
 

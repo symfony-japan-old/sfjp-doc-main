@@ -1,3 +1,8 @@
+---
+layout: default
+title: 日本のSymfonyコミュニティ
+---
+
 日本のSymfonyコミュニティ
 =========================
 
@@ -15,4 +20,3 @@ Symfonyに関連する活動を行っている様々なコミュニティを紹�
   PHPで作られたオープンソースのSNSソフトウェア。バージョン3よりsymfonyを採用。
 - [Kaltura Community Japan](http://groups.google.com/group/kaltura-community-japan/)
   symfonyベースのオープンソースビデオプラットフォームKalturaの日本語コミュニティ。
-

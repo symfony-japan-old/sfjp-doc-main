@@ -1,8 +1,13 @@
+---
+layout: default
+title: A week of symfony#198 (11->17 October 2010)
+---
+
 A week of symfony #198 (11->17 October 2010)
 ============================================
 
 This week, symfony project unveiled all the details for the upcoming <a href="http://www.symfony-live.com/">Symfony Live 2011</a> conferences in Paris and San Francisco. Meanwhile, Symfony2 development showed an impressive activity boosted by lots of patches committed by the community. Lastly, as a proof that time flies when you're having fun programming, the next week symfony turns 5 years old (on October 18).
- 
+
 Development mailing list
 ------------------------
 

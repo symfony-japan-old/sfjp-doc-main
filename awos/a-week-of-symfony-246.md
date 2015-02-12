@@ -1,8 +1,13 @@
+---
+layout: default
+title: "A week of symfony #246 (12->18 September 2011)"
+---
+
 A week of symfony #246 (12->18 September 2011)
 ==============================================
 
 [Symfony 1.4.14 was released](http://symfony.com/blog/symfony-1-4-14-released) this week, containing several enhancements and fixes proposed by community members. Meanwhile, the official [Symfony2 repository](https://github.com/symfony/symfony/) surpassed the 3,000th watcher milestone.
- 
+
 Development mailing list
 ------------------------
 

@@ -1,3 +1,8 @@
+---
+layout: default
+title: 日本Symfonyユーザー会のサイトが正式オープンしました
+---
+
 日本Symfonyユーザー会のサイトが正式オープンしました
 ===================================================
 
@@ -50,5 +55,3 @@ IRC集会の詳細につきましては、次の案内ページをご参照く�
 
 (*2) symfony公式サイト<br />
 [http://www.symfony-project.org/](http://www.symfony-project.org/)
-
-

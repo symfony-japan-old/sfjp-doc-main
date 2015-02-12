@@ -1,8 +1,13 @@
+---
+layout: default
+title: A week of symfony#196 (27 September -> 3 October 2010)
+---
+
 A week of symfony #196 (27 September -> 3 October 2010)
 =======================================================
 
 Symfony2 focused this week on internationalization: a new <a href="http://github.com/symfony/symfony/commit/a7537906b4e6e370e5911448f41d6d2552f6832b">Translation component</a> was introduced and the Twig bundle added helpers for translations. Meanwhile, the templating notation was modified to always include the renderer name and the Validator component eased its validation annotations.
- 
+
 Development mailing list
 ------------------------
 

@@ -1,3 +1,8 @@
+---
+layout: default
+title: Symfonyについて
+---
+
 Symfonyについて
 ===============
 
@@ -21,4 +26,3 @@ Symfonyの特徴
 
 Symfony を使った Web アプリケーションの開発について見てみたい方は、[クイックツアードキュメント](http://docs.symfony.gr.jp/symfony2/quick_tour/index.html)をまずはご覧ください。
 その後、実際に何か作ってみる段階で、[ガイドブック](http://docs.symfony.gr.jp/symfony2/book/index.html)などを参照してください。
-

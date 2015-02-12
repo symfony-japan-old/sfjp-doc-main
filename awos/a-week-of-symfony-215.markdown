@@ -1,8 +1,13 @@
+---
+layout: default
+title: "A week of symfony #215 (7->13 February 2011)"
+---
+
 A week of symfony #215 (7->13 February 2011)
 ============================================
 
 Symfony community gathered this week around the first [Symfony Live conference in San Francisco](http://www.symfony-live.com/san-francisco) (chronicle of [day 1](http://www.symfony-project.org/blog/2011/02/09/symfony-live-san-francisco-day-1), [day 2](http://www.symfony-project.org/blog/2011/02/10/symfony-live-san-francisco-day-2)). In addition, the [donation drive for security audits](http://www.symfony-project.org/blog/2011/02/07/we-re-secure-or-getting-there) finished with great success and Twig, Doctrine2 and Symfony2 code will be audited.
- 
+
 Development mailing list
 ------------------------
 

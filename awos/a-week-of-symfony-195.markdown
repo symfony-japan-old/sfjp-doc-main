@@ -1,8 +1,13 @@
+---
+layout: default
+title: A week of symfony#195 (20->26 September 2010)
+---
+
 A week of symfony #195 (20->26 September 2010)
 ==============================================
 
 This week, the activity of the <a href="http://groups.google.com/group/symfony-devs/">symfony developers' mailing list</a> soared with lots of interesting discussions. Among many other topics, developers discussed about Symfony2 default template engine (PHP or Twig) and the default configuration format (PHP, XML or YAML). Remember that this mailing list is the best place to get the latest news from Symfony2 and to influence its future development.
- 
+
 Development mailing list
 ------------------------
 

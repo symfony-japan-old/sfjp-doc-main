@@ -1,8 +1,13 @@
+---
+layout: default
+title: "A week of symfony #254 (7->13 November 2011)"
+---
+
 A week of symfony #254 (7->13 November 2011)
 ============================================
 
 Symfony community took a huge leap forward this week with the introduction of a new gamification strategy to [develop the community](http://symfony.com/blog/developing-the-symfony-community). Starting this week, Symfony Community members will be rewarded for their commitment and involvement in the community. In addition, the first edition of the [Symfony Community Awards](http://awards.symfony.com/) was announced to further recognize the work of the most prominent community members.
- 
+
 Development mailing list
 ------------------------
 

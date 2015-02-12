@@ -1,3 +1,8 @@
+---
+layout: default
+title: Changelog for 1.4.x
+---
+
 Changelong for 1.4.X
 ====================
 
@@ -114,4 +119,3 @@ Changelong for 1.4.X
 - [29218](http://trac.symfony-project.org/changeset/29218) Propelを1.4.2にアップデート
 - [29158](http://trac.symfony-project.org/changeset/29158) falseと評価される属性を元に選択する場合のsfDomCssSelectorの動作を修正 ([#8120](http://trac.symfony-project.org/ticket/8120)をクローズ)
 - [29156](http://trac.symfony-project.org/changeset/29156) Doctrineでレコードが初期化される前のデフォルトカルチャーの設定を修正
-

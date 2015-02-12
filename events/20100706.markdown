@@ -1,3 +1,8 @@
+---
+layout: default
+title: 手嶋屋主催 第二回OpenPNE3で学ぶsymfony勉強会のご案内（7/24）
+---
+
 手嶋屋主催 第二回OpenPNE3で学ぶsymfony勉強会のご案内（7/24）
 ============================================================
 
@@ -7,5 +12,3 @@
 
 - [手嶋屋ブログ 7/24 OpenPNE3で学ぶsymfony勉強会@新宿御苑（15:00017:00）](http://www.tejimaya.com/archives/5960)
 - [ATND 7/24 OpenPNE3で学ぶsymfony勉強会@新宿御苑（15:00017:00）](http://atnd.org/events/6255)
-
-

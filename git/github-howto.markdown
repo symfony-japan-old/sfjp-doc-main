@@ -1,3 +1,8 @@
+---
+layout: default
+title: GitHub の使い方
+---
+
 GitHub の使い方
 ===============
 
@@ -134,4 +139,3 @@ Git を使う上での参考となるページなどを紹介します。
   - [知らないと損をするgit - Absolute Playing!](http://d.hatena.ne.jp/Kiske/20081003/1223008270)
   - [GitとGitHubを覚えよう](http://osc-tokyo-git.phper.jp/)<br />
     OSC Tokyo 2011 Springのセミナーで使った資料です。
-

@@ -1,8 +1,13 @@
+---
+layout: default
+title: "A week of symfony #261 (26 December 2011 -> 1 January 2012)"
+---
+
 A week of symfony #261 (26 December 2011 -> 1 January 2012)
 ===========================================================
 
 The last week of the year brought the [release of Symfony 2.0.8](http://symfony.com/blog/symfony-2-0-8-released) and the addition of [streamed responses](https://github.com/symfony/symfony/commit/0038d1bac4a8d2dbe83f12b6a5236e8a2161b7d9) for the upcoming Symfony 2.1 version.
- 
+
 Development mailing list
 ------------------------
 

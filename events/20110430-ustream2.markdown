@@ -1,3 +1,8 @@
+---
+layout: default
+title: Ustream Symfonyしゃべりば 第2回 (5/11)のご案内
+---
+
 Ustream Symfonyしゃべりば 第2回 (5/11)のご案内
 ==============================================
 
@@ -14,7 +19,7 @@ Ustream Symfonyしゃべりば 第2回 (5/11)のご案内
   ・Symfony2 勉強会の概要<br />
   ・Symfony 温泉<br />
   ・雑談<br />
-  
+
 - [Facebookファンページ](http://www.facebook.com/pages/Symfony%E3%81%97%E3%82%83%E3%81%B9%E3%82%8A%E3%81%B0/183899751657633)
 
 おかげさまで第2回も多くの方からのご参加いただき盛り上がりました。

@@ -1,8 +1,13 @@
+---
+layout: default
+title: "A week of symfony #250 (10->16 October 2011)"
+---
+
 A week of symfony #250 (10->16 October 2011)
 ============================================
 
-This week, all the Symfony2 components were included in [packagist.org](http://packagist.org/), a public repository for Composer, the package manager that soon will be used on Symfony2. Meanwhile, on the master branch of Symfony2 repository all the [HttpKernel event listeners were updated to implement EventSubscriberInterface](https://github.com/symfony/symfony/commit/beda03ba96b847fb6bcf2d7aed2893c978ec2565) and the official repository surpassed the 800 forks milestone. 
- 
+This week, all the Symfony2 components were included in [packagist.org](http://packagist.org/), a public repository for Composer, the package manager that soon will be used on Symfony2. Meanwhile, on the master branch of Symfony2 repository all the [HttpKernel event listeners were updated to implement EventSubscriberInterface](https://github.com/symfony/symfony/commit/beda03ba96b847fb6bcf2d7aed2893c978ec2565) and the official repository surpassed the 800 forks milestone.
+
 Development mailing list
 ------------------------
 

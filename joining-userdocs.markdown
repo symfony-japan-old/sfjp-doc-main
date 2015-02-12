@@ -1,3 +1,8 @@
+---
+layout: default
+title: ユーザー会ドキュメント整備への参加方法
+---
+
 ユーザー会ドキュメント整備への参加方法
 ======================================
 
@@ -58,6 +63,3 @@ GitHubを使ったことがない方、アカウントをまだ作成されて�
 
 - [日本Symfonyユーザー会準備会メーリングリスト](http://groups.google.com/group/symfony-users-pre)
 - 日本Symfonyユーザー会事務局 info@symfony.gr.jp
-
-
-
