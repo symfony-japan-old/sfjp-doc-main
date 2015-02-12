@@ -1,3 +1,5 @@
+basepath: '/'
+
 highlighter: pygments
 markdown: redcarpet
 redcarpet:
