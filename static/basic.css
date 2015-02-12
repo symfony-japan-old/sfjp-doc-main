@@ -1,0 +1,1086 @@
+/*
+ * basic.css
+ * ~~~~~~~~~
+ *
+ * Sphinx stylesheet -- basic theme.
+ *
+ * :copyright: Copyright 2007-2010 by the Sphinx team, see AUTHORS.
+ * :license: BSD, see LICENSE for details.
+ *
+ */
+
+/* -- main layout ----------------------------------------------------------- */
+
+div.clearer {
+    clear: both;
+}
+
+/* -- relbar ---------------------------------------------------------------- */
+
+div.related {
+    width: 100%;
+    font-size: 90%;
+}
+
+div.related h3 {
+    display: none;
+}
+
+div.related ul {
+    margin: 0;
+    padding: 0 0 0 10px;
+    list-style: none;
+}
+
+div.related li {
+    display: inline;
+}
+
+div.related li.right {
+    float: right;
+    margin-right: 5px;
+}
+
+/* -- sidebar --------------------------------------------------------------- */
+
+div.sphinxsidebarwrapper {
+    margin: 20px 0px 0px 5px;
+    padding: 10px 10px 10px 10px;
+    background-color: #EEE;
+    border: 1px solid #999;
+}
+
+div.sphinxsidebar {
+    float: right;
+    width: 230px;
+/*    margin-left: -100%; */
+    font-size: 90%;
+}
+
+div.sphinxsidebar ul {
+    list-style: none;
+}
+
+div.sphinxsidebar ul ul,
+div.sphinxsidebar ul.want-points {
+    margin-left: 20px;
+    list-style: square;
+}
+
+div.sphinxsidebar ul ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+div.sphinxsidebar form {
+    margin-top: 10px;
+}
+
+div.sphinxsidebar input {
+    border: 1px solid #98dbcc;
+    font-family: sans-serif;
+    font-size: 1em;
+}
+
+img {
+    border: 0;
+}
+
+/* -- search page ----------------------------------------------------------- */
+
+ul.search {
+    margin: 10px 0 0 20px;
+    padding: 0;
+}
+
+ul.search li {
+    padding: 5px 0 5px 20px;
+    background-image: url(file.png);
+    background-repeat: no-repeat;
+    background-position: 0 7px;
+}
+
+ul.search li a {
+    font-weight: bold;
+}
+
+ul.search li div.context {
+    color: #888;
+    margin: 2px 0 0 30px;
+    text-align: left;
+}
+
+ul.keywordmatches li.goodmatch a {
+    font-weight: bold;
+}
+
+/* -- index page ------------------------------------------------------------ */
+
+table.contentstable {
+    width: 90%;
+}
+
+table.contentstable p.biglink {
+    line-height: 150%;
+}
+
+a.biglink {
+    font-size: 1.3em;
+}
+
+span.linkdescr {
+    font-style: italic;
+    padding-top: 5px;
+    font-size: 90%;
+}
+
+/* -- general index --------------------------------------------------------- */
+
+table.indextable {
+    width: 100%;
+}
+
+table.indextable td {
+    text-align: left;
+    vertical-align: top;
+}
+
+table.indextable dl, table.indextable dd {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+table.indextable tr.pcap {
+    height: 10px;
+}
+
+table.indextable tr.cap {
+    margin-top: 10px;
+    background-color: #f2f2f2;
+}
+
+img.toggler {
+    margin-right: 3px;
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+div.modindex-jumpbox {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    margin: 1em 0 1em 0;
+    padding: 0.4em;
+}
+
+div.genindex-jumpbox {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    margin: 1em 0 1em 0;
+    padding: 0.4em;
+}
+
+/* -- general body styles --------------------------------------------------- */
+
+a.headerlink {
+    visibility: hidden;
+}
+
+h1:hover > a.headerlink,
+h2:hover > a.headerlink,
+h3:hover > a.headerlink,
+h4:hover > a.headerlink,
+h5:hover > a.headerlink,
+h6:hover > a.headerlink,
+dt:hover > a.headerlink {
+    visibility: visible;
+}
+
+div.body p.caption {
+    text-align: inherit;
+}
+
+div.body td {
+    text-align: left;
+}
+
+.field-list ul {
+    padding-left: 1em;
+}
+
+.first {
+    margin-top: 0 !important;
+}
+
+p.rubric {
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+img.align-left, .figure.align-left, object.align-left {
+    clear: left;
+    float: left;
+    margin-right: 1em;
+}
+
+img.align-right, .figure.align-right, object.align-right {
+    clear: right;
+    float: right;
+    margin-left: 1em;
+}
+
+img.align-center, .figure.align-center, object.align-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.align-center {
+    clear: both;
+    text-align: center;
+}
+
+.align-right {
+    text-align: right;
+}
+
+/* -- sidebars -------------------------------------------------------------- */
+
+div.sidebar {
+    margin: 0 0 0.5em 1em;
+    border: 1px solid #ddb;
+    padding: 7px 7px 0 7px;
+    background-color: #ffe;
+/*    width: 40%;
+    float: right; */
+}
+
+p.sidebar-title {
+    font-weight: bold;
+}
+
+/* -- topics ---------------------------------------------------------------- */
+
+div.topic {
+    border: 1px solid #ccc;
+    padding: 7px 7px 0 7px;
+    margin: 10px 0 10px 0;
+}
+
+p.topic-title {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* -- admonitions ----------------------------------------------------------- */
+
+div.admonition {
+    background-color: #ffd;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    padding: 0px;
+    border-top: 1px solid #BBB;
+    border-bottom: 1px solid #BBB;
+}
+
+div.admonition dt {
+    font-weight: bold;
+}
+
+div.admonition dl {
+    margin-bottom: 0;
+}
+
+.admonition p {
+    padding: 10px;
+    margin-bottom: 5px !important;
+}
+
+p.admonition-title {
+    margin: 0px 10px 0px 0px !important;
+    font-weight: bold;
+    border: none;
+}
+
+div.body p.centered {
+    text-align: center;
+    margin-top: 25px;
+}
+
+/* -- tables ---------------------------------------------------------------- */
+
+table.docutils {
+    border-top: 1px solid #aaa;
+    border-left: 1px solid #aaa;
+    border-collapse: collapse;
+    margin: 3px 0px 15px 15px;
+    background-color: #DEF
+}
+
+table.docutils td, table.docutils th {
+    padding: 3px 8px 3px 5px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+}
+
+table.field-list td, table.field-list th {
+    border: 0 !important;
+}
+
+table.footnote td, table.footnote th {
+    border: 0 !important;
+}
+
+th {
+    text-align: left;
+    padding-right: 5px;
+    background-color: #CEF;
+}
+
+table.citation {
+    border-left: solid 1px gray;
+    margin-left: 1px;
+}
+
+table.citation td {
+    border-bottom: none;
+}
+
+/* -- other body styles ----------------------------------------------------- */
+
+ol.arabic {
+    list-style: decimal;
+}
+
+ol.loweralpha {
+    list-style: lower-alpha;
+}
+
+ol.upperalpha {
+    list-style: upper-alpha;
+}
+
+ol.lowerroman {
+    list-style: lower-roman;
+}
+
+ol.upperroman {
+    list-style: upper-roman;
+}
+
+dl {
+    margin-bottom: 15px;
+}
+
+dd p {
+    margin-top: 0px;
+}
+
+dd ul, dd table {
+    margin-bottom: 10px;
+}
+
+dd {
+    margin-top: 3px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+dt:target, .highlighted {
+    background-color: #fbe54e;
+}
+
+dl.glossary dt {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.field-list ul {
+    margin: 0;
+    padding-left: 1em;
+}
+
+.field-list p {
+    margin: 0;
+}
+
+.refcount {
+    color: #060;
+}
+
+.optional {
+    font-size: 1.3em;
+}
+
+.versionmodified {
+    font-style: italic;
+}
+
+.system-message {
+    background-color: #fda;
+    padding: 5px;
+    border: 3px solid red;
+}
+
+.footnote:target  {
+    background-color: #ffa
+}
+
+.line-block {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.line-block .line-block {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 1.5em;
+}
+
+.guilabel, .menuselection {
+    font-family: sans-serif;
+}
+
+.accelerator {
+    text-decoration: underline;
+}
+
+.classifier {
+    font-style: oblique;
+}
+
+/* -- code displays --------------------------------------------------------- */
+
+pre {
+/*    background-color: #000; */
+    padding: 5px;
+    line-height: 120%;
+    border-left: none;
+    border-right: none;
+    margin-left: 10px;
+    overflow: auto;
+}
+
+td.linenos pre {
+    padding: 5px 0px;
+    border: 0;
+    background-color: transparent;
+    color: #aaa;
+}
+
+table.highlighttable {
+    margin-left: 0.5em;
+}
+
+table.highlighttable td {
+    padding: 0 0.5em 0 0.5em;
+}
+
+tt.descname {
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+tt.descclassname {
+    background-color: transparent;
+}
+
+tt.xref, a tt {
+    background-color: transparent;
+    font-weight: bold;
+}
+
+h1 tt, h2 tt, h3 tt, h4 tt, h5 tt, h6 tt {
+    background-color: transparent;
+}
+
+.viewcode-link {
+    float: right;
+}
+
+.viewcode-back {
+    float: right;
+    font-family: sans-serif;
+}
+
+div.viewcode-block:target {
+    margin: -1px -10px;
+    padding: 0 10px;
+}
+
+/* -- math display ---------------------------------------------------------- */
+
+img.math {
+    vertical-align: middle;
+}
+
+div.body div.math p {
+    text-align: center;
+}
+
+span.eqno {
+    float: right;
+}
+
+/* -- printout stylesheet --------------------------------------------------- */
+
+@media print {
+    div.document,
+    div.documentwrapper,
+    div.bodywrapper {
+        margin: 0 !important;
+        width: 100%;
+    }
+
+    div.sphinxsidebar,
+    div.related,
+    div.footer,
+    #top-link {
+        display: none;
+    }
+}
+
+
+/*base
+---------------------------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  zoom: 1;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #333;
+  font-family: verdana,'ヒラギノ角ゴ Pro W3',Hiragino Kaku Gothic Pro,'ヒラギノ角ゴ Pro W6',Hiragino Kaku Gothic Pro-W6,HiraKakuPro-W3,HiraKakupro-W6,Osaka,'ＭＳ Ｐゴシック','HGP創英角ｺﾞｼｯｸUB','MS PGothic',Arial,Sans-Serif,'メイリオ','Meiryo';
+
+  /* Firefiox Safari Opera IE8... */
+  font-size: 14px;
+}
+
+a {
+  color: #09F;
+  border: none;
+  overflow: hidden;
+}
+
+img {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: middle;
+}
+
+h1,h2,h3,h4,h5,h6,form,p,ul,li,dl,dt,dd {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  line-height: 1.6em;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+input[type="text"],
+input[type="password"],
+textarea {
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border: 1px solid #ccc;
+  padding: 2px;
+  vertical-align: middle;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+textarea:focus{
+  background-color: #eee;
+}
+
+
+#all {
+  width: 100%;
+  background: url(images/all_bg.png) repeat-x left -162px;
+}
+
+#content {
+  width: 90%;
+/*	width: 950px; */
+  margin: 0 auto;
+}
+
+#content_wrapper {
+  background: url(images/all_bg_l.png) no-repeat -30px -162px;
+}
+
+
+/*top_menu
+---------------------------------------------- */
+#top_menu {
+  height: 0px;
+  text-align: right;
+/*	background: url(images/header_bg_top.png) no-repeat left top; */
+}
+
+#top_menu_wrapper {
+  padding-top: 25px;
+}
+
+#s_text {
+  width: 140px;
+  padding-left: 20px;
+  background: url(images/ico_search.png) no-repeat 5px center;
+  background-color: #D4CECB;
+}
+
+
+
+
+/*header
+---------------------------------------------- */
+#header_top {
+  height: 100px;
+  background: url(images/header_bg_bottom.png) no-repeat left -32px;
+  position: relative;
+}
+
+#header_top_left {
+}
+
+.header_info {
+  text-align: right;
+  margin: 20px 200px;
+}
+
+
+/*h1
+---------------------------------------------- */
+#logo_top {
+  text-indent: -9999px;
+}
+
+#logo_top a {
+  width: 560px;
+  height: 90px;
+/*	background: url(images/logo_top.png) no-repeat left top; */
+  position: absolute;
+  left: 22px;
+  top: 40px;
+}
+
+
+/*h2
+---------------------------------------------- */
+#info_title {
+  color: #3E2200;
+  margin-bottom: 0.7em;
+  font-size: 24px;
+}
+
+.main_title {
+  width: 380px;
+  margin-top: 35px;
+  line-height: 0.8em;
+  color: #C60;
+  border-bottom: 1px solid #999;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'ヒラギノ角ゴ Pro W6',Hiragino Kaku Gothic Pro-W6,HiraKakupro-W6,'ＭＳ Ｐゴシック','HGP創英角ｺﾞｼｯｸUB','MS PGothic',Arial,Sans-Serif,'メイリオ','Meiryo';
+  float: right;
+}
+
+.main_title_en {
+  font-size: 12px;
+  padding-left: 2px;
+  color: #999;
+}
+
+.ico_title {
+  float: left;
+}
+
+
+/*h3
+---------------------------------------------- */
+.side_title {
+  width: 145px;
+  margin-top: 25px;
+  line-height: 1em;
+  color: #3E2200;
+  border-bottom: 1px solid #999;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'ヒラギノ角ゴ Pro W6',Hiragino Kaku Gothic Pro-W6,HiraKakupro-W6,'ＭＳ Ｐゴシック','HGP創英角ｺﾞｼｯｸUB','MS PGothic',Arial,Sans-Serif,'メイリオ','Meiryo';
+  float: right;
+}
+.side_title2 {
+  width: 200px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  line-height: 1em;
+  color: #3E2200;
+  border-bottom: 1px solid #999;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'ヒラギノ角ゴ Pro W6',Hiragino Kaku Gothic Pro-W6,HiraKakupro-W6,'ＭＳ Ｐゴシック','HGP創英角ｺﾞｼｯｸUB','MS PGothic',Arial,Sans-Serif,'メイリオ','Meiryo';
+}
+
+.side_title_en {
+  font-size: 10px;
+  padding-left: 2px;
+  color: #999;
+}
+
+#release {
+  width: auto;
+  float: none;
+  margin: 10px 0;
+  padding: 10px 0 7px 0;
+  border-top: 1px solid #3E2200;
+  border-bottom: 1px solid #3E2200;
+  zoom: 1;
+}
+
+.pageindex ol {
+  padding-left: 1em;
+}
+.pageindex ol li {
+  list-style-type: decimal;
+}
+.pageindex ul {
+  padding-left: 1em;
+}
+.pageindex ul li {
+  list-style-type: square;
+}
+
+.pageindex ul, .pageindex ol {
+  margin-top: 0;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+
+
+
+/*navbar
+---------------------------------------------- */
+#navbar {
+  width: 90%;
+  height: 48px;
+  background: url(images/navbar_bg_top.png) no-repeat left top;
+  position: relative;
+  overflow: hidden;
+}
+
+#navbar ul {
+  text-align: center;
+  position: relative;
+  left: 50%;
+  float: left;
+}
+
+#navbar ul li {
+  line-height: 2em;
+  margin-right: 1.3em;
+  margin-top: 5px;
+  position: relative;
+  left: -50%;
+  float: left;
+}
+
+#navbar ul li a { line-height: 2.5em; display: block; color: #999; text-decoration: none; }
+#navbar ul li a:hover { color: #09F; }
+
+
+
+/*info
+---------------------------------------------- */
+#info {
+  width: 715px;
+  margin: 0 0 50px 5px;
+  clear: both;
+}
+
+#info p {
+  color: #3E2200;
+}
+
+
+/*main_content
+---------------------------------------------- */
+#main {
+  width: 100%;
+  margin-top: 10px;
+}
+
+#main_content {
+  width: 480px;
+  margin-right: 25px;
+  margin-bottom: 50px;
+  float: left;
+}
+#main_content2 {
+  width: 100%;
+  margin-right: 25px;
+  margin-bottom: 50px;
+  float: left;
+}
+
+.section ol {
+  padding-left: 1em;
+}
+.section ol li {
+  list-style-type: decimal;
+}
+.section ul {
+  margin-left: 20px;
+  padding-left: 1em;
+  margin-bottom: 20px;
+}
+.section ol {
+  margin-left: 20px;
+  padding-left: 1em;
+  margin-bottom: 20px;
+}
+.section ul li {
+  list-style-type: square;
+}
+
+.section h1 {
+  margin: 30px 0 30px 0;
+}
+
+.section h2 {
+  margin: 30px 0 20px 0;
+  border-bottom: 1px solid #666;
+}
+
+.section h3 {
+  margin: 15px 0 6px 0;
+}
+
+.section p {
+  margin-bottom: 20px;
+}
+
+.section strong {
+  font-weight: bold;
+}
+
+.section pre {
+  color: #9CF;
+  margin-bottom: 10px;
+}
+
+
+/*content_footer
+---------------------------------------------- */
+#content_footer {
+    margin-top: 50px;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+    padding: 10px 10px 10px 10px;
+    background: #EEE;
+}
+#content_footer h2 {
+    font-size: 0.9em;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+#content_footer ul li {
+    list-style-type: none;
+}
+#content_footer li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.timestamp {
+    float: right;
+    font-size: 0.7em;
+}
+
+
+
+
+/*footer
+---------------------------------------------- */
+#footer {
+  width: 100%;
+  height: 140px;
+  1margin-top: 50px;
+  background: url(images/footer_bg.png) repeat-x left top;
+  overflow: hidden;
+  clear: both;
+}
+
+#footer_wrapper {
+  width: 950px;
+  height: 140px;
+  margin: 0 auto;
+  background: url(images/footer_wrapper_bg.png) repeat-x left top;
+  position: relative;
+}
+
+#footer_left {
+  width: 94px;
+  height: 140px;
+  background: url(images/footer_bg_left.png) no-repeat left top;
+  position: absolute;
+  left: -94px;
+}
+
+#footer_right {
+  width: 94px;
+  height: 140px;
+  background: url(images/footer_bg_right.png) no-repeat left top;
+  position: absolute;
+  right: -94px;
+}
+
+
+#f_navbar {
+  width: 950px;
+  position: relative;
+  overflow: hidden;
+}
+
+#f_navbar ul {
+  text-align: center;
+  position: relative;
+  left: 50%;
+  float: left;
+}
+
+#f_navbar ul li {
+  padding-top: 1em;
+  margin-right: 1.5em;
+  font-size: 12px;
+  position: relative;
+  left: -50%;
+  float: left;
+}
+
+#f_navbar ul li a { line-height: 3em; display: block; color: #999; text-decoration: none; }
+#f_navbar ul li a:hover { color: #09F; }
+#f_navbar ul li a.this {  color: #09F; background: url(images/nav_arrow_2.png) no-repeat center top; }
+
+#copy {
+  text-align: center;
+  font-size: 11px;
+  line-height: 2em;
+  position: absolute;
+  bottom: 15px;
+  /left: 0;
+  width: 100%;
+  text-align: center;
+  color: #777;
+}
+
+
+
+.githubinfo {
+    margin-top: 15px;
+}
+
+.githubinfo img {
+    float: left;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+.githubinfo ul {
+    margin-left: 45px;
+}
+.githubinfo li {
+    display: block !important;
+    font-size: 0.8em;
+}
+
+.highlight {
+    width: 97%;
+}
+div.documentwrapper {
+    float: left;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.highlight-yml pre {
+    background-color: #000;
+}
+
+.highlight-yaml pre {
+    background-color: #000;
+}
+
+
+
+
+.common_content_footer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: 1px solid #666;
+    background-color: #EEE;
+    border-bottom: 1px solid #666;
+    padding: 10px;
+}
+
+#disqus_thraed {
+    margin-top: 20px;
+    border-top: 1px solid #999;
+    padding-top: 20px;
+}
+
+div.caution {
+    background-color: #fdd !important;
+}
+
+#page_prev_next {
+    border-top: 2px solid #DDD;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 20px 20px 20px 20px;
+}
+
+#page_prev_next .prev {
+    float: left;
+}
+#page_prev_next .next {
+    float: right;
+    text-align: right;
+}
+
+.column {
+    border-left: 1px solid #CCC;
+    padding: 20px;
+}
+
+.column h2 {
+    margin-bottom: 10px;
+}
+
+.column p {
+    margin-bottom: 5px;
+}
+
+.column li {
+    margin-bottom: 5px;
+}
+
+.column a {
+    font-weight: bold;
+}
