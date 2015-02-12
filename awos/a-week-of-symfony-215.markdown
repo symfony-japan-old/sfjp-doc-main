@@ -3,6 +3,7 @@ layout: default
 title: "A week of symfony #215 (7->13 February 2011)"
 ---
 
+{% raw %}
 A week of symfony #215 (7->13 February 2011)
 ============================================
 
@@ -136,3 +137,5 @@ They talked about us
   * [symfony live 一日目 ](http://d.hatena.ne.jp/cocoiti/20110207)
   * [sfDoctrineGuardPlugin 5.0.0のインストールと使い方](http://stack3.net/blogdev/p/447)
   * [Symfony Framework – użyteczna klasa sfContext](http://creativecoder.pl/2011/02/symfony-framework-uzyteczna-klasa-sfcontext/)
+
+{% endraw %}  

@@ -3,6 +3,8 @@ layout: default
 title: A week of symfony#198 (11->17 October 2010)
 ---
 
+{% raw %}
+
 A week of symfony #198 (11->17 October 2010)
 ============================================
 
@@ -192,3 +194,5 @@ They talked about us
   * [New symfony plugin, sfAltCaptchaPlugin](http://www.lyra-cms.com/blog/2010/10/new-symfony-plugin-sfaltcaptchaplugin.html)
   * [Symfony: Symfony Day 2010 в Кёльне](http://www.charnad.com/blog/symfony-day-2010-in-cologne/)
   * [sfDoctrineGuardPlugin: Ajout de permissions et de groupes après un register](http://www.funstaff.ch/2010/10/12/sfdoctrineguardplugin-ajout-de-permissions-et-de-groupes-apres-un-register)
+
+{% endraw %}
