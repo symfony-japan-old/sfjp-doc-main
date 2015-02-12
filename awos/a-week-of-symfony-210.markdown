@@ -2,6 +2,7 @@
 layout: default
 title: "A week of symfony #210 (3->9 January 2011)"
 ---
+{% raw %}
 
 A week of symfony #210 (3->9 January 2011)
 ==========================================
@@ -215,3 +216,5 @@ They talked about us
   * [How to reduce admin generator query in Symfony 1.4](http://www.techiecorner.com/1963/how-to-reduce-admin-generator-query-in-symfony-1-4/)
   * [disable csrf_token ใน form ของ symfony](http://www.meteenee.com/disable-csrf_token-%E0%B9%83%E0%B8%99-form-%E0%B8%82%E0%B8%AD%E0%B8%87-symfony)
   * [PHP: Symfony 2 e i bundle](http://francescoagati.wordpress.com/2011/01/03/php-symfony-2-e-i-bundle/)
+
+{% endraw %}
