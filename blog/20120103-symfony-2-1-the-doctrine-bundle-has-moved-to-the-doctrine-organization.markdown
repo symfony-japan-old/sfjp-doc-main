@@ -1,3 +1,8 @@
+---
+layout: default
+title: Symfony 2.1: Doctrine 関係のバンドルが Doctrine グループへ移管されました
+---
+
 Symfony 2.1: Doctrine 関係のバンドルが Doctrine グループへ移管されました
 ========================================================================
 

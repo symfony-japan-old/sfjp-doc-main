@@ -1,3 +1,8 @@
+---
+layout: default
+title: A week of symfony #215 (7->13 February 2011)
+---
+
 A week of symfony #215 (7->13 February 2011)
 ============================================
 

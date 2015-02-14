@@ -1,3 +1,8 @@
+---
+layout: default
+title: PHP Matsuri 2010 参加レポート（Symfony 編）
+---
+
 PHP Matsuri 2010 参加レポート（Symfony 編）
 ============================================
 

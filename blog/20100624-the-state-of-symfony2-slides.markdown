@@ -1,3 +1,8 @@
+---
+layout: default
+title: The State of Symfony2カンファレンスのスライド
+---
+
 The State of Symfony2カンファレンスのスライド
 ==============================================
 

@@ -1,3 +1,8 @@
+---
+layout: default
+title: 第2回 Symfonyユーザー会IRC集会を開催しました
+---
+
 第2回 Symfonyユーザー会IRC集会を開催しました
 ============================================
 
@@ -82,4 +87,3 @@ Presentation file naming | `myActionSuccess.php` | `_myComponent.php`
 ----
 
 次回は、7/4（日）の21時～23時で開催予定です。
-

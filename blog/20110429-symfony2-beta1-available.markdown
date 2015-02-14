@@ -1,3 +1,8 @@
+---
+layout: default
+title: Symfony2: Beta1 がリリースされました
+---
+
 Symfony2: Beta1 がリリースされました
 ====================================
 

@@ -1,3 +1,8 @@
+---
+layout: default
+title: A week of symfony #188 (2->8 August 2010)
+---
+
 A week of symfony #188 (2->8 August 2010)
 =========================================
 

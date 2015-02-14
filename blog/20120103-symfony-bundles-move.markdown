@@ -1,3 +1,8 @@
+---
+layout: default
+title: [Doctrine] Symfony 向けバンドルが Doctrine グループへ移管されました
+---
+
 [Doctrine] Symfony 向けバンドルが Doctrine グループへ移管されました
 ===================================================================
 
