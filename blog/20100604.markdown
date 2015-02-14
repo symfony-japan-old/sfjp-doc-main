@@ -1,3 +1,8 @@
+---
+layout: default
+title: The State of Symfony2 オンラインカンファレンス
+---
+
 The State of Symfony2 オンラインカンファレンス
 ==========================================
 

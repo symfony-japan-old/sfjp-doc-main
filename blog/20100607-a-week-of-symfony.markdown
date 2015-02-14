@@ -1,3 +1,8 @@
+---
+layout: default
+title: A week of symfony #179 (31 May -> 6 June 2010)
+---
+
 A week of symfony #179 (31 May -> 6 June 2010)
 ==============================================
 

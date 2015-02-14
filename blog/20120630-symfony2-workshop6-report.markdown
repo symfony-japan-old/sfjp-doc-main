@@ -1,3 +1,8 @@
+---
+layout: default
+title: Symfony勉強会 #6 レポート
+---
+
 Symfony勉強会 #6 レポート
 =========================
 

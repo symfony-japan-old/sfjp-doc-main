@@ -1,3 +1,8 @@
+---
+layout: default
+title: The State of Symfony2参加レポート - Symfony2が大変なことになっています！
+---
+
 The State of Symfony2参加レポート - Symfony2が大変なことになっています！
 ==========================================================================
 
