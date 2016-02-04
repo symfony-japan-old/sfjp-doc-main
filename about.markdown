@@ -45,6 +45,9 @@ Symfonyユーザー会へのお問い合わせは、以下宛にお願いしま�
 
 twitterアカウントの昇順
 
+- ユーザー会アカウント<br />
+  [twitter](https://twitter.com/symfony_japan)
+
 - 菱田　裕美<br />
   [twitter](http://twitter.com/77web)、[ブログ](http://php-sql-gdgd.jugem.jp/)
 - Akky Akimoto<br />
@@ -87,6 +90,8 @@ twitterアカウントの昇順
   [twitter](https://twitter.com/Ochiai_Cstap)
 - 望月　涼太<br />
   [twitter](https://twitter.com/polidog)、[ブログ](http://www.polidog.jp/)
+- 花井　宏行<br />
+  [twitter](https://twitter.com/hanahiro_aze)
 
 
 メンバーリストに掲載ご希望の方は、GitHubで直接このページを編集して追加するか、[日本Symfonyユーザー会メーリングリスト](http://groups.google.com/group/symfony-users-ja)へご連絡ください。
