@@ -10,6 +10,7 @@ title: 日本Symfonyユーザー会について
 現在は特に会則などを定めない有志の集まりとして運営しています。
 ※金銭・資産の管理は、アシアル株式会社にて行っています。
 
+facebookページ: https://www.facebook.com/SymfonyJapan
 
 会則
 ----
@@ -92,6 +93,7 @@ twitterアカウントの昇順
   [twitter](https://twitter.com/polidog)、[ブログ](http://www.polidog.jp/)
 - 花井　宏行<br />
   [twitter](https://twitter.com/hanahiro_aze)
-
+- 村上　涼太<br />
+  [twitter](https://twitter.com/malloc007)、[ブログ](http://malloc.hatenablog.jp/)
 
 メンバーリストに掲載ご希望の方は、GitHubで直接このページを編集して追加するか、[日本Symfonyユーザー会メーリングリスト](http://groups.google.com/group/symfony-users-ja)へご連絡ください。
